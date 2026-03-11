@@ -12,11 +12,35 @@ const itineraryPages = itineraryPagesData as ItineraryPage[];
 export const metadata: Metadata = {
   title: 'Best of Pigeon Forge — Your Complete Travel Guide',
   description: 'Discover the best things to do in Pigeon Forge, TN. Indoor activities, family fun, romantic getaways, and must-see attractions in the Smoky Mountains.',
+  alternates: { canonical: 'https://www.bestofpigeonforge.com' },
   openGraph: {
     title: 'Best of Pigeon Forge — Your Complete Travel Guide',
     description: 'Your ultimate guide to Pigeon Forge, TN attractions, itineraries, and travel tips.',
-    images: [{ url: '/og-default.jpg', width: 1200, height: 630 }],
+    images: [{ url: 'https://www.bestofpigeonforge.com/og-default.jpg', width: 1200, height: 630 }],
   },
+};
+
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Best of Pigeon Forge',
+  url: 'https://www.bestofpigeonforge.com',
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: {
+      '@type': 'EntryPoint',
+      urlTemplate: 'https://www.bestofpigeonforge.com/activities?q={search_term_string}',
+    },
+    'query-input': 'required name=search_term_string',
+  },
+};
+
+const organizationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'Best of Pigeon Forge',
+  url: 'https://www.bestofpigeonforge.com',
+  logo: 'https://www.bestofpigeonforge.com/og-default.jpg',
 };
 
 const categories = [
@@ -36,6 +60,9 @@ export default function HomePage() {
   const featuredItineraries = itineraryPages.slice(0, 3);
 
   return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
     <div>
       {/* Hero */}
       <section className="bg-gradient-to-br from-[#1B4332] via-[#166534] to-[#14532d] text-white py-16 md:py-24">
@@ -208,5 +235,6 @@ export default function HomePage() {
         </div>
       </section>
     </div>
+    </>
   );
 }

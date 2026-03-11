@@ -11,7 +11,9 @@ export const metadata: Metadata = {
     template: '%s | Best of Pigeon Forge',
   },
   description: 'Discover the best things to do in Pigeon Forge, TN. Attractions, itineraries, and insider tips for families, couples, and first-time visitors.',
-  metadataBase: new URL('https://bestofpigeonforge.com'),
+  metadataBase: new URL('https://www.bestofpigeonforge.com'),
+  themeColor: '#1B4332',
+  viewport: 'width=device-width, initial-scale=1',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://bestofpigeonforge.com';
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.bestofpigeonforge.com';
 
 export function buildMetadata({
   title,
