@@ -2,8 +2,10 @@
  * pSEO Content Generation Pipeline
  * Usage: npx ts-node --project tsconfig.scripts.json scripts/generate.ts [--type activity|itinerary|comparison] [--limit 10] [--dry-run]
  */
-import * as fs from "fs";
+import * as dotenv from "dotenv";
 import * as path from "path";
+dotenv.config({ path: path.resolve(__dirname, "../.env.local") });
+import * as fs from "fs";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import {
   activitySeeds,
@@ -360,7 +362,7 @@ async function main(): Promise<void> {
   console.log(`  Limit: ${limit === 999 ? "unlimited" : limit} per type`);
   console.log("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
 
-  const genAI = new GoogleGenerativeAI(API_KEY);
+  const genAI = new GoogleGenerativeAI(API_KEY as string);
 
   const stats = {
     activity: { generated: 0, skipped: 0, failed: 0 },
