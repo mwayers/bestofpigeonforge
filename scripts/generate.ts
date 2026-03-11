@@ -26,7 +26,12 @@ import {
 
 // ─── Config ──────────────────────────────────────────────────────────────────
 
-const API_KEY = "REDACTED";
+const API_KEY = process.env.GEMINI_API_KEY;
+if (!API_KEY) {
+  console.error("❌ GEMINI_API_KEY environment variable is not set.");
+  console.error("   Run: export GEMINI_API_KEY=your_key_here");
+  process.exit(1);
+}
 const MODEL = "gemini-2.0-flash";
 const RATE_LIMIT_MS = 500;
 const RETRY_DELAY_MS = 3000;
