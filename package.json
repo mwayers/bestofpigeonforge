@@ -6,12 +6,19 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate": "ts-node --project tsconfig.scripts.json scripts/generate.ts",
+    "generate:activities": "ts-node --project tsconfig.scripts.json scripts/generate.ts --type activity",
+    "generate:itineraries": "ts-node --project tsconfig.scripts.json scripts/generate.ts --type itinerary",
+    "generate:comparisons": "ts-node --project tsconfig.scripts.json scripts/generate.ts --type comparison",
+    "generate:dry-run": "ts-node --project tsconfig.scripts.json scripts/generate.ts --dry-run --limit 3"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
     "next": "14.2.5",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "ts-node": "^10.9.2"
   },
   "devDependencies": {
     "@types/node": "^20",
