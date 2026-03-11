@@ -4,7 +4,7 @@ import itineraryPagesData from '@/data/itinerary-pages.json';
 import comparisonPagesData from '@/data/comparison-pages.json';
 import type { ActivityListPage, ItineraryPage, ComparisonPage } from '@/lib/types';
 
-const BASE = 'https://bestofpigeonforge.com';
+const BASE = 'https://www.bestofpigeonforge.com';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const activityPages = activityPagesData as ActivityListPage[];
