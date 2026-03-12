@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import Link from 'next/link';
+import Script from 'next/script';
 import './globals.css';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
@@ -19,6 +20,20 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={inter.variable}>
+      <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-JB96J39NZ5"
+          strategy="afterInteractive"
+        />
+        <Script id="ga4-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-JB96J39NZ5');
+          `}
+        </Script>
+      </head>
       <body className="min-h-screen bg-white text-gray-900 font-sans flex flex-col">
         <header className="bg-[#1B4332] text-white shadow-md sticky top-0 z-50">
           <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
