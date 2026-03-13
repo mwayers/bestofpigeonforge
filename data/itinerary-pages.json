@@ -3,28 +3,28 @@
     "slug": "2-day-pigeon-forge-toddler",
     "title": "2-Day Pigeon Forge Itinerary for Toddlers",
     "metaTitle": "2-Day Pigeon Forge Toddler Itinerary",
-    "metaDescription": "Plan the perfect 2-day Pigeon Forge trip with toddlers. Indoor snow, aquarium, easy nature walks — all toddler-approved and stress-free.",
-    "h1": "2-Day Pigeon Forge Itinerary for Toddlers (Ages 1–4)",
+    "metaDescription": "Plan the perfect 2-day Pigeon Forge trip with toddlers. Indoor snow, aquarium, easy nature walks \u2014 all toddler-approved and stress-free.",
+    "h1": "2-Day Pigeon Forge Itinerary for Toddlers (Ages 1\u20134)",
     "audience": "Families with toddlers (ages 1-4)",
     "duration": "2 days",
     "season": "any",
-    "intro": "Traveling to Pigeon Forge with toddlers does not have to be overwhelming — with the right plan, it can be the most magical trip your little one has ever had. This 2-day itinerary is built around short activity windows, nap-friendly scheduling, and attractions that genuinely delight children ages 1 to 4. From indoor snow play to a world-class aquarium, every stop on this list is toddler-tested and parent-approved.",
+    "intro": "Traveling to Pigeon Forge with toddlers does not have to be overwhelming \u2014 with the right plan, it can be the most magical trip your little one has ever had. This 2-day itinerary is built around short activity windows, nap-friendly scheduling, and attractions that genuinely delight children ages 1 to 4. From indoor snow play to a world-class aquarium, every stop on this list is toddler-tested and parent-approved.",
     "days": [
       {
         "day": 1,
         "title": "Indoor Fun & Easy Exploration",
         "morning": {
-          "activity": "Start the day at Pigeon Forge Snow, the Southeast's only year-round indoor snow attraction. Toddlers absolutely love the real snow play area — no experience, equipment, or cold weather required. Arrive early to beat crowds and give your little one time to warm up to the snow at their own pace.",
+          "activity": "Start the day at Pigeon Forge Snow, the Southeast's only year-round indoor snow attraction. Toddlers absolutely love the real snow play area \u2014 no experience, equipment, or cold weather required. Arrive early to beat crowds and give your little one time to warm up to the snow at their own pace.",
           "attractionId": "pigeon-forge-snow",
-          "tip": "Bring a change of clothes and mittens from home — toddlers will get wet and will want to stay longer than you planned. The venue provides sleds but bring your own snow boots if possible."
+          "tip": "Bring a change of clothes and mittens from home \u2014 toddlers will get wet and will want to stay longer than you planned. The venue provides sleds but bring your own snow boots if possible."
         },
         "afternoon": {
           "activity": "Head to The Island in Pigeon Forge for a relaxed afternoon. The open-air pedestrian area has a giant fountain show, carnival-style rides sized perfectly for toddlers, and plenty of easy walking. Grab lunch at one of the casual restaurants inside before letting your toddler explore the smaller rides.",
           "attractionId": "the-island",
-          "tip": "The fountain show runs on a schedule — check the posted times when you arrive and position your toddler near the splash zone if the weather is warm. Stroller-friendly throughout."
+          "tip": "The fountain show runs on a schedule \u2014 check the posted times when you arrive and position your toddler near the splash zone if the weather is warm. Stroller-friendly throughout."
         },
         "evening": {
-          "activity": "Keep evening simple. Pick up dinner at a family-friendly restaurant along the Parkway or head back to your cabin/hotel for an easy meal. Toddlers traveling with disrupted sleep schedules do best with an early bedtime — aim for lights out by 7:30 or 8 PM to set up a strong second day.",
+          "activity": "Keep evening simple. Pick up dinner at a family-friendly restaurant along the Parkway or head back to your cabin/hotel for an easy meal. Toddlers traveling with disrupted sleep schedules do best with an early bedtime \u2014 aim for lights out by 7:30 or 8 PM to set up a strong second day.",
           "tip": "Paula Deen's Family Kitchen is a great early-dinner option with family-style serving that is forgiving for picky eaters and toddler mess."
         }
       },
@@ -32,14 +32,14 @@
         "day": 2,
         "title": "Gatlinburg & Nature",
         "morning": {
-          "activity": "Drive 20 minutes to Gatlinburg and spend the morning at Ripley's Aquarium of the Smokies. The shark tunnel, jellyfish gallery, and touch tanks are endlessly fascinating for toddlers. The aquarium is entirely indoors, climate-controlled, and stroller-friendly — a perfect option rain or shine.",
+          "activity": "Drive 20 minutes to Gatlinburg and spend the morning at Ripley's Aquarium of the Smokies. The shark tunnel, jellyfish gallery, and touch tanks are endlessly fascinating for toddlers. The aquarium is entirely indoors, climate-controlled, and stroller-friendly \u2014 a perfect option rain or shine.",
           "attractionId": "ripleys-aquarium",
-          "tip": "Go first thing when it opens to avoid the thickest crowds. The penguin encounter and moving walkway through the shark tunnel are the biggest toddler hits — plan to loop back through twice."
+          "tip": "Go first thing when it opens to avoid the thickest crowds. The penguin encounter and moving walkway through the shark tunnel are the biggest toddler hits \u2014 plan to loop back through twice."
         },
         "afternoon": {
-          "activity": "After lunch in Gatlinburg, drive into the national park for Laurel Falls — the most popular and most accessible waterfall trail in the Smokies. The paved 2.6-mile round-trip trail is manageable with a toddler carrier or for confident toddler walkers. The payoff is a stunning 80-foot cascade.",
+          "activity": "After lunch in Gatlinburg, drive into the national park for Laurel Falls \u2014 the most popular and most accessible waterfall trail in the Smokies. The paved 2.6-mile round-trip trail is manageable with a toddler carrier or for confident toddler walkers. The payoff is a stunning 80-foot cascade.",
           "attractionId": "laurel-falls",
-          "tip": "Parking at the Laurel Falls trailhead fills by 9 AM on busy days — arriving after 1 PM on a weekday usually means finding a spot. Bring water and snacks and expect the hike to take about 90 minutes at toddler pace."
+          "tip": "Parking at the Laurel Falls trailhead fills by 9 AM on busy days \u2014 arriving after 1 PM on a weekday usually means finding a spot. Bring water and snacks and expect the hike to take about 90 minutes at toddler pace."
         },
         "evening": {
           "activity": "Head back to your cabin or hotel for a relaxed final evening. This is a great opportunity to use your lodging's hot tub or pool if available, cook a simple meal, and let your toddler decompress from two big days of adventure before the drive home.",
@@ -47,18 +47,21 @@
         }
       }
     ],
-    "budgetEstimate": { "low": 200, "high": 400 },
+    "budgetEstimate": {
+      "low": 200,
+      "high": 400
+    },
     "proTips": [
-      "Book Pigeon Forge Snow tickets online in advance — it sells out on weekends and during spring break even in off-season months.",
+      "Book Pigeon Forge Snow tickets online in advance \u2014 it sells out on weekends and during spring break even in off-season months.",
       "Toddlers under 2 are free at most attractions including Ripley's Aquarium, which significantly reduces your overall cost.",
-      "Pack a collapsible wagon instead of a stroller — it handles uneven terrain better and toddlers can climb in and out independently.",
+      "Pack a collapsible wagon instead of a stroller \u2014 it handles uneven terrain better and toddlers can climb in and out independently.",
       "Schedule activities around your toddler's natural nap window, not against it. A 2-hour midday break at the cabin pays dividends for the afternoon.",
-      "Download the Pigeon Forge app before you arrive — it has real-time wait times and parking information that saves significant stress."
+      "Download the Pigeon Forge app before you arrive \u2014 it has real-time wait times and parking information that saves significant stress."
     ],
     "faqs": [
       {
         "question": "Is Pigeon Forge Snow safe for toddlers under 2?",
-        "answer": "Yes, Pigeon Forge Snow is one of the most toddler-friendly attractions in the entire Smokies region. The snow play area is designed with young children in mind, the temperature is kept comfortable (around 28°F but the play zones are managed), and staff are attentive. Children under 2 are typically admitted free."
+        "answer": "Yes, Pigeon Forge Snow is one of the most toddler-friendly attractions in the entire Smokies region. The snow play area is designed with young children in mind, the temperature is kept comfortable (around 28\u00b0F but the play zones are managed), and staff are attentive. Children under 2 are typically admitted free."
       },
       {
         "question": "What is the best time of year to visit Pigeon Forge with toddlers?",
@@ -85,14 +88,14 @@
   },
   {
     "slug": "3-day-pigeon-forge-family",
-    "title": "3-Day Pigeon Forge Family Itinerary for Kids Ages 5–14",
-    "metaTitle": "3-Day Pigeon Forge Family Itinerary (Kids 5–14)",
-    "metaDescription": "The ultimate 3-day Pigeon Forge family itinerary. Dollywood, indoor snow, WonderWorks, Pirates Voyage, and Gatlinburg — perfectly paced for kids 5 to 14.",
-    "h1": "3-Day Pigeon Forge Family Itinerary for Kids Ages 5–14",
+    "title": "3-Day Pigeon Forge Family Itinerary for Kids Ages 5\u201314",
+    "metaTitle": "3-Day Pigeon Forge Family Itinerary (Kids 5\u201314)",
+    "metaDescription": "The ultimate 3-day Pigeon Forge family itinerary. Dollywood, indoor snow, WonderWorks, Pirates Voyage, and Gatlinburg \u2014 perfectly paced for kids 5 to 14.",
+    "h1": "3-Day Pigeon Forge Family Itinerary for Kids Ages 5\u201314",
     "audience": "Families with kids ages 5-14",
     "duration": "3 days",
     "season": "any",
-    "intro": "Three days in Pigeon Forge is the sweet spot for families with school-age children — enough time to hit the major attractions without feeling rushed, but compact enough to keep energy levels high from start to finish. This itinerary blends Dollywood's world-class rides, unique experiences like indoor snow and WonderWorks, and a memorable Gatlinburg day trip into one cohesive family adventure. Every attraction on this list has been selected to work for the full 5-to-14 age range so no one gets left out.",
+    "intro": "Three days in Pigeon Forge is the sweet spot for families with school-age children \u2014 enough time to hit the major attractions without feeling rushed, but compact enough to keep energy levels high from start to finish. This itinerary blends Dollywood's world-class rides, unique experiences like indoor snow and WonderWorks, and a memorable Gatlinburg day trip into one cohesive family adventure. Every attraction on this list has been selected to work for the full 5-to-14 age range so no one gets left out.",
     "days": [
       {
         "day": 1,
@@ -100,12 +103,12 @@
         "morning": {
           "activity": "Arrive at Dollywood when the gates open and head straight to the back of the park to tackle the most popular thrill rides before lines build. Wild Eagle, Lightning Rod, and Tennessee Tornado are the crowd favorites for older kids and teens. Younger kids (5-8) will love Wildwood Grove and the carousel.",
           "attractionId": "dollywood",
-          "tip": "Buy tickets online before you arrive — the gate price is higher and the online purchase saves you time. Consider the TimeSaver pass if your family includes mixed thrill-seekers and younger children who will want to do the same ride twice."
+          "tip": "Buy tickets online before you arrive \u2014 the gate price is higher and the online purchase saves you time. Consider the TimeSaver pass if your family includes mixed thrill-seekers and younger children who will want to do the same ride twice."
         },
         "afternoon": {
-          "activity": "Stay in Dollywood through the afternoon. Grab lunch at one of the park's many food options — the chicken pot pie and cinnamon bread are Dollywood institutions worth trying. Use the afternoon to catch a live show, explore the crafts area, and let kids revisit their favorite rides.",
+          "activity": "Stay in Dollywood through the afternoon. Grab lunch at one of the park's many food options \u2014 the chicken pot pie and cinnamon bread are Dollywood institutions worth trying. Use the afternoon to catch a live show, explore the crafts area, and let kids revisit their favorite rides.",
           "attractionId": "dollywood",
-          "tip": "Dollywood's live entertainment is genuinely excellent. Check the daily show schedule at the entrance and plan to catch at least one — they fill up fast and are included with park admission."
+          "tip": "Dollywood's live entertainment is genuinely excellent. Check the daily show schedule at the entrance and plan to catch at least one \u2014 they fill up fast and are included with park admission."
         },
         "evening": {
           "activity": "Exit Dollywood and enjoy a relaxed dinner along the Parkway. After a full theme park day, most families prefer a casual meal at a sit-down restaurant before heading to their accommodation. Alamo Steakhouse is a reliable family choice close to the action.",
@@ -119,15 +122,15 @@
         "morning": {
           "activity": "Kick off the second morning at Pigeon Forge Snow, the Southeast's only year-round indoor snow experience. Kids ages 5-14 love the snowball fights, sled runs, and the novelty of real snow regardless of what the weather is doing outside. This attraction works perfectly as a 2-3 hour morning activity.",
           "attractionId": "pigeon-forge-snow",
-          "tip": "Pre-book tickets online — Pigeon Forge Snow fills up on weekends and during school break seasons. Dress kids in layers they can shed; the venue keeps temperatures cold but the physical activity from sledding warms everyone up quickly."
+          "tip": "Pre-book tickets online \u2014 Pigeon Forge Snow fills up on weekends and during school break seasons. Dress kids in layers they can shed; the venue keeps temperatures cold but the physical activity from sledding warms everyone up quickly."
         },
         "afternoon": {
-          "activity": "Head to WonderWorks for 2-3 hours of hands-on, mind-bending science and illusion fun. The upside-down building is an icon of the Pigeon Forge skyline and the inside delivers on the promise — kids of all ages find new favorites among the 100+ interactive exhibits. The laser tag and 4D motion theater are add-on highlights.",
+          "activity": "Head to WonderWorks for 2-3 hours of hands-on, mind-bending science and illusion fun. The upside-down building is an icon of the Pigeon Forge skyline and the inside delivers on the promise \u2014 kids of all ages find new favorites among the 100+ interactive exhibits. The laser tag and 4D motion theater are add-on highlights.",
           "attractionId": "wonderworks",
           "tip": "WonderWorks is a great afternoon option because it keeps energy engaged without requiring a full day. The combo tickets that include laser tag are worth the upgrade for kids 8 and up."
         },
         "evening": {
-          "activity": "End the day with the Pirates Voyage Dinner Show — a full dinner and a live swashbuckling pirate battle performed on and over a real indoor lagoon. The food is hearty and the show is genuinely impressive, running about 90 minutes. This is a favorite highlight for most families.",
+          "activity": "End the day with the Pirates Voyage Dinner Show \u2014 a full dinner and a live swashbuckling pirate battle performed on and over a real indoor lagoon. The food is hearty and the show is genuinely impressive, running about 90 minutes. This is a favorite highlight for most families.",
           "attractionId": "pirates-voyage",
           "tip": "Book Pirates Voyage reservations well in advance, especially for summer and fall visits. VIP seating at the front is worth the upgrade. The show starts at a set time so plan dinner around the schedule rather than the other way around."
         }
@@ -143,27 +146,30 @@
         "afternoon": {
           "activity": "Walk or drive to The Island in Pigeon Forge for the afternoon. The giant fountain, shops, restaurants, and carnival rides provide a relaxed complement to the aquarium morning. Kids can ride, shop for souvenirs, and graze on snacks while parents enjoy a more leisurely pace.",
           "attractionId": "the-island",
-          "tip": "The Island is free to enter and walk around — you only pay for rides and food. It is a great place to let kids spend their souvenir budget with minimal adult stress."
+          "tip": "The Island is free to enter and walk around \u2014 you only pay for rides and food. It is a great place to let kids spend their souvenir budget with minimal adult stress."
         },
         "evening": {
           "activity": "Before heading home, stop at Old Mill Square in Pigeon Forge for dinner and shopping. Old Mill Restaurant serves classic Southern fare in a historic gristmill setting. Kids enjoy watching the working mill grind corn and picking up old-fashioned candy from the general store.",
           "attractionId": "old-mill",
-          "tip": "Old Mill Square tends to be busy at dinner — put your name on the list as soon as you arrive, then explore the shops while you wait. The fried chicken and chicken pot pie are the restaurant's standout dishes."
+          "tip": "Old Mill Square tends to be busy at dinner \u2014 put your name on the list as soon as you arrive, then explore the shops while you wait. The fried chicken and chicken pot pie are the restaurant's standout dishes."
         }
       }
     ],
-    "budgetEstimate": { "low": 300, "high": 600 },
+    "budgetEstimate": {
+      "low": 300,
+      "high": 600
+    },
     "proTips": [
-      "Purchase a Pigeon Forge Fun Card or attraction bundle before your trip — bundled pricing for 3-4 attractions saves 20-30% over individual gate prices.",
-      "Book all dinner shows (Pirates Voyage especially) at least 2 weeks in advance during summer and fall — they sell out consistently.",
+      "Purchase a Pigeon Forge Fun Card or attraction bundle before your trip \u2014 bundled pricing for 3-4 attractions saves 20-30% over individual gate prices.",
+      "Book all dinner shows (Pirates Voyage especially) at least 2 weeks in advance during summer and fall \u2014 they sell out consistently.",
       "Plan Dollywood as your first full day when everyone has the most energy. By day 3 a relaxed Gatlinburg pace is welcome.",
       "Parking at Ripley's Aquarium in Gatlinburg fills fast. Arrive before 10 AM or use Gatlinburg's paid parking lots and walk.",
-      "Many Pigeon Forge hotels offer free continental breakfast — taking advantage of this keeps morning budgets lean and gets the family out the door faster."
+      "Many Pigeon Forge hotels offer free continental breakfast \u2014 taking advantage of this keeps morning budgets lean and gets the family out the door faster."
     ],
     "faqs": [
       {
         "question": "Is 3 days enough time to see Pigeon Forge with kids?",
-        "answer": "Three days is ideal for a first visit with kids ages 5-14. You can hit all the major highlights — Dollywood, indoor snow, WonderWorks, a dinner show, and Gatlinburg — without feeling rushed. If your family wants to add hiking, Anakeesta, or more Gatlinburg time, consider adding a fourth day."
+        "answer": "Three days is ideal for a first visit with kids ages 5-14. You can hit all the major highlights \u2014 Dollywood, indoor snow, WonderWorks, a dinner show, and Gatlinburg \u2014 without feeling rushed. If your family wants to add hiking, Anakeesta, or more Gatlinburg time, consider adding a fourth day."
       },
       {
         "question": "What is the age minimum for Dollywood rides?",
@@ -193,12 +199,12 @@
     "slug": "weekend-pigeon-forge-couple",
     "title": "Romantic Weekend Pigeon Forge Itinerary for Couples",
     "metaTitle": "Romantic Weekend Pigeon Forge Couples Itinerary",
-    "metaDescription": "Plan a romantic Pigeon Forge weekend for couples or a honeymoon. Anakeesta, mountain views, fine dining, and a fun escape room — perfectly curated.",
+    "metaDescription": "Plan a romantic Pigeon Forge weekend for couples or a honeymoon. Anakeesta, mountain views, fine dining, and a fun escape room \u2014 perfectly curated.",
     "h1": "Romantic Pigeon Forge Weekend Itinerary for Couples & Honeymoons",
     "audience": "Couples, honeymoon, anniversary",
     "duration": "weekend",
     "season": "any",
-    "intro": "Pigeon Forge and the surrounding Smoky Mountains offer a surprisingly romantic backdrop for couples — sweeping mountain views, cozy cabin retreats, intimate dining, and just enough adventure to create shared memories. This weekend itinerary balances scenic beauty, cultural experiences, and playful fun into a two-day escape perfect for honeymoons, anniversaries, or simply reconnecting. No theme parks or children's shows here — this itinerary is curated entirely for couples seeking something a little more elevated.",
+    "intro": "Pigeon Forge and the surrounding Smoky Mountains offer a surprisingly romantic backdrop for couples \u2014 sweeping mountain views, cozy cabin retreats, intimate dining, and just enough adventure to create shared memories. This weekend itinerary balances scenic beauty, cultural experiences, and playful fun into a two-day escape perfect for honeymoons, anniversaries, or simply reconnecting. No theme parks or children's shows here \u2014 this itinerary is curated entirely for couples seeking something a little more elevated.",
     "days": [
       {
         "day": 1,
@@ -206,15 +212,15 @@
         "morning": {
           "activity": "Start your romantic weekend at Anakeesta in Gatlinburg, a mountaintop destination accessed by gondola or chairlift with panoramic views of the Smoky Mountains. Walk the treetop SkyBridge, explore the village, and take in views that provide natural Instagram-worthy moments at every turn. Allow 3-4 hours to enjoy it fully.",
           "attractionId": "anakeesta",
-          "tip": "Arrive at Anakeesta when it opens to have the mountaintop largely to yourselves for the first hour. The gondola ride at sunrise or golden hour is especially magical — check seasonal opening times before you go."
+          "tip": "Arrive at Anakeesta when it opens to have the mountaintop largely to yourselves for the first hour. The gondola ride at sunrise or golden hour is especially magical \u2014 check seasonal opening times before you go."
         },
         "afternoon": {
           "activity": "Descend into Gatlinburg proper and spend a relaxed afternoon exploring Old Mill Square. Browse the artisan shops, pick up local preserves and crafts, and enjoy lunch at the Old Mill Restaurant for classic Southern comfort food in a historic setting along the Little Pigeon River.",
           "attractionId": "old-mill",
-          "tip": "Old Mill Square has a great olive oil and vinegar tasting shop alongside the classic country store — it makes for a fun and free tasting experience. The pedestrian bridge over the river near Old Mill is a lovely spot for photos."
+          "tip": "Old Mill Square has a great olive oil and vinegar tasting shop alongside the classic country store \u2014 it makes for a fun and free tasting experience. The pedestrian bridge over the river near Old Mill is a lovely spot for photos."
         },
         "evening": {
-          "activity": "End your first evening with dinner at the Hatfield and McCoy Dinner Feud show — a surprisingly entertaining two-hour dinner show based on the legendary Appalachian feud, with impressive stunts, comedy, and a hearty meal. It is campy, fun, and makes for a shared experience couples talk about long after the trip.",
+          "activity": "End your first evening with dinner at the Hatfield and McCoy Dinner Feud show \u2014 a surprisingly entertaining two-hour dinner show based on the legendary Appalachian feud, with impressive stunts, comedy, and a hearty meal. It is campy, fun, and makes for a shared experience couples talk about long after the trip.",
           "attractionId": "hatfield-mccoy",
           "tip": "Hatfield and McCoy books up well in advance on weekends. If you cannot get a reservation, Alamo Steakhouse is an excellent dinner-only alternative with a warm, rustic atmosphere perfect for couples."
         }
@@ -225,26 +231,29 @@
         "morning": {
           "activity": "Wake up early and make the scenic drive to Clingmans Dome in the Great Smoky Mountains National Park. At 6,643 feet, it is the highest point in the Appalachians and on a clear day offers 100-mile views. The half-mile paved (but steep) walk to the observation tower is worth every step.",
           "attractionId": "clingmans-dome",
-          "tip": "Clingmans Dome Road is closed December through March — check road status before planning. Arrive early to beat both crowds and afternoon cloud cover, which can obscure views. Bring a jacket even in summer; it is 10-15 degrees cooler at the summit."
+          "tip": "Clingmans Dome Road is closed December through March \u2014 check road status before planning. Arrive early to beat both crowds and afternoon cloud cover, which can obscure views. Bring a jacket even in summer; it is 10-15 degrees cooler at the summit."
         },
         "afternoon": {
-          "activity": "Return to Gatlinburg and visit SkyLift Park's SkyBridge — the longest pedestrian suspension bridge in North America. Walking the 680-foot glass-bottom span together with views of the Smoky Mountains below is an exhilarating and memorable couple activity. The SkyLift chairlift ride up is itself scenic and romantic.",
+          "activity": "Return to Gatlinburg and visit SkyLift Park's SkyBridge \u2014 the longest pedestrian suspension bridge in North America. Walking the 680-foot glass-bottom span together with views of the Smoky Mountains below is an exhilarating and memorable couple activity. The SkyLift chairlift ride up is itself scenic and romantic.",
           "attractionId": "gatlinburg-skylift",
-          "tip": "SkyBridge can have significant wait times in peak season. Arriving mid-afternoon on a weekday minimizes wait. The bridge sways gently — if either of you has a fear of heights, start with the chairlift to gauge comfort before purchasing the full bridge ticket."
+          "tip": "SkyBridge can have significant wait times in peak season. Arriving mid-afternoon on a weekday minimizes wait. The bridge sways gently \u2014 if either of you has a fear of heights, start with the chairlift to gauge comfort before purchasing the full bridge ticket."
         },
         "evening": {
-          "activity": "Close out your romantic weekend with an Escape Room challenge — working together under pressure is genuinely bonding and the Smokies Escape Game venues offer beautifully themed rooms ranging from mystery to adventure. Follow it with a late dinner at a restaurant of your choosing to relive the weekend highlights over wine.",
+          "activity": "Close out your romantic weekend with an Escape Room challenge \u2014 working together under pressure is genuinely bonding and the Smokies Escape Game venues offer beautifully themed rooms ranging from mystery to adventure. Follow it with a late dinner at a restaurant of your choosing to relive the weekend highlights over wine.",
           "attractionId": "escape-game",
           "tip": "Book your escape room session 24-48 hours in advance online. Private room bookings (just the two of you) are available at most venues and are absolutely worth the slightly higher per-person cost for a truly intimate experience."
         }
       }
     ],
-    "budgetEstimate": { "low": 400, "high": 800 },
+    "budgetEstimate": {
+      "low": 400,
+      "high": 800
+    },
     "proTips": [
-      "A cabin rental in the Smoky Mountains dramatically elevates the romantic feel of this trip — the private hot tubs, mountain views, and cozy fireplaces are part of the experience. Budget $150-$300 per night for a quality romantic cabin.",
+      "A cabin rental in the Smoky Mountains dramatically elevates the romantic feel of this trip \u2014 the private hot tubs, mountain views, and cozy fireplaces are part of the experience. Budget $150-$300 per night for a quality romantic cabin.",
       "The Parkway in both Pigeon Forge and Gatlinburg can be congested on weekend evenings. Build in 20-30 extra minutes for driving between dinner reservations and shows.",
-      "Anakeesta and SkyBridge are outdoor experiences that are weather-dependent — have a backup indoor plan (escape room, aquarium, dinner show) for rainy weekend days.",
-      "Many Gatlinburg restaurants offer wine lists and craft cocktails suitable for a romantic dinner — do not overlook local mountain distillery tastings as a unique couples activity.",
+      "Anakeesta and SkyBridge are outdoor experiences that are weather-dependent \u2014 have a backup indoor plan (escape room, aquarium, dinner show) for rainy weekend days.",
+      "Many Gatlinburg restaurants offer wine lists and craft cocktails suitable for a romantic dinner \u2014 do not overlook local mountain distillery tastings as a unique couples activity.",
       "Smoky Mountain sunsets from Clingmans Dome or the Anakeesta summit are among the most beautiful in the Eastern US. If your schedule allows, a late afternoon visit to either is something you will never forget."
     ],
     "faqs": [
@@ -258,7 +267,7 @@
       },
       {
         "question": "Is Clingmans Dome worth visiting as a couple?",
-        "answer": "Absolutely. On a clear day, Clingmans Dome delivers views that rival anything in the eastern United States. The walk to the observation tower is short but steep — plan 45 minutes for the round trip. It is a free experience with a national park pass (or $35 vehicle fee) and creates a lasting shared memory."
+        "answer": "Absolutely. On a clear day, Clingmans Dome delivers views that rival anything in the eastern United States. The walk to the observation tower is short but steep \u2014 plan 45 minutes for the round trip. It is a free experience with a national park pass (or $35 vehicle fee) and creates a lasting shared memory."
       },
       {
         "question": "How far in advance should couples book for a romantic Pigeon Forge weekend?",
@@ -273,55 +282,60 @@
       "pigeon-forge-gatlinburg-combo-4-day",
       "pigeon-forge-first-timer-3-day",
       "anakeesta-vs-skybridge-gatlinburg"
+    ],
+    "relatedActivitySlugs": [
+      "romantic-things-to-do-pigeon-forge",
+      "pigeon-forge-spring-activities",
+      "best-shows-pigeon-forge"
     ]
   },
   {
     "slug": "3-day-pigeon-forge-teens",
     "title": "3-Day Pigeon Forge Itinerary for Teenagers",
     "metaTitle": "3-Day Pigeon Forge Teen Itinerary (Summer)",
-    "metaDescription": "Pigeon Forge with teenagers? This 3-day summer itinerary covers Dollywood, alpine coasters, indoor snow, escape rooms, and Anakeesta — teen-approved.",
+    "metaDescription": "Pigeon Forge with teenagers? This 3-day summer itinerary covers Dollywood, alpine coasters, indoor snow, escape rooms, and Anakeesta \u2014 teen-approved.",
     "h1": "3-Day Pigeon Forge Summer Itinerary for Teenagers",
     "audience": "Families with teenagers (ages 13+)",
     "duration": "3 days",
     "season": "summer",
-    "intro": "Teenagers can be the toughest audience on a family vacation — too cool for kiddie stuff but not quite adults either. This 3-day summer itinerary is specifically designed to hit the sweet spot: genuine thrills at Dollywood, unique novelty experiences like indoor snow, social-media-worthy moments at Anakeesta, and the kind of adventure that makes teenagers actually put their phones down. Every day builds on the last with increasing intensity, ending with the most scenic and Instagram-worthy experiences in the region.",
+    "intro": "Teenagers can be the toughest audience on a family vacation \u2014 too cool for kiddie stuff but not quite adults either. This 3-day summer itinerary is specifically designed to hit the sweet spot: genuine thrills at Dollywood, unique novelty experiences like indoor snow, social-media-worthy moments at Anakeesta, and the kind of adventure that makes teenagers actually put their phones down. Every day builds on the last with increasing intensity, ending with the most scenic and Instagram-worthy experiences in the region.",
     "days": [
       {
         "day": 1,
         "title": "Dollywood Thrills & Alpine Coaster",
         "morning": {
-          "activity": "Dive straight into Dollywood on arrival morning, targeting the major thrill coasters first. Wild Eagle (wing coaster), Lightning Rod (world's fastest launch coaster), and Tennessee Tornado are the teen crowd-pleasers. The park opens at 10 AM — get there early to hit the biggest rides before afternoon queues build.",
+          "activity": "Dive straight into Dollywood on arrival morning, targeting the major thrill coasters first. Wild Eagle (wing coaster), Lightning Rod (world's fastest launch coaster), and Tennessee Tornado are the teen crowd-pleasers. The park opens at 10 AM \u2014 get there early to hit the biggest rides before afternoon queues build.",
           "attractionId": "dollywood",
-          "tip": "Teens will want to ride the big coasters multiple times. Use the single-rider line where available to cut wait times significantly — most teens are happy to ride solo if it means shorter waits."
+          "tip": "Teens will want to ride the big coasters multiple times. Use the single-rider line where available to cut wait times significantly \u2014 most teens are happy to ride solo if it means shorter waits."
         },
         "afternoon": {
-          "activity": "After a Dollywood lunch, sneak out to ride the Rowdy Bear Mountain Alpine Coaster — a thrilling outdoor sled-style coaster that speeds down the mountain through forests and switchbacks. Teens control their own speed, making it endlessly rerideable. It is located just a short drive from Dollywood.",
+          "activity": "After a Dollywood lunch, sneak out to ride the Rowdy Bear Mountain Alpine Coaster \u2014 a thrilling outdoor sled-style coaster that speeds down the mountain through forests and switchbacks. Teens control their own speed, making it endlessly rerideable. It is located just a short drive from Dollywood.",
           "attractionId": "rowdy-bear",
-          "tip": "Rowdy Bear's alpine coaster is best ridden in the afternoon on a weekday when lines are shorter. Go multiple times — the second ride when you know what to expect allows for maximum speed and maximum enjoyment."
+          "tip": "Rowdy Bear's alpine coaster is best ridden in the afternoon on a weekday when lines are shorter. Go multiple times \u2014 the second ride when you know what to expect allows for maximum speed and maximum enjoyment."
         },
         "evening": {
           "activity": "Return to Dollywood for the evening if the park is open late, or wind down with a casual dinner on the Parkway. Dollywood's summer evening entertainment and light shows are worth staying for if energy levels allow. Most teens are surprisingly willing to do extra park time after the alpine coaster adrenaline.",
           "attractionId": "dollywood",
-          "tip": "Check Dollywood's evening entertainment schedule before your visit — summer concert series and special events sometimes feature artists that genuinely excite teen visitors."
+          "tip": "Check Dollywood's evening entertainment schedule before your visit \u2014 summer concert series and special events sometimes feature artists that genuinely excite teen visitors."
         }
       },
       {
         "day": 2,
         "title": "Indoor Snow, Escape Room & Dinner Show",
         "morning": {
-          "activity": "Even teenagers are caught off guard by how much they love Pigeon Forge Snow. Real indoor snow, sled runs, and snowball fight zones are genuinely fun regardless of age — and it makes for great social media content. Arrive when it opens and allow 2.5 hours for the full experience.",
+          "activity": "Even teenagers are caught off guard by how much they love Pigeon Forge Snow. Real indoor snow, sled runs, and snowball fight zones are genuinely fun regardless of age \u2014 and it makes for great social media content. Arrive when it opens and allow 2.5 hours for the full experience.",
           "attractionId": "pigeon-forge-snow",
-          "tip": "Encourage teens to film their time at Pigeon Forge Snow — the reaction videos of first-time snow experiences in the middle of summer are priceless. The snow selfie opportunities are legitimately good content."
+          "tip": "Encourage teens to film their time at Pigeon Forge Snow \u2014 the reaction videos of first-time snow experiences in the middle of summer are priceless. The snow selfie opportunities are legitimately good content."
         },
         "afternoon": {
-          "activity": "Challenge your teens at an Escape Game venue in Pigeon Forge. Working as a family team to solve puzzles and escape a themed room within 60 minutes is one of those rare activities where everyone — including skeptical teenagers — gets genuinely invested. Choose a higher difficulty room for teens who love a challenge.",
+          "activity": "Challenge your teens at an Escape Game venue in Pigeon Forge. Working as a family team to solve puzzles and escape a themed room within 60 minutes is one of those rare activities where everyone \u2014 including skeptical teenagers \u2014 gets genuinely invested. Choose a higher difficulty room for teens who love a challenge.",
           "attractionId": "escape-game",
-          "tip": "Most escape room venues in the area have multiple themed rooms at different difficulty levels. Ask the staff which room is most popular with teen groups — they usually have strong opinions and good recommendations."
+          "tip": "Most escape room venues in the area have multiple themed rooms at different difficulty levels. Ask the staff which room is most popular with teen groups \u2014 they usually have strong opinions and good recommendations."
         },
         "evening": {
-          "activity": "Wrap up Day 2 with the Lumberjack Feud Dinner Show — an outdoor arena show featuring professional lumberjack athletes competing in log rolling, axe throwing, speed climbing, and chainsaw events. The competitive format keeps teens engaged and the food is plentiful. This one consistently surprises teen visitors.",
+          "activity": "Wrap up Day 2 with the Lumberjack Feud Dinner Show \u2014 an outdoor arena show featuring professional lumberjack athletes competing in log rolling, axe throwing, speed climbing, and chainsaw events. The competitive format keeps teens engaged and the food is plentiful. This one consistently surprises teen visitors.",
           "attractionId": "lumberjack-feud",
-          "tip": "Lumberjack Feud is an outdoor show — it can be warm in summer evenings. Seating is bleacher-style, so arrive 15 minutes early to get good viewing positions. The lumberjack athletes are genuinely impressive and willing to take photos with guests after the show."
+          "tip": "Lumberjack Feud is an outdoor show \u2014 it can be warm in summer evenings. Seating is bleacher-style, so arrive 15 minutes early to get good viewing positions. The lumberjack athletes are genuinely impressive and willing to take photos with guests after the show."
         }
       },
       {
@@ -330,26 +344,29 @@
         "morning": {
           "activity": "Drive to Anakeesta in Gatlinburg for the most scenic morning of the trip. The gondola ride to the mountaintop village, the SkyBridge crossing, and the treetop zipline and coaster activities are legitimately thrilling and offer stunning mountain panoramas that even the most phone-absorbed teen cannot resist photographing.",
           "attractionId": "anakeesta",
-          "tip": "Anakeesta's adventure experiences — ziplines and the TreeTop Canopy Walk — are ticketed separately from general admission. Budget for these add-ons; they are the highlights for teens and worth every cent."
+          "tip": "Anakeesta's adventure experiences \u2014 ziplines and the TreeTop Canopy Walk \u2014 are ticketed separately from general admission. Budget for these add-ons; they are the highlights for teens and worth every cent."
         },
         "afternoon": {
-          "activity": "Cross to SkyBridge at SkyLift Park — the longest pedestrian suspension bridge in North America at 680 feet with a glass-bottom section. For teenagers who crave an edge-of-the-world feeling, this delivers. The views of the surrounding mountains are spectacular and the bridge's gentle sway adds to the thrill.",
+          "activity": "Cross to SkyBridge at SkyLift Park \u2014 the longest pedestrian suspension bridge in North America at 680 feet with a glass-bottom section. For teenagers who crave an edge-of-the-world feeling, this delivers. The views of the surrounding mountains are spectacular and the bridge's gentle sway adds to the thrill.",
           "attractionId": "skybridge",
           "tip": "SkyBridge and Anakeesta are close enough in Gatlinburg to do both in the same day. Purchase the SkyLift Park ticket online to avoid queuing at the box office during busy afternoon periods."
         },
         "evening": {
-          "activity": "Close the trip at Alcatraz East Crime Museum in Pigeon Forge — a surprisingly fascinating forensic science and true crime museum that teens and young adults consistently rate as one of their unexpected favorites. The hands-on CSI-style exhibits, real crime artifacts, and interactive investigation rooms are genuinely gripping.",
+          "activity": "Close the trip at Alcatraz East Crime Museum in Pigeon Forge \u2014 a surprisingly fascinating forensic science and true crime museum that teens and young adults consistently rate as one of their unexpected favorites. The hands-on CSI-style exhibits, real crime artifacts, and interactive investigation rooms are genuinely gripping.",
           "attractionId": "alcatraz-east",
           "tip": "Alcatraz East is appropriate for teens but has some content (crime scene reconstructions, weapons history) that is designed for mature audiences. It is a great final evening activity because it takes 2 hours and does not require peak physical energy after two action-packed days."
         }
       }
     ],
-    "budgetEstimate": { "low": 350, "high": 700 },
+    "budgetEstimate": {
+      "low": 350,
+      "high": 700
+    },
     "proTips": [
-      "Give teenagers a daily personal budget for souvenirs, snacks, and extras — it teaches financial responsibility and eliminates the constant 'can I have' negotiation that exhausts parents.",
+      "Give teenagers a daily personal budget for souvenirs, snacks, and extras \u2014 it teaches financial responsibility and eliminates the constant 'can I have' negotiation that exhausts parents.",
       "Teens travel better with some autonomy. At places like The Island and Anakeesta, consider letting older teens (16+) explore independently within a defined area while parents take a break.",
-      "Purchase a Dollywood multi-day pass if you plan to return — the price per day drops significantly and teenagers almost always want a second Dollywood day after experiencing it.",
-      "Summer heat in Pigeon Forge is real — plan indoor activities (Pigeon Forge Snow, escape rooms) for midday and outdoor activities (Anakeesta, alpine coaster) for morning and late afternoon.",
+      "Purchase a Dollywood multi-day pass if you plan to return \u2014 the price per day drops significantly and teenagers almost always want a second Dollywood day after experiencing it.",
+      "Summer heat in Pigeon Forge is real \u2014 plan indoor activities (Pigeon Forge Snow, escape rooms) for midday and outdoor activities (Anakeesta, alpine coaster) for morning and late afternoon.",
       "Most teen-friendly attractions have strong social media presences. Following them before your trip gives teens preview content that builds genuine excitement and engagement."
     ],
     "faqs": [
@@ -359,7 +376,7 @@
       },
       {
         "question": "Is Pigeon Forge Snow fun for teenagers or is it just for young kids?",
-        "answer": "Pigeon Forge Snow is genuinely fun for teenagers — the snowball fight areas, sled runs at speed, and the novelty of real snow in summer make it entertaining for all ages. Teens specifically enjoy it for the content creation angle (summer snow photos are highly shareable) and the competitive snowball fight element."
+        "answer": "Pigeon Forge Snow is genuinely fun for teenagers \u2014 the snowball fight areas, sled runs at speed, and the novelty of real snow in summer make it entertaining for all ages. Teens specifically enjoy it for the content creation angle (summer snow photos are highly shareable) and the competitive snowball fight element."
       },
       {
         "question": "Are there any teen-specific activities in Pigeon Forge beyond the usual tourist attractions?",
@@ -367,11 +384,11 @@
       },
       {
         "question": "How do you keep teenagers engaged on a family Pigeon Forge trip?",
-        "answer": "The key is building in activities that offer genuine challenge or novelty — escape rooms, alpine coasters, suspension bridges, and crime museums all deliver that. Avoid scheduling too many passive activities in a row. Teens travel best when they have some agency over the day, so involving them in choosing 1-2 activities per day dramatically improves engagement."
+        "answer": "The key is building in activities that offer genuine challenge or novelty \u2014 escape rooms, alpine coasters, suspension bridges, and crime museums all deliver that. Avoid scheduling too many passive activities in a row. Teens travel best when they have some agency over the day, so involving them in choosing 1-2 activities per day dramatically improves engagement."
       },
       {
         "question": "Is Alcatraz East appropriate for teenagers?",
-        "answer": "Yes, Alcatraz East Crime Museum is designed for mature audiences and is an excellent fit for teens 13 and up. The exhibits cover forensic science, criminal history, and real crime artifacts in an educational but engaging format. Parents should be aware it includes some graphic crime scene content presented in a museum context — most teens handle it well and find it fascinating."
+        "answer": "Yes, Alcatraz East Crime Museum is designed for mature audiences and is an excellent fit for teens 13 and up. The exhibits cover forensic science, criminal history, and real crime artifacts in an educational but engaging format. Parents should be aware it includes some graphic crime scene content presented in a museum context \u2014 most teens handle it well and find it fascinating."
       }
     ],
     "relatedSlugs": [
@@ -382,60 +399,60 @@
   },
   {
     "slug": "pigeon-forge-winter-getaway",
-    "title": "Pigeon Forge Winter Getaway Itinerary (December–February)",
+    "title": "Pigeon Forge Winter Getaway Itinerary (December\u2013February)",
     "metaTitle": "Pigeon Forge Winter Itinerary: 3-Day Getaway Guide",
-    "metaDescription": "Winter in Pigeon Forge is magical. This 3-day itinerary covers indoor snow, Ober Mountain skiing, cozy shows, and Gatlinburg — perfect December to February.",
-    "h1": "3-Day Pigeon Forge Winter Getaway Itinerary (December–February)",
+    "metaDescription": "Winter in Pigeon Forge is magical. This 3-day itinerary covers indoor snow, Ober Mountain skiing, cozy shows, and Gatlinburg \u2014 perfect December to February.",
+    "h1": "3-Day Pigeon Forge Winter Getaway Itinerary (December\u2013February)",
     "audience": "Families and couples visiting in winter (Dec-Feb)",
     "duration": "3 days",
     "season": "winter",
-    "intro": "Winter may be Pigeon Forge's most underrated season — Dollywood's Smoky Mountain Christmas transforms the park into a holiday wonderland, the mountain scenery is dramatic with possible snowfall, and indoor attractions mean rain and cold are never a problem. This 3-day winter itinerary leans into the season's unique offerings, from mountain skiing and ice skating at Ober to year-round indoor snow at Pigeon Forge Snow, wrapping up each evening with warm, cozy entertainment that feels tailor-made for the cold months.",
+    "intro": "Winter may be Pigeon Forge's most underrated season \u2014 Dollywood's Smoky Mountain Christmas transforms the park into a holiday wonderland, the mountain scenery is dramatic with possible snowfall, and indoor attractions mean rain and cold are never a problem. This 3-day winter itinerary leans into the season's unique offerings, from mountain skiing and ice skating at Ober to year-round indoor snow at Pigeon Forge Snow, wrapping up each evening with warm, cozy entertainment that feels tailor-made for the cold months.",
     "days": [
       {
         "day": 1,
         "title": "Indoor Snow & Mountain Activities",
         "morning": {
-          "activity": "Start your winter getaway at Pigeon Forge Snow — the region's only year-round indoor snow attraction. While the mountains outside may or may not have natural snow, Pigeon Forge Snow guarantees the real thing 365 days a year. In winter this feels especially magical, and the venue is significantly less crowded on weekday mornings.",
+          "activity": "Start your winter getaway at Pigeon Forge Snow \u2014 the region's only year-round indoor snow attraction. While the mountains outside may or may not have natural snow, Pigeon Forge Snow guarantees the real thing 365 days a year. In winter this feels especially magical, and the venue is significantly less crowded on weekday mornings.",
           "attractionId": "pigeon-forge-snow",
           "tip": "Winter weekday mornings at Pigeon Forge Snow are among the least crowded times of the entire year. If you visit during Christmas week or over New Year's, however, book well in advance as holiday crowds fill the venue quickly."
         },
         "afternoon": {
           "activity": "Drive up to Ober Mountain in Gatlinburg for an afternoon of skiing, snowboarding, or ice skating depending on natural snow conditions and your family's preferences. Ober is Tennessee's only ski resort and offers a full mountain experience with rentals, lessons, and non-ski mountain activities even when snow conditions are limited.",
           "attractionId": "ober-mountain",
-          "tip": "Check Ober Mountain's snow report before planning this day — natural snow conditions vary significantly. The resort also has snowmaking capability. If skiing conditions are poor, the indoor ice skating rink and mountain coaster are great fallback activities."
+          "tip": "Check Ober Mountain's snow report before planning this day \u2014 natural snow conditions vary significantly. The resort also has snowmaking capability. If skiing conditions are poor, the indoor ice skating rink and mountain coaster are great fallback activities."
         },
         "evening": {
           "activity": "Warm up from the mountain cold with the Hatfield and McCoy Dinner Feud show. The indoor arena is warm and welcoming, the hearty Southern dinner is perfect after a cold afternoon outside, and the show's comedic energy is a great complement to a physically active day.",
           "attractionId": "hatfield-mccoy",
-          "tip": "Book Hatfield and McCoy well in advance for December visits — the Smoky Mountain Christmas season brings heavy tourism to all dinner shows. January and February offer much easier reservation availability."
+          "tip": "Book Hatfield and McCoy well in advance for December visits \u2014 the Smoky Mountain Christmas season brings heavy tourism to all dinner shows. January and February offer much easier reservation availability."
         }
       },
       {
         "day": 2,
         "title": "Indoor Day: Museums, Wonder & Comedy",
         "morning": {
-          "activity": "Dedicate Day 2 entirely to Pigeon Forge's excellent indoor attraction lineup, starting with WonderWorks. The upside-down building and 100+ interactive exhibits are a wonderful morning activity for families — kids and adults alike get absorbed in the hands-on science experiences. Allow 2-3 hours.",
+          "activity": "Dedicate Day 2 entirely to Pigeon Forge's excellent indoor attraction lineup, starting with WonderWorks. The upside-down building and 100+ interactive exhibits are a wonderful morning activity for families \u2014 kids and adults alike get absorbed in the hands-on science experiences. Allow 2-3 hours.",
           "attractionId": "wonderworks",
           "tip": "WonderWorks is never crowded in January and February outside of holiday weekends. This is a great time to take your time with each exhibit rather than rushing through during peak season crowds."
         },
         "afternoon": {
-          "activity": "Walk or drive to the Titanic Museum Attraction — one of Pigeon Forge's most unique and underrated experiences. The museum is a full-scale recreation of the Titanic's stern and interior, with authentic artifacts, immersive recreation rooms, and the famous slanted floors that simulate the ship's final hours. Allow 2-2.5 hours.",
+          "activity": "Walk or drive to the Titanic Museum Attraction \u2014 one of Pigeon Forge's most unique and underrated experiences. The museum is a full-scale recreation of the Titanic's stern and interior, with authentic artifacts, immersive recreation rooms, and the famous slanted floors that simulate the ship's final hours. Allow 2-2.5 hours.",
           "attractionId": "titanic-museum",
-          "tip": "Each visitor receives a boarding pass with the name of a real Titanic passenger — at the end of the tour you learn whether your passenger survived. This simple narrative device makes the experience surprisingly emotional and personal."
+          "tip": "Each visitor receives a boarding pass with the name of a real Titanic passenger \u2014 at the end of the tour you learn whether your passenger survived. This simple narrative device makes the experience surprisingly emotional and personal."
         },
         "evening": {
           "activity": "End the indoor day with the Comedy Barn Theater, one of Pigeon Forge's longest-running and most beloved shows. The comedy, juggling, magic, and musical performances are genuinely funny for all ages and make for a warm, laugh-filled winter evening. The 90-minute show is a perfect wind-down for a full day of activity.",
           "attractionId": "comedy-barn",
-          "tip": "Comedy Barn is excellent year-round but winter shows tend to have a more intimate feel with smaller audiences. Arrive 20-30 minutes early to get good seats — general admission means first-come seating."
+          "tip": "Comedy Barn is excellent year-round but winter shows tend to have a more intimate feel with smaller audiences. Arrive 20-30 minutes early to get good seats \u2014 general admission means first-come seating."
         }
       },
       {
         "day": 3,
         "title": "Gatlinburg Winter Day",
         "morning": {
-          "activity": "Drive to Gatlinburg for your final morning at Ripley's Aquarium of the Smokies. The aquarium is entirely climate-controlled and one of the best in the Southeast — an ideal winter activity when outdoor exploration is limited by cold or gray skies. The shark tunnel, jellyfish gallery, and penguin feeding are the highlights.",
+          "activity": "Drive to Gatlinburg for your final morning at Ripley's Aquarium of the Smokies. The aquarium is entirely climate-controlled and one of the best in the Southeast \u2014 an ideal winter activity when outdoor exploration is limited by cold or gray skies. The shark tunnel, jellyfish gallery, and penguin feeding are the highlights.",
           "attractionId": "ripleys-aquarium",
-          "tip": "Ripley's Aquarium is open 365 days a year including Christmas and New Year's Day. Winter mornings are among the best times to visit — crowds are lighter and the experience is more relaxed than the packed summer version."
+          "tip": "Ripley's Aquarium is open 365 days a year including Christmas and New Year's Day. Winter mornings are among the best times to visit \u2014 crowds are lighter and the experience is more relaxed than the packed summer version."
         },
         "afternoon": {
           "activity": "Lunch at Calhoun's in Gatlinburg, a classic Tennessee barbecue institution overlooking the Little Pigeon River. The slow-smoked ribs and pulled pork are outstanding, and the winter atmosphere of a warm restaurant by a mountain stream is deeply satisfying. After lunch, browse Gatlinburg's shops and galleries at a leisurely winter pace.",
@@ -443,19 +460,22 @@
           "tip": "Calhoun's can have a wait even in winter for lunch. Call ahead to put your name on the list or plan to arrive by 11:30 AM before the lunch crowd builds. The riverfront window seating is especially atmospheric in winter."
         },
         "evening": {
-          "activity": "Close your winter getaway with the Escape Game for a final burst of shared activity and problem-solving before heading home or to bed. It is a wonderful final evening experience — mentally engaging, completely weather-proof, and perfect for the 60-90 minute window before dinner.",
+          "activity": "Close your winter getaway with the Escape Game for a final burst of shared activity and problem-solving before heading home or to bed. It is a wonderful final evening experience \u2014 mentally engaging, completely weather-proof, and perfect for the 60-90 minute window before dinner.",
           "attractionId": "escape-game",
-          "tip": "If you are visiting during December and Dollywood's Smoky Mountain Christmas is running, strongly consider replacing or adding an evening at Dollywood — the holiday lights and seasonal entertainment during this period are genuinely spectacular and worth a special trip."
+          "tip": "If you are visiting during December and Dollywood's Smoky Mountain Christmas is running, strongly consider replacing or adding an evening at Dollywood \u2014 the holiday lights and seasonal entertainment during this period are genuinely spectacular and worth a special trip."
         }
       }
     ],
-    "budgetEstimate": { "low": 250, "high": 500 },
+    "budgetEstimate": {
+      "low": 250,
+      "high": 500
+    },
     "proTips": [
-      "January and February are the least crowded and least expensive months in Pigeon Forge — hotel and cabin rates drop significantly and attraction wait times are minimal. If you can travel off-peak, winter is a hidden gem.",
-      "Dollywood's Smoky Mountain Christmas (November through early January) is one of the park's most beloved seasons with over 4 million lights — build a Dollywood day into any December or early January visit.",
+      "January and February are the least crowded and least expensive months in Pigeon Forge \u2014 hotel and cabin rates drop significantly and attraction wait times are minimal. If you can travel off-peak, winter is a hidden gem.",
+      "Dollywood's Smoky Mountain Christmas (November through early January) is one of the park's most beloved seasons with over 4 million lights \u2014 build a Dollywood day into any December or early January visit.",
       "Pack warm, layered clothing even if the forecast looks mild. Mountain weather changes rapidly and evenings in January can drop well below freezing.",
-      "Many Pigeon Forge restaurants offer winter specials and reduced menus — this is a good time to try local favorites that are too crowded in season.",
-      "Ober Mountain's conditions change daily in winter — always check their snow report the day before and call ahead if you are specifically planning to ski rather than ice skate or do mountain activities."
+      "Many Pigeon Forge restaurants offer winter specials and reduced menus \u2014 this is a good time to try local favorites that are too crowded in season.",
+      "Ober Mountain's conditions change daily in winter \u2014 always check their snow report the day before and call ahead if you are specifically planning to ski rather than ice skate or do mountain activities."
     ],
     "faqs": [
       {
@@ -464,11 +484,11 @@
       },
       {
         "question": "Does it snow in Pigeon Forge?",
-        "answer": "Pigeon Forge itself receives light, occasional snowfall — typically a few dusty events per winter. The higher elevations in the national park and at Ober Mountain receive significantly more snow. If guaranteed snow is important, visit Pigeon Forge Snow for year-round indoor snow or plan a day trip to Ober Mountain during winter months."
+        "answer": "Pigeon Forge itself receives light, occasional snowfall \u2014 typically a few dusty events per winter. The higher elevations in the national park and at Ober Mountain receive significantly more snow. If guaranteed snow is important, visit Pigeon Forge Snow for year-round indoor snow or plan a day trip to Ober Mountain during winter months."
       },
       {
         "question": "Is Dollywood open in winter?",
-        "answer": "Dollywood is open for the Smoky Mountain Christmas event from early November through early January. It then closes for the winter and reopens in late March or early April. January, February, and early March are the only times Dollywood is closed — check the current year's operating calendar on Dollywood's official website."
+        "answer": "Dollywood is open for the Smoky Mountain Christmas event from early November through early January. It then closes for the winter and reopens in late March or early April. January, February, and early March are the only times Dollywood is closed \u2014 check the current year's operating calendar on Dollywood's official website."
       },
       {
         "question": "Is Ober Mountain safe for skiing beginners?",
@@ -489,28 +509,28 @@
     "slug": "pigeon-forge-spring-break-family",
     "title": "5-Day Pigeon Forge Spring Break Family Itinerary",
     "metaTitle": "5-Day Pigeon Forge Spring Break Family Itinerary",
-    "metaDescription": "Make the most of spring break in Pigeon Forge. 5 days of Dollywood, indoor snow, Gatlinburg, Anakeesta, WonderWorks, and more — perfectly paced for families.",
-    "h1": "5-Day Pigeon Forge Spring Break Family Itinerary (March–April)",
+    "metaDescription": "Make the most of spring break in Pigeon Forge. 5 days of Dollywood, indoor snow, Gatlinburg, Anakeesta, WonderWorks, and more \u2014 perfectly paced for families.",
+    "h1": "5-Day Pigeon Forge Spring Break Family Itinerary (March\u2013April)",
     "audience": "Families during spring break (March-April)",
     "duration": "5 days",
     "season": "spring",
-    "intro": "Spring break in Pigeon Forge is a spectacular combination of emerging mountain beauty, full attraction lineups, and a region that genuinely gears up for this high-traffic season with special events and extended hours. Five days gives your family time to experience everything Pigeon Forge and Gatlinburg offer without feeling like you are racing through a checklist. This itinerary paces each day thoughtfully — high-energy days are followed by slightly more relaxed ones — so the whole family arrives home tired in the best possible way.",
+    "intro": "Spring break in Pigeon Forge is a spectacular combination of emerging mountain beauty, full attraction lineups, and a region that genuinely gears up for this high-traffic season with special events and extended hours. Five days gives your family time to experience everything Pigeon Forge and Gatlinburg offer without feeling like you are racing through a checklist. This itinerary paces each day thoughtfully \u2014 high-energy days are followed by slightly more relaxed ones \u2014 so the whole family arrives home tired in the best possible way.",
     "days": [
       {
         "day": 1,
         "title": "Arrival Day: Indoor Snow & The Island",
         "morning": {
-          "activity": "Arrive in Pigeon Forge and check in before heading straight to Pigeon Forge Snow. Spring break is a prime time for this venue — the guarantee of real snow regardless of April weather, combined with the novelty factor for kids who may not have seen much natural snow, makes it an ideal arrival-day opener that gets everyone excited without requiring a full day of energy.",
+          "activity": "Arrive in Pigeon Forge and check in before heading straight to Pigeon Forge Snow. Spring break is a prime time for this venue \u2014 the guarantee of real snow regardless of April weather, combined with the novelty factor for kids who may not have seen much natural snow, makes it an ideal arrival-day opener that gets everyone excited without requiring a full day of energy.",
           "attractionId": "pigeon-forge-snow",
-          "tip": "Spring break is one of Pigeon Forge Snow's busiest periods — book tickets online before you arrive and aim for the first session of the day. The snow play areas are most enjoyable when not overly crowded."
+          "tip": "Spring break is one of Pigeon Forge Snow's busiest periods \u2014 book tickets online before you arrive and aim for the first session of the day. The snow play areas are most enjoyable when not overly crowded."
         },
         "afternoon": {
           "activity": "After warming up from the snow, head to The Island in Pigeon Forge for a relaxed afternoon of exploration. The pedestrian area has carnival rides, restaurants, mini golf, shops, and the iconic fountain show. It is a low-stress arrival afternoon activity that lets everyone decompress from travel while still feeling like the vacation has started.",
           "attractionId": "the-island",
-          "tip": "The Island is free to enter — budget for rides, food, and any mini golf your family wants to play. The fountain show runs every 30 minutes and is a fun free spectacle worth timing your visit around."
+          "tip": "The Island is free to enter \u2014 budget for rides, food, and any mini golf your family wants to play. The fountain show runs every 30 minutes and is a fun free spectacle worth timing your visit around."
         },
         "evening": {
-          "activity": "Enjoy dinner at The Island's restaurants or walk the Parkway for dinner options. Keep Day 1 evenings light — getting kids settled early on arrival day sets a good rhythm for four more days of activity. Grocery store runs for cabin breakfast supplies are best done tonight rather than any other morning.",
+          "activity": "Enjoy dinner at The Island's restaurants or walk the Parkway for dinner options. Keep Day 1 evenings light \u2014 getting kids settled early on arrival day sets a good rhythm for four more days of activity. Grocery store runs for cabin breakfast supplies are best done tonight rather than any other morning.",
           "tip": "If your family loves pizza, Local Goat on the Parkway is a spring break tradition for many Pigeon Forge regulars. The portions are generous and kids love the casual atmosphere."
         }
       },
@@ -518,12 +538,12 @@
         "day": 2,
         "title": "Dollywood Full Day",
         "morning": {
-          "activity": "Dedicate Day 2 entirely to Dollywood — arrive at opening and work through the park systematically. Spring break sees Dollywood operating at peak capacity, so tackle the most popular rides (Wild Eagle, Lightning Rod, Mystery Mine) immediately at opening before lines build to 60-90 minute waits.",
+          "activity": "Dedicate Day 2 entirely to Dollywood \u2014 arrive at opening and work through the park systematically. Spring break sees Dollywood operating at peak capacity, so tackle the most popular rides (Wild Eagle, Lightning Rod, Mystery Mine) immediately at opening before lines build to 60-90 minute waits.",
           "attractionId": "dollywood",
           "tip": "Dollywood's spring programming includes special events and limited-time entertainment. Check the current season's calendar before your visit to know what special shows or seasonal attractions are running during your specific dates."
         },
         "afternoon": {
-          "activity": "Spend the afternoon at Dollywood exploring the areas you have not yet covered — Wildwood Grove for younger kids, the crafts village, and the live entertainment stages. Dollywood's food scene is legitimately excellent: the grist mill cinnamon bread, chicken pot pie, and open-pit barbecue are all worth experiencing.",
+          "activity": "Spend the afternoon at Dollywood exploring the areas you have not yet covered \u2014 Wildwood Grove for younger kids, the crafts village, and the live entertainment stages. Dollywood's food scene is legitimately excellent: the grist mill cinnamon bread, chicken pot pie, and open-pit barbecue are all worth experiencing.",
           "attractionId": "dollywood",
           "tip": "Spring break crowds peak at Dollywood between 11 AM and 4 PM. Use the Dollywood app to monitor wait times in real time and shift to lower-traffic areas of the park during peak hours."
         },
@@ -536,9 +556,9 @@
         "day": 3,
         "title": "Gatlinburg Day: Aquarium & Anakeesta",
         "morning": {
-          "activity": "Drive to Gatlinburg and open with Ripley's Aquarium of the Smokies, arriving right at opening. Spring break week is the aquarium's busiest period — getting there first guarantees you beat the crush. The shark tunnel, touch tanks, stingray bay, and penguin experiences are all worth the early start.",
+          "activity": "Drive to Gatlinburg and open with Ripley's Aquarium of the Smokies, arriving right at opening. Spring break week is the aquarium's busiest period \u2014 getting there first guarantees you beat the crush. The shark tunnel, touch tanks, stingray bay, and penguin experiences are all worth the early start.",
           "attractionId": "ripleys-aquarium",
-          "tip": "Purchase Ripley's Aquarium tickets online before arriving in Gatlinburg — the online purchase lane moves significantly faster than the walk-up window, and the website often has mild early-booking discounts."
+          "tip": "Purchase Ripley's Aquarium tickets online before arriving in Gatlinburg \u2014 the online purchase lane moves significantly faster than the walk-up window, and the website often has mild early-booking discounts."
         },
         "afternoon": {
           "activity": "After the aquarium, head to Anakeesta for an afternoon above the clouds. Spring in the Smokies means wildflowers blooming on the mountain slopes and air temperatures perfect for outdoor exploration. The gondola ride, treetop walk, and summit village make this one of the most photogenic spring activities in the entire region.",
@@ -546,7 +566,7 @@
           "tip": "April in the Smokies can bring afternoon rain showers. Check the weather forecast before committing your full afternoon to Anakeesta and have a backup indoor plan ready if clouds build in the afternoon."
         },
         "evening": {
-          "activity": "Dinner in Gatlinburg before the drive back to Pigeon Forge. Calhoun's is a great choice for families — the Tennessee BBQ is generous, kid-friendly, and reliably excellent. Stroll through downtown Gatlinburg after dinner for candy shop stops and browsing before heading back.",
+          "activity": "Dinner in Gatlinburg before the drive back to Pigeon Forge. Calhoun's is a great choice for families \u2014 the Tennessee BBQ is generous, kid-friendly, and reliably excellent. Stroll through downtown Gatlinburg after dinner for candy shop stops and browsing before heading back.",
           "attractionId": "calhouns",
           "tip": "Gatlinburg restaurants during spring break have waits. Put your name on the list at your dinner choice as soon as you arrive from Anakeesta, then explore the nearby shops while you wait."
         }
@@ -557,17 +577,17 @@
         "morning": {
           "activity": "Start Day 4 at WonderWorks for 2-3 hours of hands-on science and illusion fun. After the physical intensity of the first three days, WonderWorks provides a slightly more relaxed but equally engaging change of pace. Younger children love the anti-gravity room and beds of nails while older kids compete on the sports simulators.",
           "attractionId": "wonderworks",
-          "tip": "WonderWorks is open until late and works equally well as a morning or afternoon activity — flexible scheduling is helpful during a full spring break week when plans sometimes shift."
+          "tip": "WonderWorks is open until late and works equally well as a morning or afternoon activity \u2014 flexible scheduling is helpful during a full spring break week when plans sometimes shift."
         },
         "afternoon": {
           "activity": "Enjoy a mid-afternoon at Pirates Voyage Dinner Show or take a break at your accommodation. If you have younger children who are running low on energy by Day 4, a cabin afternoon with pool time is a smart recovery investment. If the family has steam to spare, Pirates Voyage bookings should already be confirmed from home.",
           "attractionId": "pirates-voyage",
-          "tip": "Pirates Voyage is a must-book during spring break — it is one of the most popular attractions in Pigeon Forge and sells out weeks in advance during March and April. If you have not pre-booked, call first thing in the morning on Day 1 to check availability."
+          "tip": "Pirates Voyage is a must-book during spring break \u2014 it is one of the most popular attractions in Pigeon Forge and sells out weeks in advance during March and April. If you have not pre-booked, call first thing in the morning on Day 1 to check availability."
         },
         "evening": {
           "activity": "If energy allows after the dinner show, Crave Golf Club offers an upscale indoor mini golf experience that is perfect for a post-show activity. The Jurassic-themed course is beautifully designed and a gentle, fun way to wind down an action-packed day.",
           "attractionId": "crave-golf",
-          "tip": "Crave Golf Club is open late and is air-conditioned — a welcome relief on warm spring evenings. The glow-in-the-dark aesthetic makes it feel like a special experience even for families who have played mini golf many times before."
+          "tip": "Crave Golf Club is open late and is air-conditioned \u2014 a welcome relief on warm spring evenings. The glow-in-the-dark aesthetic makes it feel like a special experience even for families who have played mini golf many times before."
         }
       },
       {
@@ -576,24 +596,27 @@
         "morning": {
           "activity": "On your final morning before checkout and departure, visit Old Mill Square in Pigeon Forge for a leisurely shopping experience and a Southern breakfast at the Old Mill Restaurant. Pick up locally milled grits, pancake mix, and preserves as authentic Smoky Mountain souvenirs that actually get used at home.",
           "attractionId": "old-mill",
-          "tip": "Old Mill opens early for breakfast and the morning atmosphere is lovely — unhurried, local, and a beautiful contrast to the high-energy days preceding it. Buy more grits than you think you need; they are exceptional."
+          "tip": "Old Mill opens early for breakfast and the morning atmosphere is lovely \u2014 unhurried, local, and a beautiful contrast to the high-energy days preceding it. Buy more grits than you think you need; they are exceptional."
         },
         "afternoon": {
-          "activity": "Begin your drive home, stopping at Dollywood or any missed attraction if time and energy allow. Many spring break families do a half-day at Dollywood on departure day if they have not yet had their fill — morning arrival still allows for 4-5 hours of park time before hitting the road.",
-          "tip": "Gas up in Pigeon Forge or Sevierville before hitting the interstate — fuel prices along the tourist corridor can be slightly elevated. The interstate onramps near Sevierville are significantly less congested than leaving via Gatlinburg."
+          "activity": "Begin your drive home, stopping at Dollywood or any missed attraction if time and energy allow. Many spring break families do a half-day at Dollywood on departure day if they have not yet had their fill \u2014 morning arrival still allows for 4-5 hours of park time before hitting the road.",
+          "tip": "Gas up in Pigeon Forge or Sevierville before hitting the interstate \u2014 fuel prices along the tourist corridor can be slightly elevated. The interstate onramps near Sevierville are significantly less congested than leaving via Gatlinburg."
         },
         "evening": {
           "activity": "Continue your drive home or check into a night-before-work recovery hotel if you have a long distance to travel. Five days in Pigeon Forge at spring break pace means everyone will sleep deeply on the drive home.",
-          "tip": "Start your drive before 10 AM on departure day if possible — the Pigeon Forge Parkway and Highway 441 out of the mountains can back up significantly as the spring break exodus begins after checkout time."
+          "tip": "Start your drive before 10 AM on departure day if possible \u2014 the Pigeon Forge Parkway and Highway 441 out of the mountains can back up significantly as the spring break exodus begins after checkout time."
         }
       }
     ],
-    "budgetEstimate": { "low": 400, "high": 800 },
+    "budgetEstimate": {
+      "low": 400,
+      "high": 800
+    },
     "proTips": [
-      "Spring break is Pigeon Forge's second-busiest season after fall leaf season. Book everything — cabins, dinner shows, attraction tickets — at least 4-6 weeks in advance.",
+      "Spring break is Pigeon Forge's second-busiest season after fall leaf season. Book everything \u2014 cabins, dinner shows, attraction tickets \u2014 at least 4-6 weeks in advance.",
       "The Great Smoky Mountains National Park is at its most beautiful during spring wildflower season (mid-April through May). Build in a morning for the national park even if you are not hikers.",
       "Pigeon Forge traffic during spring break can add 20-30 minutes to any Parkway drive. Use GPS to find trolley routes or off-road alternatives when heading between Pigeon Forge and Gatlinburg.",
-      "Many cabin rental companies offer spring break packages that include attraction discounts — ask your rental company what current promotions they are running.",
+      "Many cabin rental companies offer spring break packages that include attraction discounts \u2014 ask your rental company what current promotions they are running.",
       "Rain is more common in April in the Smokies than any other month. Having Pigeon Forge Snow, WonderWorks, and the aquarium as designated 'any weather' anchor activities ensures rain never ruins a day."
     ],
     "faqs": [
@@ -607,7 +630,7 @@
       },
       {
         "question": "What is the weather like in Pigeon Forge during spring break?",
-        "answer": "March temperatures in Pigeon Forge range from 35°F at night to 60°F during the day. April is warmer, typically 45-70°F. Rain is the most significant weather variable — April is the wettest month. Pack layers and a waterproof layer for everyone, and check the forecast daily."
+        "answer": "March temperatures in Pigeon Forge range from 35\u00b0F at night to 60\u00b0F during the day. April is warmer, typically 45-70\u00b0F. Rain is the most significant weather variable \u2014 April is the wettest month. Pack layers and a waterproof layer for everyone, and check the forecast daily."
       },
       {
         "question": "Is Dollywood crowded during spring break?",
@@ -628,28 +651,28 @@
     "slug": "pigeon-forge-gatlinburg-combo-4-day",
     "title": "4-Day Pigeon Forge & Gatlinburg Combo Itinerary",
     "metaTitle": "4-Day Pigeon Forge & Gatlinburg Itinerary",
-    "metaDescription": "First visit to the Smokies? This 4-day combo itinerary covers the best of Pigeon Forge AND Gatlinburg — Dollywood, indoor snow, Anakeesta, and more.",
+    "metaDescription": "First visit to the Smokies? This 4-day combo itinerary covers the best of Pigeon Forge AND Gatlinburg \u2014 Dollywood, indoor snow, Anakeesta, and more.",
     "h1": "4-Day Pigeon Forge & Gatlinburg Combo Itinerary for First-Time Visitors",
     "audience": "First-time visitors wanting both cities",
     "duration": "4 days",
     "season": "any",
-    "intro": "Pigeon Forge and Gatlinburg sit just 6 miles apart but offer distinctly different personalities — Pigeon Forge is bolder, more commercial, and attraction-dense, while Gatlinburg is smaller, more artisan, and nestled deeper in the mountains. Seeing both on a single trip gives you the full Smoky Mountains experience, and four days is the perfect amount of time to do it right without feeling rushed. This itinerary balances the two cities day by day, ensuring you experience the best of each.",
+    "intro": "Pigeon Forge and Gatlinburg sit just 6 miles apart but offer distinctly different personalities \u2014 Pigeon Forge is bolder, more commercial, and attraction-dense, while Gatlinburg is smaller, more artisan, and nestled deeper in the mountains. Seeing both on a single trip gives you the full Smoky Mountains experience, and four days is the perfect amount of time to do it right without feeling rushed. This itinerary balances the two cities day by day, ensuring you experience the best of each.",
     "days": [
       {
         "day": 1,
         "title": "Pigeon Forge: Indoor Snow, The Island & Comedy Barn",
         "morning": {
-          "activity": "Start your first day in Pigeon Forge at Pigeon Forge Snow — a perfect orientation to the region because it is unique, memorable, and enjoyable for every age group in the party. The indoor snow experience sets a tone of novelty and fun that carries through the rest of the trip.",
+          "activity": "Start your first day in Pigeon Forge at Pigeon Forge Snow \u2014 a perfect orientation to the region because it is unique, memorable, and enjoyable for every age group in the party. The indoor snow experience sets a tone of novelty and fun that carries through the rest of the trip.",
           "attractionId": "pigeon-forge-snow",
-          "tip": "Book Pigeon Forge Snow tickets online before arriving. If you are visiting in summer or fall, the contrast of walking from 90°F heat into real indoor snow is a first-day highlight that everyone in your group will talk about."
+          "tip": "Book Pigeon Forge Snow tickets online before arriving. If you are visiting in summer or fall, the contrast of walking from 90\u00b0F heat into real indoor snow is a first-day highlight that everyone in your group will talk about."
         },
         "afternoon": {
-          "activity": "Spend the afternoon at The Island — Pigeon Forge's main entertainment and dining complex. Get lunch here, walk around the entire property to get your bearings, take in the fountain show, and sample the rides and attractions that interest your group. The Island is a great low-pressure way to settle into Pigeon Forge.",
+          "activity": "Spend the afternoon at The Island \u2014 Pigeon Forge's main entertainment and dining complex. Get lunch here, walk around the entire property to get your bearings, take in the fountain show, and sample the rides and attractions that interest your group. The Island is a great low-pressure way to settle into Pigeon Forge.",
           "attractionId": "the-island",
-          "tip": "Use your first Island visit as a reconnaissance mission — take note of the restaurants and activities you want to revisit before you leave. Many visitors wish they had spent more time here on later days."
+          "tip": "Use your first Island visit as a reconnaissance mission \u2014 take note of the restaurants and activities you want to revisit before you leave. Many visitors wish they had spent more time here on later days."
         },
         "evening": {
-          "activity": "End your first evening with the Comedy Barn Theater — a Pigeon Forge institution that has been running for decades and continues to be one of the most consistently entertaining shows on the Parkway. The comedy, music, and variety acts are genuinely funny and make for a warm, welcoming first evening in town.",
+          "activity": "End your first evening with the Comedy Barn Theater \u2014 a Pigeon Forge institution that has been running for decades and continues to be one of the most consistently entertaining shows on the Parkway. The comedy, music, and variety acts are genuinely funny and make for a warm, welcoming first evening in town.",
           "attractionId": "comedy-barn",
           "tip": "Comedy Barn does not require advanced booking like some other dinner shows but does sell out on peak evenings. Buy tickets online or arrive at least 30 minutes before showtime to guarantee entry and good seating."
         }
@@ -658,9 +681,9 @@
         "day": 2,
         "title": "Dollywood Full Day",
         "morning": {
-          "activity": "Day 2 is entirely devoted to Dollywood — one of the top theme parks in the United States and the crown jewel of the Pigeon Forge experience. Arrive at opening to tackle the most popular rides before lines grow. The park's combination of coasters, live entertainment, crafts, and food makes a full day fly by.",
+          "activity": "Day 2 is entirely devoted to Dollywood \u2014 one of the top theme parks in the United States and the crown jewel of the Pigeon Forge experience. Arrive at opening to tackle the most popular rides before lines grow. The park's combination of coasters, live entertainment, crafts, and food makes a full day fly by.",
           "attractionId": "dollywood",
-          "tip": "Study the Dollywood park map the night before and identify your group's top 5 priority rides. Make a plan to hit them in a logical geographic sequence from park entrance moving through the park — this is far more efficient than backtracking."
+          "tip": "Study the Dollywood park map the night before and identify your group's top 5 priority rides. Make a plan to hit them in a logical geographic sequence from park entrance moving through the park \u2014 this is far more efficient than backtracking."
         },
         "afternoon": {
           "activity": "Continue through Dollywood's zones in the afternoon, taking time for shows, food, and the areas that match your group's interests. The Wildwood Grove section for families with younger children and the crafts village for adults offer a change of pace from coasters.",
@@ -668,7 +691,7 @@
           "tip": "Dollywood's Grist Mill Bakery has a line by 9:15 AM. If cinnamon bread is a priority (it should be), either go first thing or later in the afternoon when the morning rush subsides."
         },
         "evening": {
-          "activity": "Exit Dollywood for a relaxed dinner along the Parkway. Day 2 at Dollywood is inevitably the most physically exhausting day of any Pigeon Forge trip — plan a low-key evening with a good meal and early rest to set up a strong Gatlinburg day.",
+          "activity": "Exit Dollywood for a relaxed dinner along the Parkway. Day 2 at Dollywood is inevitably the most physically exhausting day of any Pigeon Forge trip \u2014 plan a low-key evening with a good meal and early rest to set up a strong Gatlinburg day.",
           "tip": "Many families opt for takeout or grocery delivery on Dollywood night to avoid post-park restaurant waits. This is a perfectly reasonable choice that saves time, money, and standing in tired feet."
         }
       },
@@ -678,45 +701,48 @@
         "morning": {
           "activity": "Drive to Gatlinburg for your dedicated Gatlinburg day, opening with Ripley's Aquarium of the Smokies. As one of the top aquariums in the southeastern United States, it provides an immersive 2-3 hour morning experience that works brilliantly for every age group.",
           "attractionId": "ripleys-aquarium",
-          "tip": "Park in one of Gatlinburg's public parking structures early — downtown Gatlinburg fills quickly and the walk from the aquarium to Anakeesta is easy on foot if you park centrally."
+          "tip": "Park in one of Gatlinburg's public parking structures early \u2014 downtown Gatlinburg fills quickly and the walk from the aquarium to Anakeesta is easy on foot if you park centrally."
         },
         "afternoon": {
           "activity": "After lunch in Gatlinburg, take the gondola up to Anakeesta for a mountaintop afternoon. Spring through fall, the summit is alive with wildflowers, mountain vistas, and adventure activities. Winter visits (when Anakeesta is open) offer a dramatically different but equally beautiful snowy mountain perspective.",
           "attractionId": "anakeesta",
-          "tip": "Give Anakeesta 2.5-3 hours to do it justice. The SkyBridge at Anakeesta and the SkyLift Park SkyBridge are different structures — Anakeesta has its own treetop bridge while SkyLift Park's SkyBridge is the longer suspension span nearby."
+          "tip": "Give Anakeesta 2.5-3 hours to do it justice. The SkyBridge at Anakeesta and the SkyLift Park SkyBridge are different structures \u2014 Anakeesta has its own treetop bridge while SkyLift Park's SkyBridge is the longer suspension span nearby."
         },
         "evening": {
           "activity": "Cross to SkyLift Park to walk the SkyBridge before heading to dinner. The 680-foot suspension bridge with its glass-bottom viewing panels offers views of Gatlinburg and the surrounding mountains at golden hour that are among the most memorable of any Smokies trip.",
           "attractionId": "skybridge",
-          "tip": "SkyBridge is particularly beautiful at dusk — the transition from daytime mountain views to the Gatlinburg lights appearing below as the sky darkens makes the evening visit especially worthwhile. Plan your timing accordingly."
+          "tip": "SkyBridge is particularly beautiful at dusk \u2014 the transition from daytime mountain views to the Gatlinburg lights appearing below as the sky darkens makes the evening visit especially worthwhile. Plan your timing accordingly."
         }
       },
       {
         "day": 4,
         "title": "Mixed Finale: Clingmans Dome, Old Mill & Escape Game",
         "morning": {
-          "activity": "Start your final morning with the drive to Clingmans Dome in the national park — the highest point in the Smokies with a half-mile walk to a panoramic observation tower. The views on a clear day encompass seven states. This is the quintessential Smoky Mountains moment and a meaningful conclusion to a Pigeon Forge/Gatlinburg trip.",
+          "activity": "Start your final morning with the drive to Clingmans Dome in the national park \u2014 the highest point in the Smokies with a half-mile walk to a panoramic observation tower. The views on a clear day encompass seven states. This is the quintessential Smoky Mountains moment and a meaningful conclusion to a Pigeon Forge/Gatlinburg trip.",
           "attractionId": "clingmans-dome",
           "tip": "Clingmans Dome Road is narrow and can be congested. Leave early (before 9 AM) to reach the trailhead before crowds. The paved but steep half-mile walk takes about 25-30 minutes up and 20 minutes down. At elevation, bring a jacket regardless of valley temperatures."
         },
         "afternoon": {
-          "activity": "Return via Gatlinburg and stop at Old Mill Square in Pigeon Forge for lunch and a final souvenir shopping session. Old Mill is a working gristmill that has been operating since 1830 — the Southern food is outstanding and the general store sells exceptional local products to take home.",
+          "activity": "Return via Gatlinburg and stop at Old Mill Square in Pigeon Forge for lunch and a final souvenir shopping session. Old Mill is a working gristmill that has been operating since 1830 \u2014 the Southern food is outstanding and the general store sells exceptional local products to take home.",
           "attractionId": "old-mill",
-          "tip": "Old Mill produces and sells its own line of stone-ground grits, cornmeal, and pancake mixes — they make excellent, authentic gifts for food-loving family and friends at home. Stock up; you will wish you had bought more."
+          "tip": "Old Mill produces and sells its own line of stone-ground grits, cornmeal, and pancake mixes \u2014 they make excellent, authentic gifts for food-loving family and friends at home. Stock up; you will wish you had bought more."
         },
         "evening": {
-          "activity": "Close your 4-day Smokies adventure with an Escape Game session — a perfect final evening activity that requires no physical energy (welcome after the morning hike), creates one last shared memory, and ends the trip on a high note of teamwork and problem-solving.",
+          "activity": "Close your 4-day Smokies adventure with an Escape Game session \u2014 a perfect final evening activity that requires no physical energy (welcome after the morning hike), creates one last shared memory, and ends the trip on a high note of teamwork and problem-solving.",
           "attractionId": "escape-game",
-          "tip": "Book your escape room for the day before if possible — walk-in availability on popular evenings can be limited. A 7 PM booking gives you time for a leisurely late lunch at Old Mill and a Parkway stroll before the game."
+          "tip": "Book your escape room for the day before if possible \u2014 walk-in availability on popular evenings can be limited. A 7 PM booking gives you time for a leisurely late lunch at Old Mill and a Parkway stroll before the game."
         }
       }
     ],
-    "budgetEstimate": { "low": 350, "high": 700 },
+    "budgetEstimate": {
+      "low": 350,
+      "high": 700
+    },
     "proTips": [
       "Stay centrally in Pigeon Forge or at the Gatlinburg end of Pigeon Forge to minimize daily driving. A central location makes both cities easily accessible without Parkway traffic frustration.",
-      "Download both the Pigeon Forge and Gatlinburg free trolley apps before arriving — the trolley systems connect the two cities and surrounding areas and are surprisingly useful for avoiding parking stress.",
-      "Clingmans Dome Road is closed from December through March due to weather — substitute a Laurel Falls hike or scenic Newfound Gap Road drive as your national park experience if visiting in winter.",
-      "Gatlinburg is significantly smaller and more walkable than Pigeon Forge — park once and walk everything rather than repeatedly moving your car.",
+      "Download both the Pigeon Forge and Gatlinburg free trolley apps before arriving \u2014 the trolley systems connect the two cities and surrounding areas and are surprisingly useful for avoiding parking stress.",
+      "Clingmans Dome Road is closed from December through March due to weather \u2014 substitute a Laurel Falls hike or scenic Newfound Gap Road drive as your national park experience if visiting in winter.",
+      "Gatlinburg is significantly smaller and more walkable than Pigeon Forge \u2014 park once and walk everything rather than repeatedly moving your car.",
       "Four days is ideal for a first visit but if your group loves what they see, returning in a different season reveals a completely different Pigeon Forge and Smokies experience."
     ],
     "faqs": [
@@ -734,7 +760,7 @@
       },
       {
         "question": "Do I need a car for a Pigeon Forge and Gatlinburg trip?",
-        "answer": "A car is strongly recommended. While the trolley system connects major points, the flexibility to reach Clingmans Dome, national park trailheads, cabin accommodations, and off-Parkway attractions requires a vehicle. Parking in Gatlinburg can be challenging — use the paid garages downtown rather than hunting street parking."
+        "answer": "A car is strongly recommended. While the trolley system connects major points, the flexibility to reach Clingmans Dome, national park trailheads, cabin accommodations, and off-Parkway attractions requires a vehicle. Parking in Gatlinburg can be challenging \u2014 use the paid garages downtown rather than hunting street parking."
       },
       {
         "question": "What is the single best thing to do in each city?",
@@ -751,40 +777,43 @@
     "slug": "pigeon-forge-rainy-day-itinerary",
     "title": "Best Pigeon Forge Rainy Day Itinerary: Full Indoor Day Plan",
     "metaTitle": "Pigeon Forge Rainy Day Itinerary: Best Indoor Activities",
-    "metaDescription": "Rain in Pigeon Forge? No problem. This 1-day indoor itinerary covers indoor snow, WonderWorks, escape rooms, and Pirates Voyage — rain never ruins your trip.",
+    "metaDescription": "Rain in Pigeon Forge? No problem. This 1-day indoor itinerary covers indoor snow, WonderWorks, escape rooms, and Pirates Voyage \u2014 rain never ruins your trip.",
     "h1": "Pigeon Forge Rainy Day Itinerary: A Full Day of Indoor Fun",
     "audience": "Visitors caught by rain (any season)",
     "duration": "1 day",
     "season": "any",
-    "intro": "Rain in Pigeon Forge is not a disaster — it is an opportunity to experience some of the area's best indoor attractions without the outdoor-day crowds competing for space. This rainy day itinerary strings together Pigeon Forge's most engaging climate-controlled experiences into one memorable day that actually benefits from bad weather by driving visitors to these excellent indoor venues. Whether this is your backup plan or your primary one, you will leave this day feeling like the rain did you a favor.",
+    "intro": "Rain in Pigeon Forge is not a disaster \u2014 it is an opportunity to experience some of the area's best indoor attractions without the outdoor-day crowds competing for space. This rainy day itinerary strings together Pigeon Forge's most engaging climate-controlled experiences into one memorable day that actually benefits from bad weather by driving visitors to these excellent indoor venues. Whether this is your backup plan or your primary one, you will leave this day feeling like the rain did you a favor.",
     "days": [
       {
         "day": 1,
         "title": "Full Indoor Day in Pigeon Forge",
         "morning": {
-          "activity": "Start your rainy day at Pigeon Forge Snow — the Southeast's only year-round indoor snow experience. Rain outside is completely irrelevant here, and there is genuine poetic satisfaction in playing in real snow while listening to rain hit the roof. Allow 2.5-3 hours for sledding, snowball fights, and exploration.",
+          "activity": "Start your rainy day at Pigeon Forge Snow \u2014 the Southeast's only year-round indoor snow experience. Rain outside is completely irrelevant here, and there is genuine poetic satisfaction in playing in real snow while listening to rain hit the roof. Allow 2.5-3 hours for sledding, snowball fights, and exploration.",
           "attractionId": "pigeon-forge-snow",
-          "tip": "Pigeon Forge Snow is especially well-suited as a rainy day activity because it fills slightly slower on rainy mornings than sunny ones — outdoor attractions lose their crowds to the indoor venues, but PFS gets moderate rather than overwhelming traffic. Arrive at opening for the best experience."
+          "tip": "Pigeon Forge Snow is especially well-suited as a rainy day activity because it fills slightly slower on rainy mornings than sunny ones \u2014 outdoor attractions lose their crowds to the indoor venues, but PFS gets moderate rather than overwhelming traffic. Arrive at opening for the best experience."
         },
         "afternoon": {
-          "activity": "Move from Pigeon Forge Snow to WonderWorks for 90 minutes to 2 hours of hands-on indoor exploration, then walk or drive directly to an Escape Game venue for a 60-minute room challenge. These two attractions pair beautifully as a double afternoon block — one is open and exploratory, the other focused and collaborative.",
+          "activity": "Move from Pigeon Forge Snow to WonderWorks for 90 minutes to 2 hours of hands-on indoor exploration, then walk or drive directly to an Escape Game venue for a 60-minute room challenge. These two attractions pair beautifully as a double afternoon block \u2014 one is open and exploratory, the other focused and collaborative.",
           "attractionId": "wonderworks",
           "tip": "Call the escape room to book your afternoon time slot while you are still at WonderWorks to confirm availability. Walk-in escape room availability on rainy days can tighten as other visitors also pivot to indoor activities. A 3 PM or 3:30 PM booking typically works well after WonderWorks."
         },
         "evening": {
-          "activity": "Close your rainy day with the Pirates Voyage Dinner Show — a full 90-minute dinner and live pirate battle performance that is entirely indoors and spectacularly produced. The show includes a hearty dinner (no need to find a restaurant separately), which makes it a perfect rain-day finale that handles both dinner and entertainment in one elegant booking.",
+          "activity": "Close your rainy day with the Pirates Voyage Dinner Show \u2014 a full 90-minute dinner and live pirate battle performance that is entirely indoors and spectacularly produced. The show includes a hearty dinner (no need to find a restaurant separately), which makes it a perfect rain-day finale that handles both dinner and entertainment in one elegant booking.",
           "attractionId": "pirates-voyage",
-          "tip": "Pirates Voyage is the best value dinner show in Pigeon Forge on a rainy day because it combines dinner and entertainment in a single ticket. On rainy days, shows sometimes sell remaining seats at the door but do not count on it — always have a reservation. If fully booked, Hatfield and McCoy is an excellent alternative."
+          "tip": "Pirates Voyage is the best value dinner show in Pigeon Forge on a rainy day because it combines dinner and entertainment in a single ticket. On rainy days, shows sometimes sell remaining seats at the door but do not count on it \u2014 always have a reservation. If fully booked, Hatfield and McCoy is an excellent alternative."
         }
       }
     ],
-    "budgetEstimate": { "low": 100, "high": 250 },
+    "budgetEstimate": {
+      "low": 100,
+      "high": 250
+    },
     "proTips": [
-      "Rainy days actually improve some indoor attraction experiences — when sunny-day visitors shift to outdoor activities, indoor venues run below their typical capacity.",
-      "Keep a rainy day itinerary in your back pocket for every Pigeon Forge trip regardless of the forecast — mountain weather is unpredictable and having a confident Plan B eliminates vacation stress.",
+      "Rainy days actually improve some indoor attraction experiences \u2014 when sunny-day visitors shift to outdoor activities, indoor venues run below their typical capacity.",
+      "Keep a rainy day itinerary in your back pocket for every Pigeon Forge trip regardless of the forecast \u2014 mountain weather is unpredictable and having a confident Plan B eliminates vacation stress.",
       "Ripley's Aquarium in Gatlinburg, the Titanic Museum, and Alcatraz East Crime Museum are excellent additions to expand this into a longer rainy day or a rainy multi-day stretch.",
       "Indoor mini golf at Crave Golf Club or Ninja Golf makes a great addition between WonderWorks and the escape room if you have extra time mid-afternoon.",
-      "The Comedy Barn Theater is an affordable evening alternative to Pirates Voyage if the dinner show is sold out — it is entirely indoor and consistently entertaining."
+      "The Comedy Barn Theater is an affordable evening alternative to Pirates Voyage if the dinner show is sold out \u2014 it is entirely indoor and consistently entertaining."
     ],
     "faqs": [
       {
@@ -793,19 +822,19 @@
       },
       {
         "question": "Does rain ruin a Pigeon Forge vacation?",
-        "answer": "Not at all. Pigeon Forge has more high-quality indoor attractions per square mile than almost any comparable tourist destination. A rainy day can actually be one of the best days of a Pigeon Forge trip — indoor venues are less crowded when the weather drives outdoor visitors inside, and the indoor show and activity quality is genuinely excellent."
+        "answer": "Not at all. Pigeon Forge has more high-quality indoor attractions per square mile than almost any comparable tourist destination. A rainy day can actually be one of the best days of a Pigeon Forge trip \u2014 indoor venues are less crowded when the weather drives outdoor visitors inside, and the indoor show and activity quality is genuinely excellent."
       },
       {
         "question": "Is Pigeon Forge Snow always available regardless of weather?",
-        "answer": "Yes. Pigeon Forge Snow is a climate-controlled indoor facility that creates and maintains real snow 365 days a year regardless of outdoor conditions. It is open in summer heat, winter cold, and on rainy days — this consistency is precisely what makes it one of the most reliable attraction choices on any Pigeon Forge trip."
+        "answer": "Yes. Pigeon Forge Snow is a climate-controlled indoor facility that creates and maintains real snow 365 days a year regardless of outdoor conditions. It is open in summer heat, winter cold, and on rainy days \u2014 this consistency is precisely what makes it one of the most reliable attraction choices on any Pigeon Forge trip."
       },
       {
         "question": "What should I do if Pirates Voyage is sold out?",
-        "answer": "If Pirates Voyage is sold out, call Hatfield and McCoy Dinner Feud as your first alternative — it is an excellent show with similar value and comparable entertainment quality. The Comedy Barn Theater is a more affordable, easy-to-get-into evening option. For families, the Lumberjack Feud is technically outdoors under a covered arena but may be affected by heavy rain."
+        "answer": "If Pirates Voyage is sold out, call Hatfield and McCoy Dinner Feud as your first alternative \u2014 it is an excellent show with similar value and comparable entertainment quality. The Comedy Barn Theater is a more affordable, easy-to-get-into evening option. For families, the Lumberjack Feud is technically outdoors under a covered arena but may be affected by heavy rain."
       },
       {
         "question": "How do I get between indoor attractions on a rainy day in Pigeon Forge?",
-        "answer": "Most Pigeon Forge indoor attractions are along or very near the main Parkway and accessible by car with minimal walking in the rain. The Pigeon Forge Trolley also runs in rain. Keep an umbrella and a towel in the car for transitions between venues — the rain itself is rarely the challenge, it is the wet shoes and clothes from short walks between car and entrance."
+        "answer": "Most Pigeon Forge indoor attractions are along or very near the main Parkway and accessible by car with minimal walking in the rain. The Pigeon Forge Trolley also runs in rain. Keep an umbrella and a towel in the car for transitions between venues \u2014 the rain itself is rarely the challenge, it is the wet shoes and clothes from short walks between car and entrance."
       }
     ],
     "relatedSlugs": [
@@ -818,12 +847,12 @@
     "slug": "pigeon-forge-budget-weekend",
     "title": "Pigeon Forge Budget Weekend Itinerary: 2 Days Under $200",
     "metaTitle": "Pigeon Forge Budget Weekend Itinerary (Under $200)",
-    "metaDescription": "See the best of Pigeon Forge on a budget. Free hikes, the Island, comedy shows, Clingmans Dome, and indoor snow — 2 days of fun without overspending.",
+    "metaDescription": "See the best of Pigeon Forge on a budget. Free hikes, the Island, comedy shows, Clingmans Dome, and indoor snow \u2014 2 days of fun without overspending.",
     "h1": "Pigeon Forge Budget Weekend: See Everything for Under $200 Per Person",
     "audience": "Budget-conscious travelers",
     "duration": "weekend",
     "season": "any",
-    "intro": "Pigeon Forge has a reputation as an expensive destination but the truth is there are dozens of ways to have a genuinely memorable weekend without spending a fortune. This budget itinerary deliberately picks the best free, low-cost, and value-for-money experiences in the area — including completely free national park hiking, the genuinely fun Island walkway, affordable comedy entertainment, and the iconic Clingmans Dome — alongside one splurge on Pigeon Forge Snow that is worth every penny.",
+    "intro": "Pigeon Forge has a reputation as an expensive destination but the truth is there are dozens of ways to have a genuinely memorable weekend without spending a fortune. This budget itinerary deliberately picks the best free, low-cost, and value-for-money experiences in the area \u2014 including completely free national park hiking, the genuinely fun Island walkway, affordable comedy entertainment, and the iconic Clingmans Dome \u2014 alongside one splurge on Pigeon Forge Snow that is worth every penny.",
     "days": [
       {
         "day": 1,
@@ -834,12 +863,12 @@
           "tip": "The national park entry fee of $35 per vehicle covers your entire stay in the park across multiple days. If you plan to visit the park more than once on this trip or return within the year, the $80 America the Beautiful annual pass pays for itself quickly."
         },
         "afternoon": {
-          "activity": "After the hike, head to The Island in Pigeon Forge for a completely free afternoon. Walking the entire Island property costs nothing — the fountain show, people-watching, and browsing the shops are all free. Budget for one meal at an Island restaurant and perhaps one ride if the mood strikes, but the core experience is genuinely free.",
+          "activity": "After the hike, head to The Island in Pigeon Forge for a completely free afternoon. Walking the entire Island property costs nothing \u2014 the fountain show, people-watching, and browsing the shops are all free. Budget for one meal at an Island restaurant and perhaps one ride if the mood strikes, but the core experience is genuinely free.",
           "attractionId": "the-island",
           "tip": "The Island fountain show is one of the best free things in Pigeon Forge. Time your arrival to catch a show (they run every 30 minutes) and grab a casual meal at one of the more affordable Island dining options like a quick-service counter rather than a sit-down restaurant."
         },
         "evening": {
-          "activity": "End your first evening at the Comedy Barn Theater — consistently one of the most affordable ticketed entertainment options in Pigeon Forge. At roughly $30-35 per adult for a full 90-minute comedy, music, and variety show, it delivers exceptional entertainment value. Family tickets provide additional savings.",
+          "activity": "End your first evening at the Comedy Barn Theater \u2014 consistently one of the most affordable ticketed entertainment options in Pigeon Forge. At roughly $30-35 per adult for a full 90-minute comedy, music, and variety show, it delivers exceptional entertainment value. Family tickets provide additional savings.",
           "attractionId": "comedy-barn",
           "tip": "Comedy Barn tickets purchased online are slightly less than at the door. The show is appropriate for all ages and the casual, come-as-you-are atmosphere is perfectly suited to a budget-minded evening where you are not dressing up for a fancier dinner show."
         }
@@ -853,7 +882,7 @@
           "tip": "Clingmans Dome Road is closed December-March. If visiting in winter, substitute a drive along Newfound Gap Road for equally stunning national park scenery at no additional cost. Pack snacks and coffee from your cabin for a Clingmans Dome breakfast picnic."
         },
         "afternoon": {
-          "activity": "Return to Pigeon Forge and spend lunch at Old Mill Square — the working gristmill restaurant is not free but offers exceptional Southern food at moderate prices, and browsing the general store, candy shop, and craft outlets is free entertainment. The historic setting makes lunch here feel special even on a tight budget.",
+          "activity": "Return to Pigeon Forge and spend lunch at Old Mill Square \u2014 the working gristmill restaurant is not free but offers exceptional Southern food at moderate prices, and browsing the general store, candy shop, and craft outlets is free entertainment. The historic setting makes lunch here feel special even on a tight budget.",
           "attractionId": "old-mill",
           "tip": "If Old Mill Restaurant's prices stretch your budget, Old Mill Square has several more affordable food options nearby. The general store is genuinely interesting to browse and the staff are happy to let you sample the stone-ground grits and spice mixes without purchase pressure."
         },
@@ -864,11 +893,14 @@
         }
       }
     ],
-    "budgetEstimate": { "low": 100, "high": 200 },
+    "budgetEstimate": {
+      "low": 100,
+      "high": 200
+    },
     "proTips": [
-      "The America the Beautiful annual national park pass ($80) covers all national park fees for a full year — if you have any chance of visiting another national park within 12 months, it pays for itself immediately.",
+      "The America the Beautiful annual national park pass ($80) covers all national park fees for a full year \u2014 if you have any chance of visiting another national park within 12 months, it pays for itself immediately.",
       "Cooking breakfast and packing a trail lunch at a cabin or vacation rental dramatically reduces food spending without sacrificing experience quality. Save the budget for one nice dinner per day.",
-      "Pigeon Forge's free trolley system covers most of the Parkway — using it instead of paying for parking in multiple locations saves $5-15 per day.",
+      "Pigeon Forge's free trolley system covers most of the Parkway \u2014 using it instead of paying for parking in multiple locations saves $5-15 per day.",
       "Many Pigeon Forge attractions offer discount coupons through the Pigeon Forge Tourism website, coupon books at rest stops, and AAA membership. Always check for available discounts before paying full price.",
       "Visiting on weekdays versus weekends reduces costs across accommodation, some attraction pricing, and reduces the wait time frustration that makes people pay for premium line skips."
     ],
@@ -879,7 +911,7 @@
       },
       {
         "question": "Is Pigeon Forge Snow worth the cost on a budget trip?",
-        "answer": "Yes — at roughly $30-40 per person, Pigeon Forge Snow is one of the best value-per-experience paid attractions in the area. The novelty of real indoor snow, the activity duration (2-3 hours), and the uniqueness of the experience make it worth the cost even on a tight budget. It is the single recommended paid splurge on this budget itinerary."
+        "answer": "Yes \u2014 at roughly $30-40 per person, Pigeon Forge Snow is one of the best value-per-experience paid attractions in the area. The novelty of real indoor snow, the activity duration (2-3 hours), and the uniqueness of the experience make it worth the cost even on a tight budget. It is the single recommended paid splurge on this budget itinerary."
       },
       {
         "question": "How much should I budget for food for a Pigeon Forge weekend?",
@@ -909,58 +941,58 @@
     "audience": "First-time visitors to Pigeon Forge",
     "duration": "3 days",
     "season": "any",
-    "intro": "If this is your first time in Pigeon Forge, you are going to need a guide — not because the destination is complicated, but because there is so much to choose from that paralysis by analysis is a real risk. This 3-day itinerary strips away the noise and gives you a confident, curated path through the area's must-see experiences. We start with something uniquely Pigeon Forge, anchor the middle day at Dollywood, and close with the full Gatlinburg experience — a progression that builds from novelty to thrill to scenic beauty.",
+    "intro": "If this is your first time in Pigeon Forge, you are going to need a guide \u2014 not because the destination is complicated, but because there is so much to choose from that paralysis by analysis is a real risk. This 3-day itinerary strips away the noise and gives you a confident, curated path through the area's must-see experiences. We start with something uniquely Pigeon Forge, anchor the middle day at Dollywood, and close with the full Gatlinburg experience \u2014 a progression that builds from novelty to thrill to scenic beauty.",
     "days": [
       {
         "day": 1,
         "title": "Welcome to Pigeon Forge: Indoor Snow, The Island & Comedy Barn",
         "morning": {
-          "activity": "Your first Pigeon Forge experience should be something you cannot do anywhere else — and Pigeon Forge Snow delivers exactly that. The Southeast's only year-round indoor snow facility gives first-timers an immediate sense that this destination is genuinely special. The real snow, sled runs, and snowball fights are a perfect welcome to the region regardless of the season outside.",
+          "activity": "Your first Pigeon Forge experience should be something you cannot do anywhere else \u2014 and Pigeon Forge Snow delivers exactly that. The Southeast's only year-round indoor snow facility gives first-timers an immediate sense that this destination is genuinely special. The real snow, sled runs, and snowball fights are a perfect welcome to the region regardless of the season outside.",
           "attractionId": "pigeon-forge-snow",
           "tip": "Book Pigeon Forge Snow tickets online before your trip and aim for the morning opening slot. As a first-time visitor, this experience will immediately set the tone that Pigeon Forge exceeds expectations. Leave 2.5-3 hours for the full experience."
         },
         "afternoon": {
-          "activity": "Spend your arrival afternoon at The Island — Pigeon Forge's main entertainment complex and the best place to get your bearings in the destination. The free-to-enter property has restaurants, rides, mini golf, shops, and the famous fountain show. Walk the entire area to get a feel for the Pigeon Forge entertainment style.",
+          "activity": "Spend your arrival afternoon at The Island \u2014 Pigeon Forge's main entertainment complex and the best place to get your bearings in the destination. The free-to-enter property has restaurants, rides, mini golf, shops, and the famous fountain show. Walk the entire area to get a feel for the Pigeon Forge entertainment style.",
           "attractionId": "the-island",
           "tip": "The Island is a first-timer's orientation to Pigeon Forge's entertainment culture. Everything is a little bigger, a little louder, and a little more fun than expected. Grab lunch here and take your time exploring before the evening show."
         },
         "evening": {
-          "activity": "Close your first evening with the Comedy Barn Theater — one of Pigeon Forge's longest-running and most beloved shows. The variety entertainment, live music, and comedy acts provide an authentic taste of Smoky Mountain entertainment culture that first-timers consistently rank as a genuine surprise and delight.",
+          "activity": "Close your first evening with the Comedy Barn Theater \u2014 one of Pigeon Forge's longest-running and most beloved shows. The variety entertainment, live music, and comedy acts provide an authentic taste of Smoky Mountain entertainment culture that first-timers consistently rank as a genuine surprise and delight.",
           "attractionId": "comedy-barn",
-          "tip": "The Comedy Barn requires no prior knowledge of Pigeon Forge to enjoy — it is entirely self-contained entertainment that lands well for first-timers of all ages and backgrounds. Buy tickets at least a day ahead during busy seasons."
+          "tip": "The Comedy Barn requires no prior knowledge of Pigeon Forge to enjoy \u2014 it is entirely self-contained entertainment that lands well for first-timers of all ages and backgrounds. Buy tickets at least a day ahead during busy seasons."
         }
       },
       {
         "day": 2,
         "title": "Dollywood Full Day",
         "morning": {
-          "activity": "Day 2 is Dollywood — the park that defines Pigeon Forge and one of the most acclaimed theme parks in the United States. As a first-timer, arrive at opening and move quickly to the back of the park where the biggest coasters and most popular rides are located. Wild Eagle, Lightning Rod, and Tennessee Tornado are the major draws for thrill seekers.",
+          "activity": "Day 2 is Dollywood \u2014 the park that defines Pigeon Forge and one of the most acclaimed theme parks in the United States. As a first-timer, arrive at opening and move quickly to the back of the park where the biggest coasters and most popular rides are located. Wild Eagle, Lightning Rod, and Tennessee Tornado are the major draws for thrill seekers.",
           "attractionId": "dollywood",
           "tip": "Download the Dollywood app before entering. It shows real-time wait times and show schedules and is indispensable for first-timers navigating a large park efficiently. The app's map function helps you understand the park's zone layout before you start walking."
         },
         "afternoon": {
-          "activity": "Work through Dollywood's other zones in the afternoon — the Wildwood Grove nature area, the Craftsman's Valley with working artisans, and the carousel area provide a complete picture of what makes Dollywood different from any other theme park. The food is remarkable; do not leave without trying the cinnamon bread and chicken pot pie.",
+          "activity": "Work through Dollywood's other zones in the afternoon \u2014 the Wildwood Grove nature area, the Craftsman's Valley with working artisans, and the carousel area provide a complete picture of what makes Dollywood different from any other theme park. The food is remarkable; do not leave without trying the cinnamon bread and chicken pot pie.",
           "attractionId": "dollywood",
-          "tip": "Dollywood's craft demonstrations — glassblowing, wood carving, blacksmithing — are free with admission and genuinely fascinating. Most first-time visitors regret not spending more time in the crafts area. Budget 30 minutes for it in your afternoon."
+          "tip": "Dollywood's craft demonstrations \u2014 glassblowing, wood carving, blacksmithing \u2014 are free with admission and genuinely fascinating. Most first-time visitors regret not spending more time in the crafts area. Budget 30 minutes for it in your afternoon."
         },
         "evening": {
-          "activity": "Exit Dollywood for dinner at Alamo Steakhouse — a Pigeon Forge staple with hearty portions, a warm rustic atmosphere, and prices that represent good value after a full park day. It is the kind of satisfying, uncomplicated dinner that completes a great day without requiring much decision-making.",
+          "activity": "Exit Dollywood for dinner at Alamo Steakhouse \u2014 a Pigeon Forge staple with hearty portions, a warm rustic atmosphere, and prices that represent good value after a full park day. It is the kind of satisfying, uncomplicated dinner that completes a great day without requiring much decision-making.",
           "attractionId": "alamo-steakhouse",
-          "tip": "Alamo Steakhouse does not take reservations — add your name to the waitlist on their app before leaving Dollywood and your table will often be ready shortly after you arrive. The onion rings are a must-start."
+          "tip": "Alamo Steakhouse does not take reservations \u2014 add your name to the waitlist on their app before leaving Dollywood and your table will often be ready shortly after you arrive. The onion rings are a must-start."
         }
       },
       {
         "day": 3,
         "title": "Gatlinburg Day: Aquarium, Anakeesta, Old Mill & Dinner",
         "morning": {
-          "activity": "Drive to Gatlinburg for your dedicated mountain-town day, starting with Ripley's Aquarium of the Smokies. As a first-timer to the Smokies region, the aquarium provides important context for the region's natural world — the freshwater Appalachian species exhibit connects the aquarium directly to the mountains surrounding you.",
+          "activity": "Drive to Gatlinburg for your dedicated mountain-town day, starting with Ripley's Aquarium of the Smokies. As a first-timer to the Smokies region, the aquarium provides important context for the region's natural world \u2014 the freshwater Appalachian species exhibit connects the aquarium directly to the mountains surrounding you.",
           "attractionId": "ripleys-aquarium",
-          "tip": "Allow at least 2 hours at the aquarium and take your time. First-time visitors often underestimate how good this aquarium is — it consistently ranks among the top 10 aquariums in the country and the quality justifies unhurried exploration."
+          "tip": "Allow at least 2 hours at the aquarium and take your time. First-time visitors often underestimate how good this aquarium is \u2014 it consistently ranks among the top 10 aquariums in the country and the quality justifies unhurried exploration."
         },
         "afternoon": {
-          "activity": "After the aquarium, take the gondola to Anakeesta on the mountain above Gatlinburg. The combination of the ride up and the mountaintop experience gives first-timers the definitive Smoky Mountains scenic moment — the views from the summit on a clear day contextualize the entire region in a single panoramic sweep.",
+          "activity": "After the aquarium, take the gondola to Anakeesta on the mountain above Gatlinburg. The combination of the ride up and the mountaintop experience gives first-timers the definitive Smoky Mountains scenic moment \u2014 the views from the summit on a clear day contextualize the entire region in a single panoramic sweep.",
           "attractionId": "anakeesta",
-          "tip": "Ask an Anakeesta staff member for the best current photo spot when you arrive. The recommended viewpoints change slightly by season as vegetation grows and the angle of light shifts — local staff will steer you right."
+          "tip": "Ask an Anakeesta staff member for the best current photo spot when you arrive. The recommended viewpoints change slightly by season as vegetation grows and the angle of light shifts \u2014 local staff will steer you right."
         },
         "evening": {
           "activity": "Descend from Anakeesta and visit Old Mill Square for a final Pigeon Forge meal. The working gristmill, Southern comfort food dinner at Old Mill Restaurant, and the general store loaded with local jams, grits, and souvenirs make for a meaningful, locally-rooted close to a first Smoky Mountains visit. Follow dinner with a Calhoun's dessert or a stop along Gatlinburg's main street.",
@@ -969,22 +1001,25 @@
         }
       }
     ],
-    "budgetEstimate": { "low": 300, "high": 600 },
+    "budgetEstimate": {
+      "low": 300,
+      "high": 600
+    },
     "proTips": [
       "As a first-timer, resist the urge to plan too many attractions per day. Quality of experience drops significantly when rushing between 4-5 paid venues in a single day. Two or three attractions per day at a comfortable pace creates better memories.",
-      "Read reviews of your specific cabin or hotel before booking — accommodation quality varies enormously in Pigeon Forge and the difference between a great cabin and a mediocre one significantly impacts the overall trip experience.",
+      "Read reviews of your specific cabin or hotel before booking \u2014 accommodation quality varies enormously in Pigeon Forge and the difference between a great cabin and a mediocre one significantly impacts the overall trip experience.",
       "First-timers consistently underestimate Pigeon Forge traffic. The Parkway (US-441) runs through the heart of the destination and can be extremely slow on summer and fall weekends. Build 15-20 extra minutes into every travel estimate.",
-      "The Great Smoky Mountains National Park is immediately adjacent to Pigeon Forge and completely free (vehicle entry fee) — even if hiking is not your primary purpose, driving through the park on Newfound Gap Road is one of the most beautiful drives in North America.",
-      "Pigeon Forge locals recommend Tuesday and Wednesday as the best weekdays for lower crowds at major attractions — the Monday check-in and Sunday checkout crowds are at the extremes and midweek is noticeably less congested."
+      "The Great Smoky Mountains National Park is immediately adjacent to Pigeon Forge and completely free (vehicle entry fee) \u2014 even if hiking is not your primary purpose, driving through the park on Newfound Gap Road is one of the most beautiful drives in North America.",
+      "Pigeon Forge locals recommend Tuesday and Wednesday as the best weekdays for lower crowds at major attractions \u2014 the Monday check-in and Sunday checkout crowds are at the extremes and midweek is noticeably less congested."
     ],
     "faqs": [
       {
         "question": "What is the most important thing to know before visiting Pigeon Forge for the first time?",
-        "answer": "Book accommodations and dinner shows well in advance — especially for summer and fall leaf season. The Pigeon Forge area has limited lodging relative to demand during peak periods and the best cabins with mountain views and hot tubs go first. Walk-in dinner show availability in peak season is unreliable."
+        "answer": "Book accommodations and dinner shows well in advance \u2014 especially for summer and fall leaf season. The Pigeon Forge area has limited lodging relative to demand during peak periods and the best cabins with mountain views and hot tubs go first. Walk-in dinner show availability in peak season is unreliable."
       },
       {
         "question": "Is Pigeon Forge worth visiting for adults without children?",
-        "answer": "Absolutely. The Smoky Mountains scenery, Anakeesta, Clingmans Dome, the national park, romantic cabin experiences, mountain distillery tours, escape rooms, and the region's improving dining scene all appeal strongly to adults. Dollywood itself is beloved by adults — many couples visit without children specifically for the park."
+        "answer": "Absolutely. The Smoky Mountains scenery, Anakeesta, Clingmans Dome, the national park, romantic cabin experiences, mountain distillery tours, escape rooms, and the region's improving dining scene all appeal strongly to adults. Dollywood itself is beloved by adults \u2014 many couples visit without children specifically for the park."
       },
       {
         "question": "How many days should a first-time Pigeon Forge visitor plan for?",
@@ -996,7 +1031,7 @@
       },
       {
         "question": "Is Pigeon Forge safe for tourists?",
-        "answer": "Yes, Pigeon Forge is a very safe tourist destination. The area is family-oriented, well-lit, and heavily trafficked by tourism. Standard travel precautions apply — watch belongings in crowded areas, be aware of mountain driving conditions in winter, and be cautious on trails in the national park with changing weather. Overall it is among the more relaxed and safe travel environments in the United States."
+        "answer": "Yes, Pigeon Forge is a very safe tourist destination. The area is family-oriented, well-lit, and heavily trafficked by tourism. Standard travel precautions apply \u2014 watch belongings in crowded areas, be aware of mountain driving conditions in winter, and be cautious on trails in the national park with changing weather. Overall it is among the more relaxed and safe travel environments in the United States."
       }
     ],
     "relatedSlugs": [

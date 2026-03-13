@@ -158,6 +158,24 @@ export default function ItineraryPage({ page, attractionsMap }: ItineraryPagePro
           </div>
         </section>
       )}
+
+      {/* Related Activity Guides */}
+      {(page as any).relatedActivitySlugs?.length > 0 && (
+        <section className="border-t border-gray-200 pt-8 mt-4" aria-labelledby="related-activities-heading">
+          <h2 id="related-activities-heading" className="text-lg font-bold text-gray-900 mb-3">Related Activity Guides</h2>
+          <div className="flex flex-wrap gap-2">
+            {(page as any).relatedActivitySlugs.map((slug: string) => (
+              <Link
+                key={slug}
+                href={`/activities/${slug}`}
+                className="bg-amber-50 hover:bg-amber-100 text-amber-800 text-sm px-3 py-1.5 rounded-lg transition-colors"
+              >
+                {slug.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())}
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
     </div>
   );
 }

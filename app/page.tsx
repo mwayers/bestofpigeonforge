@@ -50,8 +50,10 @@ const categories = [
   { label: 'Rainy Day', emoji: '🌧️', href: '/activities/things-to-do-pigeon-forge-rainy-day' },
   { label: 'Free Things', emoji: '🆓', href: '/activities/free-things-to-do-pigeon-forge' },
   { label: 'Romantic', emoji: '💑', href: '/activities/romantic-things-to-do-pigeon-forge' },
+  { label: 'Spring Activities', emoji: '🌸', href: '/activities/pigeon-forge-spring-activities' },
   { label: 'Winter', emoji: '❄️', href: '/activities/things-to-do-pigeon-forge-winter' },
   { label: 'Outdoor', emoji: '🏔️', href: '/activities/outdoor-activities-pigeon-forge' },
+  { label: 'Fall Activities', emoji: '🍂', href: '/activities/pigeon-forge-fall-activities' },
 ];
 
 export default function HomePage() {
