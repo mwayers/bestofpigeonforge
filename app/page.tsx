@@ -127,7 +127,12 @@ export default function HomePage() {
 
       {/* Browse by Category */}
       <section className="max-w-5xl mx-auto px-4 pb-10">
-        <h2 className="text-2xl font-bold text-gray-900 mb-5">Browse by Interest</h2>
+        <div className="flex items-center justify-between mb-5">
+          <h2 className="text-2xl font-bold text-gray-900">Browse by Interest</h2>
+          <Link href="/activities" className="text-sm text-[#1B4332] font-medium hover:underline">
+            All activities →
+          </Link>
+        </div>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
           {categories.map((cat) => (
             <Link
@@ -218,10 +223,18 @@ export default function HomePage() {
       {/* Compare section */}
       <section className="bg-[#1B4332]/5 py-10">
         <div className="max-w-5xl mx-auto px-4">
-          <h2 className="text-2xl font-bold text-gray-900 mb-5">Compare & Decide</h2>
+          <div className="flex items-center justify-between mb-5">
+            <h2 className="text-2xl font-bold text-gray-900">Compare & Decide</h2>
+            <Link href="/compare" className="text-sm text-[#1B4332] font-medium hover:underline">
+              All comparisons →
+            </Link>
+          </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
             {[
               { slug: 'pigeon-forge-vs-gatlinburg', label: 'Pigeon Forge vs Gatlinburg' },
+              { slug: 'pigeon-forge-vs-orlando', label: 'Pigeon Forge vs Orlando' },
+              { slug: 'pigeon-forge-vs-myrtle-beach', label: 'Pigeon Forge vs Myrtle Beach' },
+              { slug: 'pigeon-forge-vs-gatlinburg-for-couples', label: 'PF vs Gatlinburg for Couples' },
               { slug: 'pigeon-forge-snow-vs-ober-mountain', label: 'PF Snow vs Ober Mountain' },
               { slug: 'dollywood-vs-the-island', label: 'Dollywood vs The Island' },
             ].map((comp) => (
