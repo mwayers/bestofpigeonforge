@@ -1553,75 +1553,107 @@
     "metaTitle": "4-Day Pigeon Forge Family Itinerary (With Kids of All Ages)",
     "metaDescription": "The best 4-day Pigeon Forge family itinerary — Dollywood, Pigeon Forge Snow, the aquarium, and the Smokies. Day-by-day plan for families with kids.",
     "h1": "4-Day Pigeon Forge Family Itinerary: Day-by-Day Plan",
-    "intro": "Four days is the sweet spot for a Pigeon Forge family vacation. It's enough time to do Dollywood properly, experience Pigeon Forge Snow, visit the Smokies, and still have a day in Gatlinburg for Ripley's Aquarium — without feeling rushed or exhausted. This itinerary is built for families with kids ages 5 to 14, though it works for nearly any family configuration.",
+    "audience": "Families with children ages 5-14",
+    "duration": "4 days",
+    "season": "any",
+    "intro": "Four days is the sweet spot for a Pigeon Forge family vacation. It's enough time to do Dollywood properly, experience Pigeon Forge Snow, visit the Smokies, and spend a day in Gatlinburg for Ripley's Aquarium — without feeling rushed. This itinerary is built for families with kids ages 5 to 14.",
     "days": [
       {
         "day": 1,
         "title": "Arrival + Pigeon Forge Snow",
-        "activities": [
-          "Check into your cabin or hotel — mountain cabins with hot tubs are the best choice for families",
-          "Head straight to Pigeon Forge Snow for the afternoon — book tickets in advance to avoid sellouts",
-          "Experience real indoor snow — tubing, snow play, and the full mountain atmosphere",
-          "Dinner on the Parkway — Old Mill Square is a short drive and a great first-night option",
-          "Evening on the cabin deck or a quick walk through The Island if energy allows"
-        ],
-        "tips": "Book Pigeon Forge Snow tickets online at least a few days ahead — peak sessions do sell out. Arrive by 2pm for a full afternoon session."
+        "morning": {
+          "activity": "Check into your cabin or hotel and get settled. Grab groceries at Sevierville Walmart before hitting the Parkway.",
+          "tip": "Mountain cabins with hot tubs are the best choice for families — book 2-3 months ahead for summer and fall."
+        },
+        "afternoon": {
+          "activity": "Afternoon session at Pigeon Forge Snow — real indoor snow with tubing lanes. This is the most unique attraction in the region.",
+          "attractionId": "pigeon-forge-snow",
+          "tip": "Book tickets online — peak sessions sell out. Arrive by 2pm for a full session. Bring an extra layer."
+        },
+        "evening": {
+          "activity": "Dinner at Old Mill Square, then The Island fountain show — free, beautiful, a low-key first-night wind-down.",
+          "tip": "The Island fountain show runs nightly and is free. Perfect for tired kids on arrival day."
+        }
       },
       {
         "day": 2,
         "title": "Dollywood — All Day",
-        "activities": [
-          "Arrive at Dollywood at opening (check seasonal hours — usually 10am) to beat the crowds",
-          "Ride Lightning Rod first — it's the most popular coaster and queues build fast",
-          "Morning: work through the major coasters — Wild Eagle, Thunderhead, FireChaser Express",
-          "Lunch at Dollywood — the Grist Mill cinnamon bread is a must-do",
-          "Afternoon: character experiences, shows, and slower family rides for younger kids",
-          "Catch a live music performance in the Village area in late afternoon",
-          "Stay for dinner inside the park — Aunt Granny's buffet is a Dollywood tradition"
-        ],
-        "tips": "Buy tickets online to save $10-15 per person. Consider arriving 30 minutes before opening. On crowded days, use the single rider lines for major coasters."
+        "morning": {
+          "activity": "Arrive at Dollywood at opening. Ride Lightning Rod first — it's the most popular coaster and queues build fast. Then Wild Eagle and Thunderhead.",
+          "attractionId": "dollywood",
+          "tip": "Buy tickets online to save $10-15 per person. Single rider lines cut wait times on crowded days."
+        },
+        "afternoon": {
+          "activity": "FireChaser Express, Celebrity Theater live shows, and family rides in the Village. Don't miss the Wings of America birds of prey show.",
+          "tip": "Grist Mill cinnamon bread is mandatory. Grab it mid-afternoon while browsing the craft shops."
+        },
+        "evening": {
+          "activity": "Dinner inside Dollywood at Aunt Granny's buffet, then a Celebrity Theater evening show before heading home.",
+          "tip": "Check the Dollywood app show schedule before you enter. Celebrity Theater performances fill — arrive 20 minutes early."
+        }
       },
       {
         "day": 3,
         "title": "Gatlinburg + Ripley's Aquarium",
-        "activities": [
-          "Drive to Gatlinburg (25 minutes) — park once in the main Ripley's parking structure",
-          "Ripley's Aquarium of the Smokies — allow 2-3 hours for the full experience",
-          "Don't miss the shark tunnel walkway and touch tanks — these are the highlights for kids",
-          "Lunch in Gatlinburg — Ole Red, Crockett's Breakfast Camp (open for lunch too), or browse the strip",
-          "Afternoon: Anakeesta for mountain views and the treetop skywalk",
-          "Optional: take the Sky Lift Park gondola to Anakeesta's deck for sunset views",
-          "Return to Pigeon Forge for dinner — Hatfield and McCoy Dinner Show is a good family evening option"
-        ],
-        "tips": "Ripley's Aquarium does not require advance booking for walk-in, but weekends can have lines. Anakeesta is worth the entry cost — the views are spectacular and the treetop bridges are a genuine family highlight."
+        "morning": {
+          "activity": "Drive to Gatlinburg (25 min). Park once at the Ripley's garage. Ripley's Aquarium opens at 9am — go early to beat crowds. Allow 2-3 hours.",
+          "attractionId": "ripleys-aquarium",
+          "tip": "Don't miss the shark tunnel and touch tanks. The penguin encounter is a paid add-on worth considering for younger children."
+        },
+        "afternoon": {
+          "activity": "Lunch in Gatlinburg, then Anakeesta for the afternoon — chairlift, treetop skywalk, and AnaVista Tower. Time your visit for golden hour sunset views.",
+          "tip": "Anakeesta is worth the entry cost. The treetop skywalk is a genuine family highlight — allow 3-4 hours."
+        },
+        "evening": {
+          "activity": "Return to Pigeon Forge for a dinner show — Hatfield and McCoy or Pirates Voyage. Pre-book during peak season.",
+          "tip": "Dinner shows include a full meal — no separate dinner needed. Book at least a few days ahead for weekend shows."
+        }
       },
       {
         "day": 4,
         "title": "Great Smoky Mountains National Park",
-        "activities": [
-          "Early morning: drive into the Smokies via Newfound Gap Road — watch for wildlife at dawn",
-          "Alum Cave Trail is the best family hike — 4.4 miles roundtrip, moderate difficulty, stunning views",
-          "For younger kids: Laurel Falls is an easy 2.6-mile roundtrip to one of the Smokies' most beautiful waterfalls",
-          "Clingmans Dome drive and walk for panoramic views (21 miles from Gatlinburg, road open April-November)",
-          "Wildlife watch in Cades Cove — best chance of seeing deer, bears, and wild turkey in an open valley",
-          "Lunch at a picnic area inside the park — bring food from town, no restaurants inside GSMNP",
-          "Head home or final night cabin evening with hot tub"
-        ],
-        "tips": "The national park is free to enter (one vehicle admission pass). Start early — Cades Cove loop road is best before 10am. Download offline maps before you go — cell service is spotty inside the park."
+        "morning": {
+          "activity": "Early start into the park. Alum Cave Trail (4.4 mi roundtrip, moderate) for stunning arch rock and overhanging bluffs. For younger kids: Laurel Falls (2.6 mi, paved) to a beautiful 80-foot waterfall.",
+          "tip": "Download offline maps before entering — cell service is spotty. Trailhead parking fills by 9am on peak days."
+        },
+        "afternoon": {
+          "activity": "Drive Newfound Gap Road to the 5,048-ft state line overlook. Optional: Clingmans Dome drive for the highest point in the Smokies (road open April-November).",
+          "tip": "Clingmans Dome walkway is steep but only 0.5 miles. The 360-degree panoramic view is worth every step."
+        },
+        "evening": {
+          "activity": "Cades Cove wildlife loop — deer, black bears, and wild turkey in an open valley. Best in late afternoon when animals are most active. Final hot tub evening at the cabin.",
+          "tip": "Cades Cove loop is 11 miles and takes 2-4 hours. One-way road — go slow, stop often."
+        }
       }
     ],
-    "practicalInfo": {
-      "bestTime": "May through June for spring wildflowers and manageable crowds. Late September through late October for peak fall foliage — Dollywood's Harvest Festival runs this period and is excellent.",
-      "budget": "Budget approximately $150-250 per person per day including accommodation, Dollywood tickets ($85-100/person), meals, and Pigeon Forge Snow ($30-50/person). A 4-person family can expect $1,500-2,500 total for the trip excluding travel.",
-      "accommodation": "Mountain cabin rentals are the best choice for families — private hot tubs, full kitchens save on meals, and multiple bedrooms give everyone space. Book at least 2-3 months ahead for summer and fall peak periods.",
-      "transportation": "A car is essential in Pigeon Forge. Traffic on the Parkway can be significant in summer and fall — budget extra time for any drive and consider leaving the cabin earlier than you think necessary."
+    "budgetEstimate": {
+      "low": 1500,
+      "high": 2500
     },
-    "highlights": [
-      "Dollywood full day with Lightning Rod and Wild Eagle",
-      "Real indoor snow at Pigeon Forge Snow",
-      "Ripley's Aquarium shark tunnel",
-      "Anakeesta treetop skywalk",
-      "Great Smoky Mountains wildlife and waterfalls"
+    "proTips": [
+      "Book Pigeon Forge Snow tickets and your cabin at least 2-3 months ahead for summer and fall peak season.",
+      "Dollywood tickets bought online save $10-15 per person — buy before you arrive.",
+      "The Great Smoky Mountains National Park is completely free to enter.",
+      "Pack snacks and water for national park days — no restaurants inside the park.",
+      "A mountain cabin with a full kitchen saves $200-400 on meals over a 4-night trip."
+    ],
+    "faqs": [
+      {
+        "question": "What is the best time for a 4-day Pigeon Forge family trip?",
+        "answer": "May through June for spring wildflowers and manageable crowds. Late September through late October for peak fall foliage and Dollywood's Harvest Festival."
+      },
+      {
+        "question": "How much does a 4-day Pigeon Forge family trip cost?",
+        "answer": "Budget $150-250 per person per day including accommodation, Dollywood tickets, meals, and Pigeon Forge Snow. A family of four can expect $1,500-2,500 total excluding travel."
+      },
+      {
+        "question": "Is 4 days enough for Pigeon Forge?",
+        "answer": "Yes — 4 days is the ideal length for a comprehensive first Pigeon Forge family trip. Enough for a full Dollywood day, Pigeon Forge Snow, Ripley's Aquarium, Anakeesta, and a national park day."
+      },
+      {
+        "question": "What is the best cabin rental for families in Pigeon Forge?",
+        "answer": "Look for 2-3 bedroom cabins with private hot tub, full kitchen, and mountain view. Elk Springs Resort and Cabins USA are the most reputable platforms. Book 3-6 months ahead for fall peak."
+      }
     ],
     "relatedSlugs": [
       "3-day-pigeon-forge-family",
@@ -1631,80 +1663,109 @@
   },
   {
     "slug": "pigeon-forge-honeymoon-itinerary",
-    "title": "Pigeon Forge Honeymoon Itinerary: 4 Days of Romance in the Smokies",
+    "title": "Pigeon Forge Honeymoon Itinerary: 4 Romantic Days in the Smokies",
     "metaTitle": "Pigeon Forge Honeymoon Itinerary: 4 Romantic Days in the Smokies",
-    "metaDescription": "Plan the perfect Pigeon Forge honeymoon with this 4-day romantic itinerary — private cabin, Anakeesta, Smokies hikes, and the best couples experiences.",
+    "metaDescription": "Plan the perfect Pigeon Forge honeymoon — private cabin with hot tub, Anakeesta sunset views, national park hikes, and the best couples experiences.",
     "h1": "Pigeon Forge Honeymoon Itinerary: 4 Romantic Days",
-    "intro": "The Smoky Mountains are one of the most popular honeymoon destinations in the Southeast — and for good reason. Private mountain cabins with hot tubs and fireplace views, spectacular scenery, Anakeesta's sunset deck, and the quieter side of the national park create a genuinely romantic combination. This 4-day honeymoon itinerary focuses on experiences that feel special rather than tourist-checklist, while still hitting the highlights that make the Smokies memorable.",
+    "audience": "Newlywed couples and romantic getaways",
+    "duration": "4 days",
+    "season": "any",
+    "intro": "The Smoky Mountains are one of the most popular honeymoon destinations in the Southeast — private mountain cabins with hot tubs, spectacular scenery, Anakeesta's sunset deck, and the quiet side of the national park create a genuinely romantic combination.",
     "days": [
       {
         "day": 1,
         "title": "Arrival + Private Cabin Evening",
-        "activities": [
-          "Check into your honeymoon cabin early — look for properties with private hot tub, fireplace, and mountain view",
-          "Settle in, unpack, and take your first soak in the hot tub before dinner",
-          "Dinner at The Peddler Steakhouse in Gatlinburg — one of the best restaurants in the region, right on a mountain stream",
-          "Evening: private cabin porch with mountain views and a bottle of wine",
-          "No rush — this is your honeymoon"
-        ],
-        "tips": "Book your honeymoon cabin 3-6 months in advance for best selection. Look for 1-bedroom cabins with king bed, private hot tub, gas fireplace, and mountain view — these book fast for peak season."
+        "morning": {
+          "activity": "Check into your honeymoon cabin. Prioritize: private hot tub, king bed, gas fireplace, mountain view. Unpack and settle in — this is home for four days.",
+          "tip": "Book your honeymoon cabin 3-6 months in advance. Call to confirm hot tub is operational and request a mountain view in writing."
+        },
+        "afternoon": {
+          "activity": "First afternoon soak in the private hot tub on the mountain deck. No itinerary, no timelines — just decompress from travel and enjoy the Smoky Mountain views.",
+          "tip": "Many honeymoon cabins have gas fireplaces that work even in warm weather — a nice evening ambiance regardless of season."
+        },
+        "evening": {
+          "activity": "Dinner at The Peddler Steakhouse in Gatlinburg — one of the best restaurants in the Smokies, built over a mountain stream. Make a reservation before arrival.",
+          "tip": "Tell the restaurant it's your honeymoon when you book. The Peddler's legendary salad bar and creek-view tables are the highlights."
+        }
       },
       {
         "day": 2,
         "title": "Anakeesta + Gatlinburg",
-        "activities": [
-          "Slow morning in the cabin — breakfast together, coffee on the deck",
-          "Drive to Gatlinburg (25-30 minutes)",
-          "Anakeesta — take the chairlift up to the mountain park; allow 3-4 hours",
-          "Walk the treetop skywalk, AnaVista Tower for panoramic views, and explore the village area",
-          "Sunset from Anakeesta's deck is one of the best views in the entire Smokies — time your departure accordingly",
-          "Dinner in Gatlinburg — No Way Jose's Cantina for casual, or The Peddler if you didn't go the night before",
-          "Optional: Gatlinburg Space Needle observation deck for evening city and mountain views",
-          "Return to cabin — hot tub under the stars"
-        ],
-        "tips": "Anakeesta tickets are $30-40/person and worth every dollar for couples. Go on a clear day for the best views — the AnaVista Tower views at golden hour are exceptional."
+        "morning": {
+          "activity": "Slow cabin morning — breakfast together, coffee on the mountain deck. Drive to Gatlinburg mid-morning.",
+          "tip": "Stop at a Gatlinburg café for a late breakfast before Anakeesta. There's no rush — this is a honeymoon."
+        },
+        "afternoon": {
+          "activity": "Anakeesta — chairlift up, treetop skywalk, AnaVista Tower. Plan to be at the tower deck at golden hour for the best Smoky Mountain sunset views in the region.",
+          "tip": "Anakeesta tickets are $30-40 per person. The chairlift ride itself with mountain views is already a romantic experience."
+        },
+        "evening": {
+          "activity": "Craft distillery tastings in Gatlinburg — Ole Smoky Moonshine and Sugarlands Distilling both offer free tastings on the main strip. Then dinner at a Gatlinburg restaurant of your choosing.",
+          "tip": "The Gatlinburg craft distillery tastings are free and a fun pre-dinner activity for couples. Ole Smoky and Sugarlands are both easy walks from parking."
+        }
       },
       {
         "day": 3,
-        "title": "Great Smoky Mountains — Romantic Hikes",
-        "activities": [
-          "Early start into the national park before crowds",
-          "Alum Cave Trail to Arch Rock — the first 1.5 miles to Arch Rock is one of the most beautiful short hikes in the Smokies",
-          "For a full romantic hike: continue to Alum Cave Bluffs (4.4 miles roundtrip) — the overhanging cliff views are spectacular",
-          "Picnic lunch at a mountain overlook — pack food from town (no restaurants inside the park)",
-          "Afternoon: Laurel Falls — one of the most picturesque waterfalls in the national park, easy 2.6-mile roundtrip",
-          "Evening: Clingmans Dome at sunset if weather permits — highest point in the Smokies, panoramic views",
-          "Return to cabin — dinner in or one of the Pigeon Forge restaurants for the night"
-        ],
-        "tips": "Download the AllTrails app for Smokies trail maps — cell service is unreliable inside the park. Carry water and snacks. The golden hour light on mountain ridges from the Clingmans Dome ramp is genuinely spectacular for couples."
+        "title": "Smoky Mountains Romance Hikes",
+        "morning": {
+          "activity": "Early start into the national park. Alum Cave Trail (4.4 mi roundtrip, moderate) — the most romantic hike in the Smokies with arch rock, dramatic overhanging bluffs, and mountain ridge views.",
+          "tip": "Start before 9am to get trailhead parking. Bring water, snacks, and layers. Comfortable hiking shoes are a must."
+        },
+        "afternoon": {
+          "activity": "Laurel Falls (2.6 mi, paved) — a beautiful cascade perfect for a post-hike stroll. Pack a picnic lunch and eat at the falls. No restaurants inside the park.",
+          "attractionId": "laurel-falls",
+          "tip": "The paved Laurel Falls trail is scenic and lower-intensity — a perfect afternoon hike after the more demanding Alum Cave morning."
+        },
+        "evening": {
+          "activity": "Clingmans Dome at sunset (road open April-November) — 6,643 feet, 360-degree panoramic view. Then a quiet cabin evening with the mountain fireplace.",
+          "tip": "The Clingmans Dome road closes at sunset — time your drive accordingly. The ramp is steep (0.5 miles) but the view is unmatched in the entire park."
+        }
       },
       {
         "day": 4,
-        "title": "Dollywood + Final Evening",
-        "activities": [
-          "Optional: spend a half-day at Dollywood — the park has enough romance in its Appalachian heritage atmosphere to be worth a visit, even for honeymooners",
-          "Or: sleep in and spend the morning at the cabin — final hot tub session",
-          "Afternoon: Craft distillery tour in Gatlinburg — Ole Smoky Moonshine or Sugarlands Distilling both offer free tastings",
-          "Browse the artisan galleries and shops in Gatlinburg's crafts section",
-          "Final romantic dinner — call ahead and book a table at The Peddler or Cliff Top Restaurant in Gatlinburg",
-          "Return to cabin for your last Smokies evening",
-          "Check-out next morning — take a slow drive through the national park on the way out"
-        ],
-        "tips": "Tell restaurants it's your honeymoon when you book — many will do something special. The craft distillery tastings in Gatlinburg are a fun and free afternoon activity for couples."
+        "title": "Relaxed Final Day",
+        "morning": {
+          "activity": "Sleep in. Final hot tub morning on the mountain deck. Late cabin breakfast — pick up supplies the night before so you don't have to leave early.",
+          "tip": "Ask about late checkout when you book if you want an extra morning hour. Many cabins can accommodate."
+        },
+        "afternoon": {
+          "activity": "Gatlinburg Arts and Crafts Community — 8-mile loop of independent galleries, pottery studios, and craft shops. The authentic, non-commercial side of Gatlinburg most tourists miss.",
+          "tip": "Do the crafts loop by car with stops at galleries that catch your eye. Allow 2-3 hours for a relaxed browse."
+        },
+        "evening": {
+          "activity": "Final romantic dinner — Cliff Top Restaurant at Anakeesta or The Peddler. Book in advance. Toast the trip and head back for your last Smokies cabin night.",
+          "tip": "The Cliff Top Restaurant at Anakeesta has mountain-view dining that's hard to beat. Book 1-2 days ahead."
+        }
       }
     ],
-    "practicalInfo": {
-      "bestTime": "October for peak fall foliage and Dollywood's Harvest Festival. May-June for spring wildflowers and pleasant hiking weather. December for a winter wonderland cabin experience with Dollywood's Smoky Mountain Christmas lights.",
-      "budget": "Expect $250-400 per night for a quality honeymoon cabin. Allow $100-150 per person per day for activities and meals. A 4-night honeymoon trip for two typically runs $1,500-2,500 total excluding travel.",
-      "accommodation": "Private mountain cabins are the non-negotiable for a honeymoon in Pigeon Forge. Look for: king bed, private hot tub, gas fireplace, mountain or valley view, full kitchen. Cabins USA, Elk Springs Resort, and Smoky Mountain Rentals are reputable booking platforms.",
-      "transportation": "A car is essential. Gatlinburg is 25-30 minutes from Pigeon Forge. The national park entrance is 10 minutes from Gatlinburg. Traffic on Pigeon Forge's Parkway can be slow — plan drives accordingly and enjoy the scenic detours."
+    "budgetEstimate": {
+      "low": 1500,
+      "high": 2800
     },
-    "highlights": [
-      "Private mountain cabin with hot tub and fireplace",
-      "Anakeesta sunset views over the Smokies",
-      "Alum Cave Trail romance hike",
-      "Laurel Falls waterfall",
-      "Craft distillery tastings in Gatlinburg"
+    "proTips": [
+      "Book a honeymoon cabin with private hot tub, king bed, gas fireplace, and mountain view — the four non-negotiables for a romantic Smokies cabin.",
+      "Tell every restaurant and booking platform it is your honeymoon — upgrades and special touches happen more often than you'd expect.",
+      "Anakeesta golden hour is the single best couples experience in the Smokies — time your visit for 5-7pm.",
+      "The Great Smoky Mountains National Park is free to enter — the best free romantic experience in the Southeast.",
+      "Book your honeymoon cabin 3-6 months ahead for fall foliage season."
+    ],
+    "faqs": [
+      {
+        "question": "Is Pigeon Forge a good honeymoon destination?",
+        "answer": "Yes — the Smoky Mountains are one of the most popular honeymoon destinations in the Southeast. Private mountain cabins with hot tubs and fireplaces, spectacular national park scenery, and romantic dining make it a genuinely special honeymoon at a fraction of the cost of destination resorts."
+      },
+      {
+        "question": "What is the most romantic thing to do in Pigeon Forge?",
+        "answer": "A private mountain cabin evening with a hot tub under the stars is the defining romantic Pigeon Forge experience. Anakeesta at sunset is the best daytime romantic experience. Alum Cave Trail is the most romantic hike."
+      },
+      {
+        "question": "How much does a Pigeon Forge honeymoon cost?",
+        "answer": "A quality honeymoon cabin runs $250-400 per night. Allow $100-150 per day for activities and meals. A 4-night honeymoon for two typically runs $1,500-2,800 total excluding travel."
+      },
+      {
+        "question": "When is the best time for a Pigeon Forge honeymoon?",
+        "answer": "October for peak fall foliage. May-June for spring wildflowers. December for a winter cabin honeymoon with Dollywood Christmas lights. All seasons work — winter honeymoons with fireplace cabins are particularly cozy."
+      }
     ],
     "relatedSlugs": [
       "weekend-pigeon-forge-couple",
@@ -1714,69 +1775,94 @@
   },
   {
     "slug": "pigeon-forge-senior-itinerary",
-    "title": "Pigeon Forge for Seniors: 3-Day Itinerary for Older Adults",
+    "title": "Pigeon Forge for Seniors: Best 3-Day Itinerary for Older Adults",
     "metaTitle": "Pigeon Forge for Seniors: Best 3-Day Itinerary for Older Adults",
     "metaDescription": "Plan a comfortable, memorable Pigeon Forge trip for seniors — a 3-day itinerary focused on scenic drives, accessible attractions, great food, and the best of the Smokies.",
-    "h1": "Pigeon Forge for Seniors: A 3-Day Itinerary for Older Travelers",
-    "intro": "Pigeon Forge and the Smoky Mountains are genuinely wonderful for senior travelers — the scenery is spectacular, many of the best attractions are accessible and low-physical-demand, and the overall pace can be as relaxed as you want it to be. This 3-day itinerary is designed for older adults who want to experience the best of the Smokies without extensive hiking, long waits, or exhausting crowds — including the best accessible viewpoints, most comfortable dining, and the senior-friendly side of Dollywood.",
+    "h1": "Pigeon Forge for Seniors: A 3-Day Itinerary",
+    "audience": "Senior travelers and older adults",
+    "duration": "3 days",
+    "season": "any",
+    "intro": "Pigeon Forge and the Smoky Mountains are genuinely wonderful for senior travelers. The scenery is spectacular, many of the best attractions are accessible and low-physical-demand, and the overall pace can be as relaxed as you want. This itinerary is designed for older adults who want to experience the best of the Smokies without extensive hiking, long waits, or exhausting crowds.",
     "days": [
       {
         "day": 1,
-        "title": "Scenic Drives + Old Mill District",
-        "activities": [
-          "Morning: Parkway orientation drive — take it slow and scout what appeals to you",
-          "Old Mill Square in Pigeon Forge — a beautifully preserved 19th-century grist mill complex with local shops and restaurant",
-          "Lunch at Old Mill Restaurant — serving traditional Southern and Appalachian food in a historic setting",
-          "Afternoon: drive to Gatlinburg via the historic Glades Road (scenic back route) rather than the main highway",
-          "Browse the Gatlinburg Crafts Community — 8-mile loop of independent artisan galleries",
-          "Early dinner in Gatlinburg — The Peddler or Crockett's Breakfast Camp for a relaxed, unhurried meal",
-          "Return via the main route with evening views of the mountain ridge"
-        ],
-        "tips": "Parking at Old Mill Square is free and easy — the area is flat and walkable. The crafts loop can be driven slowly if walking is difficult."
+        "title": "Old Mill + Gatlinburg Crafts",
+        "morning": {
+          "activity": "Begin at Old Mill Square in Pigeon Forge — a beautifully preserved 19th-century grist mill district with local shops and traditional Southern food. Flat walking, ample parking, and a relaxed pace.",
+          "tip": "Parking at Old Mill Square is free and easy. The complex is flat and fully accessible. Arrive before 11:30am to beat the lunch rush at Old Mill Restaurant."
+        },
+        "afternoon": {
+          "activity": "Lunch at Old Mill Restaurant, then drive the scenic Glades Road to Gatlinburg through the Arts and Crafts Community — 8 miles of independent artisan galleries. Fully car-based with stops only at galleries of interest.",
+          "tip": "The Gatlinburg crafts loop can be driven entirely from the car — no need to walk the full loop if walking is difficult."
+        },
+        "evening": {
+          "activity": "Early dinner in Gatlinburg — The Peddler Steakhouse or Crockett's Breakfast Camp for a relaxed meal. Return to Pigeon Forge via the main road for evening mountain ridge views.",
+          "tip": "Make a reservation for The Peddler. Ask for a window table for the creek view. It fills on weekend evenings."
+        }
       },
       {
         "day": 2,
-        "title": "Dollywood — Best of the Park",
-        "activities": [
-          "Dollywood is genuinely senior-friendly — focus on the shows, food, and gentler rides",
-          "Arrive at opening and head straight to the Tennessee Tornado or FireChaser Express if roller coasters interest you",
-          "Celebrity Theater live entertainment shows — the best musical acts in the park, seated and air-conditioned",
-          "Dollywood's Grist Mill cinnamon bread — do not skip this",
-          "Wings of America birds of prey show — spectacular outdoor performance",
-          "Lunch at Aunt Granny's family-style restaurant — excellent Southern food inside the park",
-          "Afternoon: DreamMore Resort porch or Dollywood's crafts demonstrations",
-          "Take the park tram between zones — no need to walk the full distance"
-        ],
-        "tips": "Dollywood offers complimentary wheelchair and ECV (electric scooter) rentals — call ahead to reserve an ECV as they go quickly. Most shows are accessible and many have reserved seating for mobility needs."
+        "title": "Dollywood Best of",
+        "morning": {
+          "activity": "Arrive at Dollywood at opening. Head straight to Celebrity Theater for live entertainment shows — seated, air-conditioned, and genuinely excellent. Check the day's show schedule on the Dollywood app first.",
+          "attractionId": "dollywood",
+          "tip": "Dollywood offers complimentary ECV (electric scooter) rentals — call ahead to reserve one. Most shows and attractions are fully accessible. Senior tickets (60+) are discounted."
+        },
+        "afternoon": {
+          "activity": "Wings of America birds of prey show. Craftsman's Valley craft demonstrations. Lunch at Aunt Granny's family-style buffet — outstanding Southern food inside the park.",
+          "tip": "Use the Dollywood park tram between zones — no need to walk the full park distance. Tram stops are clearly marked."
+        },
+        "evening": {
+          "activity": "Hatfield and McCoy Dinner Show for the evening — seated entertainment with a full dinner included, no extra driving or decisions required. Book in advance.",
+          "tip": "Hatfield and McCoy includes a full meal. Book in advance during peak season. No need to find a separate dinner restaurant."
+        }
       },
       {
         "day": 3,
-        "title": "Great Smoky Mountains Scenic Drive",
-        "activities": [
-          "Drive Newfound Gap Road — the main road through the national park is one of the most spectacular scenic drives in the US",
-          "Stop at Newfound Gap overlook — you are standing on the Tennessee-North Carolina state line at 5,048 feet",
-          "Clingmans Dome viewpoint drive (seasonal, road open April-November) — 0.5-mile paved (but steep) walkway to the observation tower",
-          "For easier access: Oconaluftee Visitor Center on the North Carolina side — flat walking, wildlife exhibits",
-          "Roadside wildlife watching — deer and elk sightings are common with slow, patient driving",
-          "Lunch at a Gatlinburg restaurant on the way back — take your time",
-          "Afternoon: Ripley's Aquarium of the Smokies — completely accessible, no hiking, no crowds outside peak times",
-          "Final evening: The Island fountain show in Pigeon Forge — free, beautiful, no walking required beyond the short stroll from parking"
-        ],
-        "tips": "The Clingmans Dome walkway is steep but short — 0.5 miles with significant elevation gain. The viewing platform views are extraordinary and worth the effort, but the Newfound Gap overlook is an excellent substitute if climbing is not feasible."
+        "title": "Smokies Scenic Drive + Aquarium",
+        "morning": {
+          "activity": "Drive Newfound Gap Road — one of the most spectacular scenic drives in the US, requiring zero hiking. Multiple overlooks including Newfound Gap at 5,048 feet on the state line. Watch for deer and elk roadside.",
+          "tip": "Start before 10am to avoid peak midday traffic. National park entrance is free. Download offline Smokies maps — cell service is unreliable inside the park."
+        },
+        "afternoon": {
+          "activity": "Ripley's Aquarium of the Smokies in Gatlinburg — completely flat, fully accessible, no hiking. The shark tunnel conveyor walkway requires no walking at all. Allow 2-3 hours.",
+          "attractionId": "ripleys-aquarium",
+          "tip": "Ripley's is entirely accessible including the shark tunnel conveyor walkway. Best visited on a weekday afternoon to avoid peak Saturday crowds."
+        },
+        "evening": {
+          "activity": "The Island fountain show — free, short flat walk from parking, runs nightly. Grab ice cream from an Island shop and find a spot near the fountain. A lovely, low-effort finale to the trip.",
+          "tip": "The Island parking is free. The fountain show is posted at the entrance. Plan to arrive 10 minutes before showtime."
+        }
       }
     ],
-    "practicalInfo": {
-      "bestTime": "May and June for mild temperatures and spring wildflowers. September and early October for pleasant weather and the beginning of fall color. Avoid peak summer July-August if heat is a concern.",
-      "budget": "Pigeon Forge accommodates every budget — from comfortable motels at $80-120/night to resort properties and cabin rentals. Dollywood tickets for seniors (60+) are $5-10 less than adult price. The national park is free to enter.",
-      "accommodation": "Ground-floor cabin rentals or hotel rooms with elevator access are the most comfortable. Many Pigeon Forge hotels are on the Parkway with easy access to restaurants without extensive walking.",
-      "transportation": "A car is essential. Pigeon Forge does not have reliable public transportation. If driving is not possible, several tour companies operate Smoky Mountains day trips from Knoxville and nearby cities."
+    "budgetEstimate": {
+      "low": 800,
+      "high": 1500
     },
-    "highlights": [
-      "Old Mill Square and traditional Southern lunch",
-      "Dollywood live entertainment and celebrity theater shows",
-      "Newfound Gap Road scenic drive through the national park",
-      "Ripley's Aquarium of the Smokies — fully accessible",
-      "Gatlinburg artisan crafts community loop"
+    "proTips": [
+      "Dollywood offers senior discounts (60+) and complimentary ECV rentals — call ahead to reserve a scooter.",
+      "The Great Smoky Mountains National Park scenic drive is one of the best accessible attractions in the region — free, spectacular, and no hiking required.",
+      "Old Mill Square is one of the few areas in Pigeon Forge with genuine local character and easy flat walking.",
+      "May and June offer mild temperatures ideal for senior travel — avoid peak July-August heat if possible.",
+      "Make restaurant reservations in advance for The Peddler and dinner shows — they fill on weekends."
+    ],
+    "faqs": [
+      {
+        "question": "Is Pigeon Forge good for seniors?",
+        "answer": "Yes — Pigeon Forge has excellent accessible attractions for seniors including Dollywood with ECV rentals, Ripley's Aquarium (fully flat), the Great Smoky Mountains scenic drive (no hiking), and Old Mill Square. The pace can be as relaxed as you want."
+      },
+      {
+        "question": "Is Dollywood accessible for seniors?",
+        "answer": "Yes — Dollywood is highly accessible with complimentary wheelchair and ECV rentals, elevator access, accessible shows, and senior discount pricing. Call ahead to reserve an ECV on peak days."
+      },
+      {
+        "question": "What is the easiest thing to do in the Smoky Mountains for seniors?",
+        "answer": "The Newfound Gap Road scenic drive requires zero hiking and offers some of the best views in the entire eastern US. Ripley's Aquarium has a conveyor walkway through the shark tunnel that requires no walking at all."
+      },
+      {
+        "question": "What time of year is best for seniors visiting Pigeon Forge?",
+        "answer": "May and June for mild temperatures and spring wildflowers. September and early October for pleasant weather and fall color. Avoid peak summer July-August heat. Winter is quiet and affordable."
+      }
     ],
     "relatedSlugs": [
       "pigeon-forge-adults-only",
@@ -1786,68 +1872,95 @@
   },
   {
     "slug": "pigeon-forge-long-weekend-3-day",
-    "title": "Pigeon Forge Long Weekend: The Best 3-Day Trip from Anywhere in the Southeast",
+    "title": "Pigeon Forge Long Weekend: The Best 3-Day Trip from the Southeast",
     "metaTitle": "Pigeon Forge 3-Day Long Weekend Itinerary (Drive-In Friendly)",
     "metaDescription": "The perfect Pigeon Forge long weekend — 3 days, all the highlights, done right. Dollywood, Pigeon Forge Snow, the Smokies, and Gatlinburg without the stress.",
     "h1": "Pigeon Forge Long Weekend: Best 3-Day Itinerary",
-    "intro": "A long weekend in Pigeon Forge — Friday through Sunday or Saturday through Monday — is enough time to hit every major highlight without feeling rushed. This itinerary is optimized for people driving in from Nashville, Atlanta, Charlotte, or anywhere within 4-5 hours: arrive Friday afternoon, hit the highlights over the weekend, and drive home refreshed. No wasted hours, no skipped must-dos.",
+    "audience": "Drive-in visitors from Atlanta, Nashville, Charlotte, and the Southeast",
+    "duration": "3 days",
+    "season": "any",
+    "intro": "A long weekend in Pigeon Forge is enough time to hit every major highlight without feeling rushed. This itinerary is optimized for people driving in from Nashville, Atlanta, Charlotte, or anywhere within 4-5 hours — arrive Friday afternoon, hit the highlights, and drive home refreshed.",
     "days": [
       {
         "day": 1,
         "title": "Friday Arrival + Pigeon Forge Snow",
-        "activities": [
-          "Arrive Friday afternoon — aim to check in by 3pm if possible",
-          "Head directly to Pigeon Forge Snow for a 3pm or 4pm session (book in advance)",
-          "Real indoor snow tubing and snow play — a perfect way to start the trip",
-          "Dinner at a Parkway standby — The Old Mill, Huck Finn's Catfish, or Timber Lodge Steakhouse",
-          "Evening: The Island in Pigeon Forge for the fountain show — free and beautiful after dark",
-          "Early night — Dollywood tomorrow requires energy"
-        ],
-        "tips": "If you can't make Pigeon Forge Snow on Day 1, it works as a Saturday afternoon activity after Dollywood closes. Book tickets in advance regardless."
+        "morning": {
+          "activity": "Drive in and aim to arrive by early afternoon. Check in to your cabin or hotel, grab groceries at Sevierville Walmart before hitting the Parkway.",
+          "tip": "Friday afternoon Parkway traffic can be slow — arrive before 2pm or after 7pm. Pre-shop for cabin groceries before you hit the Parkway."
+        },
+        "afternoon": {
+          "activity": "Pigeon Forge Snow afternoon session — real indoor snow with tubing lanes. Book tickets in advance as peak sessions sell out.",
+          "attractionId": "pigeon-forge-snow",
+          "tip": "If Pigeon Forge Snow doesn't work Day 1, it fits as a Saturday afternoon after Dollywood. Book tickets regardless — weekend sell-outs are common."
+        },
+        "evening": {
+          "activity": "Dinner at Old Mill, Huck Finn's Catfish, or Timber Lodge Steakhouse. Then The Island fountain show — free, beautiful, a perfect low-key first evening.",
+          "tip": "The Island fountain show is free nightly. Grab ice cream from an Island shop and watch from near the fountain."
+        }
       },
       {
         "day": 2,
         "title": "Saturday — Dollywood All Day",
-        "activities": [
-          "Arrive at Dollywood at opening — 10am most days, check seasonal schedule",
-          "Ride Lightning Rod immediately — it draws the biggest crowds fastest",
-          "Morning: tackle all major coasters while queues are manageable",
-          "Midday: take a break with food — Grist Mill cinnamon bread is mandatory",
-          "Afternoon: explore Craftsman's Valley, catch a show, ride FireChaser with the family",
-          "Late afternoon: Dollywood's waterpark Splash Country if it's summer season and you have combo tickets",
-          "Dinner inside the park or return to Pigeon Forge for your evening",
-          "Evening: Hatfield and McCoy Dinner Show or Pirates Voyage if you pre-booked tickets"
-        ],
-        "tips": "Dollywood is best on weekdays — if your long weekend runs Monday to Wednesday, shift Dollywood to Monday for the shortest queues. Buy tickets online in advance and save $10-15 per person."
+        "morning": {
+          "activity": "Arrive at Dollywood at opening. Lightning Rod first — it draws the biggest crowds fastest. Then Wild Eagle and Thunderhead while queues are manageable.",
+          "attractionId": "dollywood",
+          "tip": "Dollywood is best on weekdays — if your long weekend runs Monday-Wednesday, shift Dollywood to Monday. Buy tickets online in advance to save $10-15 per person."
+        },
+        "afternoon": {
+          "activity": "Craftsman's Valley, Celebrity Theater show, FireChaser Express, and family rides. Grist Mill cinnamon bread for a mid-afternoon snack is mandatory.",
+          "tip": "Check the Dollywood app show schedule before you enter — Celebrity Theater performances are some of the best free-included entertainment in the park."
+        },
+        "evening": {
+          "activity": "Dinner inside Dollywood at Aunt Granny's buffet, or return to Pigeon Forge for a pre-booked dinner show — Hatfield and McCoy or Pirates Voyage.",
+          "tip": "Hatfield and McCoy runs nightly and includes a full meal. Book in advance during peak season."
+        }
       },
       {
         "day": 3,
         "title": "Sunday — Gatlinburg + Smokies Drive",
-        "activities": [
-          "Morning: drive to Gatlinburg (25-30 min) — park at the Ripley's garage",
-          "Ripley's Aquarium of the Smokies — 2-3 hours, don't miss the shark tunnel",
-          "Walk Gatlinburg's main strip for food and browsing",
-          "Lunch: Crockett's Breakfast Camp or No Way Jose's Cantina",
-          "Afternoon: drive into the Great Smoky Mountains National Park via Newfound Gap Road",
-          "Stop at Chimney Tops overlook and Newfound Gap for panoramic views — no hiking required",
-          "Watch for wildlife: deer are common roadside, bears are frequent in the Sugarlands area",
-          "Drive home Sunday evening or stay one more night for an easier Monday departure"
-        ],
-        "tips": "Sunday mornings in the national park are quieter than Saturday — go early. Newfound Gap Road is open year-round, but Clingmans Dome road closes in winter (November-March). The park entrance is free."
+        "morning": {
+          "activity": "Drive to Gatlinburg (25-30 min). Park at the Ripley's garage. Ripley's Aquarium opens at 9am — go early. The shark tunnel walkway is the highlight — don't rush it.",
+          "attractionId": "ripleys-aquarium",
+          "tip": "Sunday mornings in Gatlinburg are quieter than Saturdays. Arrive at opening for the best experience."
+        },
+        "afternoon": {
+          "activity": "Lunch in Gatlinburg, then drive into the Great Smoky Mountains National Park via Newfound Gap Road. Multiple spectacular overlooks — no hiking required. Watch for deer and bears roadside.",
+          "tip": "National park entrance is free. Download offline maps before entering — cell service is unreliable inside the park."
+        },
+        "evening": {
+          "activity": "Return to Pigeon Forge for a final Parkway dinner or early departure for the drive home. Sunday evening traffic out of Pigeon Forge is lighter than Saturday — a good time to leave.",
+          "tip": "If driving home Sunday evening, aim to leave by 5pm to beat the outbound weekend traffic. Stop for gas in Sevierville before the highway."
+        }
       }
     ],
-    "practicalInfo": {
-      "bestTime": "Any season works for a Pigeon Forge long weekend. Spring (April-June) and fall (September-October) are ideal. Summer is peak crowd season but Dollywood's waterpark makes it worth it. Winter is underrated — Dollywood's Christmas lights are extraordinary.",
-      "budget": "A 3-night long weekend for two adults: roughly $600-900 for accommodation, $350-500 for Dollywood tickets and Pigeon Forge Snow, $200-300 for meals. Total range: $1,200-1,700 for two people not including drive costs.",
-      "accommodation": "For a long weekend, a Parkway hotel is more convenient than a cabin for quick access. If you want the full cabin experience, book at least 2 months ahead for prime fall weekends.",
-      "transportation": "Car required. Friday afternoon Parkway traffic can be slow — arrive before 2pm or after 7pm for the smoothest drive in."
+    "budgetEstimate": {
+      "low": 1200,
+      "high": 1800
     },
-    "highlights": [
-      "Pigeon Forge Snow — real indoor snow to kick off the trip",
-      "Full Dollywood day including Lightning Rod",
-      "Ripley's Aquarium shark tunnel in Gatlinburg",
-      "Newfound Gap Road scenic drive through the Smokies",
-      "Smoky Mountains wildlife watching"
+    "proTips": [
+      "Book Pigeon Forge Snow tickets and accommodation at least 1-2 months ahead for peak season long weekends.",
+      "Dollywood tickets bought online save $10-15 per person — buy before you arrive.",
+      "The national park is free — the best free activity in the region.",
+      "Friday afternoon Parkway traffic is the worst congestion — arrive before 2pm or after 7pm.",
+      "Sunday evening is the best time to drive home — outbound traffic is lighter than Saturday."
+    ],
+    "faqs": [
+      {
+        "question": "Is 3 days enough for Pigeon Forge?",
+        "answer": "Yes — 3 days covers all the major highlights: Dollywood, Pigeon Forge Snow, Ripley's Aquarium, and the national park. A 4-5 day trip lets you go deeper, but 3 days is a complete and satisfying Pigeon Forge experience."
+      },
+      {
+        "question": "What is the best long weekend trip from Atlanta to Pigeon Forge?",
+        "answer": "Atlanta to Pigeon Forge is about 4 hours. A Friday-Sunday long weekend works well: arrive Friday for Pigeon Forge Snow, Dollywood on Saturday, and Gatlinburg plus the national park on Sunday. This is one of the most popular Southeast long weekend road trips."
+      },
+      {
+        "question": "What is the best long weekend trip from Nashville to Pigeon Forge?",
+        "answer": "Nashville to Pigeon Forge is about 3 hours — even easier than Atlanta. Same 3-day framework applies: Pigeon Forge Snow on arrival Friday, Dollywood Saturday, Gatlinburg and the national park Sunday."
+      },
+      {
+        "question": "How much does a Pigeon Forge long weekend cost for two adults?",
+        "answer": "Budget roughly $600-900 for accommodation, $350-500 for Dollywood tickets and Pigeon Forge Snow, and $200-300 for meals. Total for two adults: $1,200-1,800 not including drive costs."
+      }
     ],
     "relatedSlugs": [
       "3-day-pigeon-forge-family",

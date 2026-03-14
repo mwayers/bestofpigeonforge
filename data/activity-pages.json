@@ -3461,40 +3461,53 @@
   },
   {
     "slug": "pigeon-forge-snow-review",
-    "title": "Pigeon Forge Snow Review: Is It Worth It? (Honest 2025 Guide)",
+    "title": "Pigeon Forge Snow Review: Is It Worth It? (2025 Guide)",
     "metaTitle": "Pigeon Forge Snow Review: Is It Worth It in 2025?",
     "metaDescription": "Honest Pigeon Forge Snow review — what to expect, pricing, best sessions, age recommendations, and whether it's worth it for your family.",
-    "h1": "Pigeon Forge Snow Review: Everything You Need to Know Before You Go",
-    "intro": "Pigeon Forge Snow is one of the most talked-about and genuinely unique attractions in the Smokies — a year-round indoor snow experience with real snow, tubing lanes, and a mountain atmosphere unlike anything else in the Southeast. But is it worth it? How long does it actually last? What age is it best for? This review covers everything based on the actual experience, not the marketing.",
-    "sections": [
+    "h1": "Pigeon Forge Snow Review: Everything You Need to Know",
+    "audience": "Families and first-time visitors considering Pigeon Forge Snow",
+    "intro": "Pigeon Forge Snow is one of the most talked-about attractions in the Smokies — a year-round indoor real-snow experience with tubing lanes and a mountain atmosphere unlike anything else in the Southeast. But is it worth it? How long do sessions last? What age is it best for? Here's an honest review covering the actual experience.",
+    "filterTags": [
+      "indoor",
+      "snow",
+      "family"
+    ],
+    "attractionIds": [
+      "pigeon-forge-snow"
+    ],
+    "proTips": [
+      "Book tickets online in advance — peak sessions (holidays, fall weekends, spring break) sell out regularly.",
+      "Arrive 10-15 minutes early to get gear sorted before your session starts.",
+      "Bring or wear warm underlayers — the venue provides snow gear but layers underneath help.",
+      "Bring a change of dry clothes — kids will get wet and want to stay longer than planned.",
+      "The 2-3 hour session length is right for most families — longer sessions are available but rarely necessary."
+    ],
+    "faqs": [
       {
-        "heading": "What Is Pigeon Forge Snow?",
-        "content": "Pigeon Forge Snow is an indoor real-snow experience located at 2533 Teaster Lane in Pigeon Forge, a short drive off the main Parkway. The attraction uses real snow — generated and maintained year-round regardless of outside temperature — filling a large indoor mountain-themed space. Activities include snow tubing on dedicated lanes, snow play areas, and the overall immersive experience of being in actual snowfall inside a climate-controlled environment. It's not a ski slope — expect a play-focused, family-oriented experience rather than athletic skiing."
+        "question": "Is Pigeon Forge Snow worth it?",
+        "answer": "For families with young children, yes — decisively. Real indoor snow in any season is genuinely magical for kids under 10, and the tubing lanes deliver a real rush for older children and adults. Session tickets run $30-55 per person. For adults without children, the experience is fun and novel but primarily designed for a family audience."
       },
       {
-        "heading": "Is Pigeon Forge Snow Worth the Price?",
-        "content": "For families with young children, yes — decisively. The experience of real indoor snow in any season is genuinely magical for kids under 10, and the tubing lanes deliver a real adrenaline rush even for older children and adults. Session tickets run approximately $30-55 per person depending on the session type and duration. For a family of four, that's $120-220 for a 2-3 hour session — comparable to a movie theater outing on a per-hour basis, with a significantly more memorable experience. For adults without children, the value calculation is more personal — the experience is fun and novel but primarily designed for a family audience."
+        "question": "How long is a Pigeon Forge Snow session?",
+        "answer": "Standard sessions run 2-3 hours. This is enough time to tube multiple times and fully experience everything without feeling rushed. Most families find 2-3 hours is the right length before kids start to get cold or restless."
       },
       {
-        "heading": "How Long Is a Pigeon Forge Snow Session?",
-        "content": "Standard sessions run 2-3 hours. This is enough time to tube multiple times, play in the snow, and fully experience everything on offer without feeling rushed. Longer sessions are available but not necessary for most visitors — most families find 2-3 hours is the right length before kids start to get cold or restless. Dress warmly: the temperature inside is maintained at a cold-weather level and the facility provides snow gear, but wearing layers underneath is recommended."
+        "question": "What age is Pigeon Forge Snow best for?",
+        "answer": "The sweet spot is ages 3 through 14. Toddlers and young children are enchanted by real snow — many have never experienced it. School-age children love the tubing and snow play. Teens can enjoy it but may find it lower-intensity than a real ski resort."
       },
       {
-        "heading": "What Age Is Pigeon Forge Snow Best For?",
-        "content": "The sweet spot is ages 3 through 14. Toddlers and young children are genuinely enchanted by real snow — many have never experienced it before. School-age children love the tubing lanes and snow play with obvious enthusiasm. Teens can enjoy it but may find it lower-intensity than a real ski resort. Adults accompanying children have a genuinely fun experience. Seniors and adults without kids can enjoy it, but should calibrate expectations to a family-focused attraction rather than a thrill experience."
+        "question": "Is Pigeon Forge Snow open year-round?",
+        "answer": "Yes — Pigeon Forge Snow is open year-round, which is exactly what makes it unique. Whether it is a hot July afternoon or a rainy October morning, you can walk in and experience real snow indoors."
       },
       {
-        "heading": "Tips for Visiting Pigeon Forge Snow",
-        "content": "Book tickets in advance online — peak sessions (holidays, weekends in fall and summer) do sell out. Arrive 10-15 minutes early to get gear sorted before your session starts. Bring or wear: warm underlayers (provided snow gear goes over your clothes), waterproof gloves if you have them (though the provided gear is adequate), and change of dry clothes for after. The on-site warming area and café are good between sessions. If you're visiting in true winter, outdoor snow in the Smokies is possible — check conditions before booking, since real snow outside is free."
+        "question": "Do I need to book Pigeon Forge Snow in advance?",
+        "answer": "Yes — always book online in advance. Peak sessions including holiday weekends, spring break, and fall foliage season regularly sell out. Online booking also saves time at check-in."
       }
     ],
-    "verdict": "Pigeon Forge Snow earns its reputation as one of the most genuinely unique and memorable attractions in the Smokies. For families with young children, it's a near-certain highlight of any trip. For adults and teens without young kids, it's a fun novelty best paired with other Pigeon Forge attractions on the same day. Book in advance, dress warm, and budget 2-3 hours — that's all you need for the full experience.",
-    "highlights": [
-      "Real indoor snow — not fake, not foam — year-round",
-      "Dedicated snow tubing lanes with real runs",
-      "Best attraction in the Smokies for children under 10",
-      "Unique in the entire Southeast — nothing else like it",
-      "2-3 hour sessions are the right length for most families"
+    "nearbyFood": [
+      "old-mill",
+      "paula-deens",
+      "hatfield-mccoy"
     ],
     "relatedSlugs": [
       "pigeon-forge-snow-vs-dollywood-winterfest",
@@ -3504,40 +3517,51 @@
   },
   {
     "slug": "best-cabins-pigeon-forge",
-    "title": "Best Cabins in Pigeon Forge: How to Find the Right One for Your Trip",
+    "title": "Best Cabins in Pigeon Forge: How to Find the Right One",
     "metaTitle": "Best Cabins in Pigeon Forge: What to Know Before You Book",
     "metaDescription": "Find the best Pigeon Forge cabin for your trip — what features matter, the best booking platforms, price ranges, and tips for getting the right cabin.",
-    "h1": "Best Cabins in Pigeon Forge: A Practical Guide to Booking Right",
-    "intro": "Pigeon Forge cabin rentals are the defining accommodation experience of a Smoky Mountains trip — private hot tubs on mountain decks, fireplaces, game rooms, and stunning ridge views that no hotel can match. But there are thousands of cabins to choose from, the quality range is enormous, and booking mistakes are common. This guide cuts through the noise to help you find the right cabin for your trip.",
-    "sections": [
+    "h1": "Best Cabins in Pigeon Forge: A Practical Booking Guide",
+    "audience": "Families, couples, and groups planning a Pigeon Forge cabin rental",
+    "intro": "Pigeon Forge cabin rentals are the defining accommodation experience of a Smoky Mountains trip — private hot tubs on mountain decks, fireplaces, game rooms, and stunning ridge views that no hotel can match. But there are thousands of cabins, the quality range is enormous, and booking mistakes are common. This guide cuts through the noise to help you find the right cabin for your trip.",
+    "filterTags": [
+      "accommodation",
+      "cabins",
+      "planning"
+    ],
+    "attractionIds": [],
+    "proTips": [
+      "Book fall foliage season (mid-September through late October) and summer holiday weekends 3-6 months in advance — the best properties go early.",
+      "Always read reviews from the last 3 months — cabin conditions change and recent reviews are the most reliable indicator.",
+      "Confirm the hot tub is operational before arrival — ask when booking and get confirmation in writing.",
+      "Wears Valley cabins are the most secluded with the best mountain views. Pigeon Forge proper cabins are most convenient to the Parkway attractions.",
+      "Full kitchen cabins save $200-400 on meals for a 4-night family stay — factor this into your accommodation cost comparison."
+    ],
+    "faqs": [
       {
-        "heading": "What to Look For in a Pigeon Forge Cabin",
-        "content": "The features that actually matter: private hot tub (this is non-negotiable for most visitors — confirm it's truly private, not shared), mountain view vs. tree view (mountain views cost more but are worth it for the ambiance), number of bedrooms vs. sleeping capacity (sleeps-12 often means pull-out sofas, not 12 real beds — verify real bedroom count), age and condition (photos can be misleading — read recent reviews specifically mentioning cleanliness and maintenance), and location (Wears Valley cabins tend to be more secluded; Pigeon Forge proper cabins are closer to the Parkway attractions)."
+        "question": "What is the best cabin booking platform for Pigeon Forge?",
+        "answer": "Elk Springs Resort is consistently praised for newer, well-maintained properties. Cabins USA has the largest selection and a good balance of price and quality. VRBO allows direct-owner booking which can yield better rates. Avoid budget discount aggregator sites without proper vetting."
       },
       {
-        "heading": "Best Cabin Booking Platforms",
-        "content": "Cabins USA, Elk Springs Resort, Smoky Mountains by Wyndham, and VRBO are the four most reputable booking options. Elk Springs Resort is consistently praised for newer, well-maintained properties with strong quality control. Cabins USA has the largest selection and a good balance of price and quality. VRBO allows direct-owner booking which can yield better rates and more personal service. Avoid budget discount sites that aggregate cabins without proper vetting — the savings rarely justify the quality uncertainty."
+        "question": "How much do Pigeon Forge cabins cost?",
+        "answer": "1-bedroom romantic cabins run $150-250/night off-peak and $250-400/night in peak fall and holiday season. 2-3 bedroom family cabins run $200-350/night off-peak and $350-600/night peak. Large group cabins (4-6 bedrooms) run $400-800/night. Cleaning fees add $75-150 per stay."
       },
       {
-        "heading": "Price Ranges and What You Get",
-        "content": "1-bedroom romantic cabins run $150-250/night in off-peak and $250-400/night in peak fall and holiday season. 2-3 bedroom family cabins run $200-350/night off-peak and $350-600/night in peak. Large group cabins (4-6 bedrooms) run $400-800/night. All prices exclude cleaning fees which can add $75-150 to a shorter stay — factor this in when comparing rates. The best value is typically a 3-night or longer stay where the cleaning fee is spread across more nights."
+        "question": "What features should I look for in a Pigeon Forge cabin?",
+        "answer": "Private hot tub (non-negotiable for most visitors — confirm it's truly private, not shared), mountain view vs tree view, actual bedroom count vs sleeping capacity (sleeps-12 often means pull-out sofas — verify real beds), age and condition (read recent reviews), and location (Wears Valley for seclusion, Pigeon Forge proper for convenience)."
       },
       {
-        "heading": "Best Areas for Cabins",
-        "content": "Pigeon Forge proper cabins are most convenient to Dollywood, the Parkway, and restaurants — best for families focused on commercial attractions. Gatlinburg-area cabins are 5-10 minutes from the national park entrance and Gatlinburg's dining — best for hikers and couples. Wears Valley cabins are the most secluded with some of the best mountain views — best for people who want maximum peace and quiet with beautiful scenery. Sevierville cabins are cheaper and still close to everything — a good budget option."
+        "question": "What is the best area for cabins in Pigeon Forge?",
+        "answer": "Pigeon Forge proper cabins are most convenient to Dollywood and the Parkway. Gatlinburg-area cabins are 5-10 minutes from the national park entrance. Wears Valley cabins are the most secluded with the best mountain views. Sevierville cabins are cheaper and still close to everything."
       },
       {
-        "heading": "Booking Tips",
-        "content": "Book fall foliage season (mid-September through late October) and summer holiday weekends at least 3-6 months in advance — the best properties go early. For off-peak spring and winter trips, 4-6 weeks is usually sufficient. Always read reviews specifically from the last 3 months — cabin conditions change. Call the rental office if you have questions about specific cabin features — don't rely solely on listing photos. Confirm the hot tub is operational before arrival (ask when booking). Request a mountain view confirmation in writing."
+        "question": "How far in advance should I book a Pigeon Forge cabin?",
+        "answer": "Fall foliage season and summer holiday weekends: 3-6 months in advance. Spring and winter off-peak trips: 4-6 weeks is usually sufficient. The best honeymoon and premium romantic cabins book fastest — prioritize early for those."
       }
     ],
-    "verdict": "A quality Pigeon Forge cabin is one of the best accommodation experiences in the Southeast — the combination of private hot tub, mountain deck, and full kitchen makes for a genuinely special trip. Do the research, read recent reviews, and book through a reputable platform. The difference between a great cabin and a disappointing one often comes down to the 20 minutes you invest in vetting your choice before booking.",
-    "highlights": [
-      "Private hot tub on a mountain deck — the definitive Pigeon Forge accommodation experience",
-      "Full kitchens save $200-400 on meals for a 4-night family stay",
-      "Elk Springs Resort and Cabins USA are the most reputable booking platforms",
-      "Book 3-6 months ahead for fall foliage season",
-      "Wears Valley cabins offer the best seclusion and mountain views"
+    "nearbyFood": [
+      "old-mill",
+      "paula-deens",
+      "alamo-steakhouse"
     ],
     "relatedSlugs": [
       "romantic-things-to-do-pigeon-forge",
@@ -3549,54 +3573,62 @@
     "slug": "pigeon-forge-without-dollywood",
     "title": "Things to Do in Pigeon Forge Without Dollywood (Full Day Plans)",
     "metaTitle": "What to Do in Pigeon Forge Without Dollywood: 20+ Best Options",
-    "metaDescription": "Not going to Dollywood? Here's everything worth doing in Pigeon Forge — full day plans, hidden gems, and the best non-Dollywood attractions in the Smokies.",
+    "metaDescription": "Not going to Dollywood? Here's everything worth doing in Pigeon Forge — full day plans, hidden gems, and the best non-Dollywood attractions.",
     "h1": "Pigeon Forge Without Dollywood: 20+ Things to Do",
-    "intro": "Dollywood is the headline attraction, but Pigeon Forge has plenty to offer if you're skipping it — whether Dollywood isn't right for your group, you've already been, or you're just looking for a different pace. The Smoky Mountains, Gatlinburg, and Pigeon Forge's other attractions can fill multiple days on their own. Here's everything worth doing.",
-    "sections": [
+    "audience": "Visitors to Pigeon Forge not visiting Dollywood",
+    "intro": "Dollywood is the headline attraction, but Pigeon Forge has plenty to offer if you're skipping it — whether it's not right for your group, you've already been, or you want a different pace. The Smoky Mountains, Gatlinburg, and Pigeon Forge's other attractions can fill multiple days on their own.",
+    "filterTags": [
+      "no-dollywood",
+      "alternatives",
+      "activities"
+    ],
+    "attractionIds": [
+      "pigeon-forge-snow",
+      "ripleys-aquarium",
+      "anakeesta",
+      "wonderworks",
+      "escape-game",
+      "titanic-museum",
+      "comedy-barn",
+      "hatfield-mccoy",
+      "pirates-voyage",
+      "rowdy-bear",
+      "alpine-coaster",
+      "the-island",
+      "old-mill",
+      "clingmans-dome",
+      "laurel-falls"
+    ],
+    "proTips": [
+      "The Great Smoky Mountains National Park is free to enter and is the best non-Dollywood experience in the region — trailheads, scenic drives, and wildlife start 10-15 minutes from Pigeon Forge.",
+      "Pigeon Forge Snow is the most unique non-Dollywood attraction — book sessions in advance.",
+      "Ripley's Aquarium in Gatlinburg is world-class and a full half-day experience on its own.",
+      "Anakeesta in Gatlinburg has the best mountain views in the region without requiring serious hiking.",
+      "Dinner shows (Hatfield and McCoy, Pirates Voyage, Comedy Barn) are the classic Pigeon Forge evening experience and work with or without a Dollywood day."
+    ],
+    "faqs": [
       {
-        "heading": "The Great Smoky Mountains National Park",
-        "content": "The most visited national park in the US and completely free. Newfound Gap Road is one of the most spectacular scenic drives anywhere — no hiking required. Laurel Falls is the most popular waterfall trail (2.6 miles roundtrip, paved). Alum Cave Trail offers the most dramatic scenery for moderate hikers. Cades Cove is the best wildlife-viewing area — deer, black bears, and wild turkey in an open valley. The park is 10-15 minutes from the Pigeon Forge/Gatlinburg border and is available every day you're there."
+        "question": "Is Pigeon Forge worth visiting without Dollywood?",
+        "answer": "Absolutely. The Great Smoky Mountains National Park, Pigeon Forge Snow, Ripley's Aquarium, Anakeesta, and the dinner show circuit provide multiple full days of excellent experiences with no Dollywood required. The national park alone makes any Smokies trip worth the drive."
       },
       {
-        "heading": "Pigeon Forge Snow",
-        "content": "Year-round real indoor snow — tubing, snow play, and a fully immersive mountain snow experience. This is the most unique non-Dollywood attraction in Pigeon Forge and one that most visitors consider a genuine highlight of the trip. Book in advance as sessions sell out."
+        "question": "What is the best Pigeon Forge attraction that's not Dollywood?",
+        "answer": "Pigeon Forge Snow is the most unique and most-talked-about non-Dollywood attraction — real indoor year-round snow with no Southeast equivalent. Ripley's Aquarium of the Smokies is the best family attraction in Gatlinburg. Anakeesta is the best mountain views experience."
       },
       {
-        "heading": "Ripley's Aquarium of the Smokies (Gatlinburg)",
-        "content": "A 25-minute drive to Gatlinburg brings you to one of the best aquariums in the Southeast. The shark tunnel walkway is the centerpiece — moving conveyor belt through a 340-degree underwater tunnel surrounded by sharks and rays. Touch tanks, jellyfish galleries, and penguin encounters round out an excellent 2-3 hour experience."
+        "question": "How many days do you need in Pigeon Forge without Dollywood?",
+        "answer": "2-3 days comfortably fills a Pigeon Forge trip without Dollywood: one day at Pigeon Forge Snow and the Parkway attractions, one day in Gatlinburg (Ripley's + Anakeesta), and one day in the national park. That's a complete and excellent Smokies trip."
       },
       {
-        "heading": "Anakeesta",
-        "content": "Mountain park experience in Gatlinburg with a chairlift, treetop skywalk, and AnaVista Tower with 360-degree Smoky Mountain views. One of the best views in the entire region and accessible without serious hiking. Worth the $30-40 entry fee for the scenery alone."
-      },
-      {
-        "heading": "WonderWorks",
-        "content": "Interactive science and experiment attraction in an upside-down building on the Parkway. Better for curious kids ages 8-14 than young toddlers. Plan about 2 hours."
-      },
-      {
-        "heading": "Dinner Shows",
-        "content": "Hatfield and McCoy Dinner Show, Lumberjack Feud, Comedy Barn, and Pirates Voyage are the most popular. These are a distinctly Pigeon Forge experience — equal parts meal and entertainment. Book in advance during peak season. Comedy Barn skews older/adult; the others work well for families."
-      },
-      {
-        "heading": "The Island and The Parkway",
-        "content": "The Island is a free-entry entertainment complex with a giant observation wheel, restaurants, shops, and a nightly fountain show. The fountain show is free and runs evenings — a perfect low-cost evening activity. The Parkway itself has mini golf, go-karts, and walking entertainment for hours."
-      },
-      {
-        "heading": "Old Mill Square",
-        "content": "A genuinely charming historic district with a working 19th-century grist mill, pottery, candy shop, and the Old Mill Restaurant serving traditional Southern food. One of the few places in Pigeon Forge with real local character rather than tourist-chain atmosphere."
-      },
-      {
-        "heading": "Alpine Coaster at Rowdy Bear",
-        "content": "A 3,000-foot mountain coaster that riders control themselves — go fast or take it slow. One of the best pure-fun experiences in Pigeon Forge for kids and adults alike. Rowdy Bear Mountain also has mountain coasters, gem mining, and an aerial adventure course."
+        "question": "What is free to do in Pigeon Forge?",
+        "answer": "The Great Smoky Mountains National Park is free to enter. The Island fountain show is free nightly. Gatlinburg's main strip and Old Mill Square are free to walk and browse. Craft distillery tastings in Gatlinburg are free. Scenic drives through the national park are among the best free activities in the Southeast."
       }
     ],
-    "verdict": "Pigeon Forge without Dollywood is still a full trip. Between Pigeon Forge Snow, the national park, Ripley's Aquarium, Anakeesta, dinner shows, and Old Mill Square, you can easily fill 3-4 days without setting foot in Dollywood. The Smoky Mountains alone make any trip to the area worth the drive.",
-    "highlights": [
-      "Great Smoky Mountains National Park — free, spectacular, 10 minutes away",
-      "Pigeon Forge Snow — the most unique non-Dollywood attraction in the region",
-      "Ripley's Aquarium — world-class shark tunnel experience",
-      "Anakeesta — best mountain views in the Smokies without serious hiking",
-      "Dinner shows — the classic Pigeon Forge evening experience"
+    "nearbyFood": [
+      "old-mill",
+      "paula-deens",
+      "hatfield-mccoy",
+      "comedy-barn"
     ],
     "relatedSlugs": [
       "indoor-activities-pigeon-forge",
