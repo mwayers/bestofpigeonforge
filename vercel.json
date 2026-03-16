@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "bestofpigeonforge.com"
+        }
+      ],
+      "destination": "https://www.bestofpigeonforge.com/$1",
+      "permanent": true
+    }
+  ]
+}
