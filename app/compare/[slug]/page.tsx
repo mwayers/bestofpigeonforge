@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import comparisonPagesData from '@/data/comparison-pages.json';
 import type { ComparisonPage } from '@/lib/types';
 import ComparisonPageComponent from '@/components/ComparisonPage';
-import { buildMetadata, faqSchema, breadcrumbSchema } from '@/lib/seo';
+import { buildMetadata, faqSchema, breadcrumbSchema, speakableSchema, articleSchema } from '@/lib/seo';
 
 const comparisonPages = comparisonPagesData as ComparisonPage[];
 
@@ -32,6 +32,12 @@ export default function CompareSlugPage({ params }: { params: { slug: string } }
       { name: 'Compare', url: '/compare' },
       { name: page.title, url: `/compare/${page.slug}` },
     ]),
+    speakableSchema(`/compare/${page.slug}`),
+    articleSchema({
+      title: page.title,
+      description: page.metaDescription,
+      url: `/compare/${page.slug}`,
+    }),
   ];
 
   return (

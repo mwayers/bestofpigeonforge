@@ -80,4 +80,54 @@ export function touristAttractionSchema(name: string, description: string, addre
   };
 }
 
+export function speakableSchema(url: string, cssSelectors: string[] = []) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: 'Best of Pigeon Forge',
+    speakable: {
+      '@type': 'SpeakableSpecification',
+      cssSelector: cssSelectors.length > 0 ? cssSelectors : ['h1', '.page-intro', '.verdict', '.faq-answer'],
+    },
+    url: `${BASE_URL}${url}`,
+  };
+}
+
+export function articleSchema({
+  title,
+  description,
+  url,
+  datePublished = '2026-03-11',
+  dateModified,
+}: {
+  title: string;
+  description: string;
+  url: string;
+  datePublished?: string;
+  dateModified?: string;
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: title,
+    description,
+    author: {
+      '@type': 'Organization',
+      name: 'Best of Pigeon Forge',
+      url: BASE_URL,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Best of Pigeon Forge',
+      url: BASE_URL,
+    },
+    datePublished,
+    dateModified: dateModified || datePublished,
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `${BASE_URL}${url}`,
+    },
+  };
+}
+
 export const BASE = BASE_URL;

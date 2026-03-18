@@ -4,7 +4,7 @@ import itineraryPagesData from '@/data/itinerary-pages.json';
 import attractionsData from '@/data/attractions.json';
 import type { ItineraryPage, Attraction } from '@/lib/types';
 import ItineraryPageComponent from '@/components/ItineraryPage';
-import { buildMetadata, faqSchema, breadcrumbSchema } from '@/lib/seo';
+import { buildMetadata, faqSchema, breadcrumbSchema, speakableSchema, articleSchema } from '@/lib/seo';
 
 const itineraryPages = itineraryPagesData as ItineraryPage[];
 const attractions = attractionsData as Attraction[];
@@ -36,6 +36,12 @@ export default function ItinerarySlugPage({ params }: { params: { slug: string }
       { name: 'Itineraries', url: '/itineraries' },
       { name: page.title, url: `/itineraries/${page.slug}` },
     ]),
+    speakableSchema(`/itineraries/${page.slug}`),
+    articleSchema({
+      title: page.title,
+      description: page.metaDescription,
+      url: `/itineraries/${page.slug}`,
+    }),
   ];
 
   return (

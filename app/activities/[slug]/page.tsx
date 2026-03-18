@@ -4,7 +4,7 @@ import activityPagesData from '@/data/activity-pages.json';
 import attractionsData from '@/data/attractions.json';
 import type { ActivityListPage, Attraction } from '@/lib/types';
 import ActivityListPageComponent from '@/components/ActivityListPage';
-import { buildMetadata, faqSchema, breadcrumbSchema } from '@/lib/seo';
+import { buildMetadata, faqSchema, breadcrumbSchema, speakableSchema, articleSchema } from '@/lib/seo';
 
 const activityPages = activityPagesData as ActivityListPage[];
 const attractions = attractionsData as Attraction[];
@@ -42,6 +42,12 @@ export default function ActivityPage({ params }: { params: { slug: string } }) {
       { name: 'Activities', url: '/activities' },
       { name: page.title, url: `/activities/${page.slug}` },
     ]),
+    speakableSchema(`/activities/${page.slug}`),
+    articleSchema({
+      title: page.title,
+      description: page.metaDescription,
+      url: `/activities/${page.slug}`,
+    }),
   ];
 
   return (
