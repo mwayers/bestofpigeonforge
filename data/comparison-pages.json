@@ -3245,5 +3245,113 @@
       "pigeon-forge-honeymoon-itinerary",
       "romantic-things-to-do-pigeon-forge"
     ]
+  },
+  {
+    "slug": "dollywood-vs-ripleys-aquarium",
+    "title": "Dollywood vs Ripley's Aquarium: Which Is Better for Families?",
+    "metaTitle": "Dollywood vs Ripley's Aquarium: Which Should You Choose?",
+    "metaDescription": "Dollywood vs Ripley's Aquarium of the Smokies — compare rides, animals, price, age fit, and when each attraction makes the most sense for families.",
+    "h1": "Dollywood vs Ripley's Aquarium: Which Should You Choose?",
+    "intro": "Dollywood and Ripley's Aquarium of the Smokies are two of the strongest family attractions in the entire Smoky Mountains region, but they serve completely different purposes. Dollywood is a full-scale theme park built for a full day of rides, shows, and food. Ripley's Aquarium is a compact, high-quality indoor attraction with broad appeal, especially for younger children and rainy days. If your group only has time or budget for one, here's how to decide.",
+    "subjectA": {
+      "name": "Dollywood",
+      "pros": [
+        "Full-day theme park with coasters, family rides, shows, and food",
+        "One of the best regional theme parks in the United States",
+        "Works for mixed-age groups because it has both thrill rides and family attractions",
+        "Outstanding seasonal events including Harvest Festival and Smoky Mountain Christmas",
+        "A much bigger 'trip anchor' attraction than any indoor venue"
+      ],
+      "cons": [
+        "Significantly more expensive than the aquarium for a family",
+        "Requires more planning and more walking",
+        "Weather matters — rain and heat affect the experience",
+        "Can be overwhelming for toddlers or grandparents with mobility issues"
+      ],
+      "bestFor": "Families with school-age children, thrill-seekers, mixed-age groups wanting a full-day anchor activity, and anyone visiting Pigeon Forge for more than two nights"
+    },
+    "subjectB": {
+      "name": "Ripley's Aquarium of the Smokies",
+      "pros": [
+        "Indoor, weather-proof, and easy on a rainy or cold day",
+        "Excellent for toddlers and younger children",
+        "A 2-3 hour attraction rather than a full exhausting day",
+        "The shark tunnel and penguins are genuinely memorable",
+        "Located in walkable downtown Gatlinburg, making it easy to combine with other activities"
+      ],
+      "cons": [
+        "Smaller experience overall — not a full-day anchor like Dollywood",
+        "Less exciting for teens who want rides and thrill attractions",
+        "Still pricey for a short indoor attraction",
+        "Can feel crowded in the middle of the day"
+      ],
+      "bestFor": "Families with toddlers, rainy-day visitors, grandparents, visitors staying only 1-2 nights, and groups wanting a lighter half-day activity"
+    },
+    "verdict": "If you only choose one and have kids old enough for rides, Dollywood is the bigger, better, more complete Smoky Mountains attraction. If you have toddlers, bad weather, or only want a shorter half-day activity, Ripley's Aquarium is the smarter pick. The best trip does both: Dollywood as the main event, aquarium as the ideal rainy-day or Gatlinburg half-day plan.",
+    "featureTable": [
+      {
+        "feature": "Trip Role",
+        "a": "Main event — full-day anchor attraction",
+        "b": "Half-day supporting activity"
+      },
+      {
+        "feature": "Best Age Range",
+        "a": "Best for ages 6+ but works for all ages",
+        "b": "Best for toddlers through preteens"
+      },
+      {
+        "feature": "Weather",
+        "a": "Weather-dependent outdoor park",
+        "b": "Fully indoor and weather-proof"
+      },
+      {
+        "feature": "Time Needed",
+        "a": "Full day",
+        "b": "2-3 hours"
+      },
+      {
+        "feature": "Excitement",
+        "a": "High — coasters, rides, shows",
+        "b": "Moderate — sharks, penguins, touch tanks"
+      },
+      {
+        "feature": "Cost Value",
+        "a": "Higher cost but much larger experience",
+        "b": "Lower total spend but shorter attraction"
+      },
+      {
+        "feature": "Location",
+        "a": "Pigeon Forge",
+        "b": "Downtown Gatlinburg"
+      },
+      {
+        "feature": "Best Use Case",
+        "a": "Full vacation day centerpiece",
+        "b": "Rain day or easy family half-day"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is Dollywood better than Ripley's Aquarium?",
+        "answer": "For most families with kids old enough for rides, yes — Dollywood is the bigger and more complete attraction. It's a full-day park with much higher entertainment value. Ripley's Aquarium is excellent, but it's best thought of as a strong half-day indoor attraction rather than the main event of a Smokies vacation."
+      },
+      {
+        "question": "Which is better for toddlers — Dollywood or Ripley's Aquarium?",
+        "answer": "Ripley's Aquarium is usually better for toddlers. It's easier, more compact, indoors, and the penguins, shark tunnel, and touch tanks land really well with younger kids. Dollywood can still work for toddlers because of its family rides, but it requires much more walking and stamina."
+      },
+      {
+        "question": "Can you do both Dollywood and Ripley's Aquarium on the same trip?",
+        "answer": "Absolutely — and that's the best approach for a 3-4 day Smokies trip. Use Dollywood as the main full-day attraction, then add Ripley's Aquarium as a Gatlinburg half-day or rainy-day plan."
+      },
+      {
+        "question": "Which is cheaper — Dollywood or Ripley's Aquarium?",
+        "answer": "Ripley's Aquarium is cheaper in total, especially for small families. Dollywood tickets are more expensive but deliver a full-day experience. The aquarium is shorter and simpler, which is why its lower price makes sense."
+      }
+    ],
+    "relatedSlugs": [
+      "dollywood-vs-the-island",
+      "ripley-aquarium-smoky-mountains-review",
+      "1-day-pigeon-forge-itinerary"
+    ]
   }
 ]
