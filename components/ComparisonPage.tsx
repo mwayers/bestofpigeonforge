@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import type { ComparisonPage as ComparisonPageType } from '@/lib/types';
+import type { ComparisonPage as ComparisonPageType, BodySection } from '@/lib/types';
 import FAQAccordion from './FAQAccordion';
 import Breadcrumb from './Breadcrumb';
 
@@ -131,6 +131,18 @@ export default function ComparisonPage({ page }: ComparisonPageProps) {
         </h2>
         <p className="text-gray-700 leading-relaxed">{page.verdict}</p>
       </section>
+
+      {/* Body Sections — rich expanded content */}
+      {page.bodySections && page.bodySections.length > 0 && (
+        <section className="mb-10 space-y-8">
+          {page.bodySections.map((section: BodySection, i: number) => (
+            <div key={i}>
+              <h2 className="text-xl font-bold text-gray-900 mb-3">{section.heading}</h2>
+              <p className="text-gray-700 leading-relaxed">{section.content}</p>
+            </div>
+          ))}
+        </section>
+      )}
 
       {/* FAQs */}
       {page.faqs.length > 0 && (

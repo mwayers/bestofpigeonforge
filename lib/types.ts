@@ -21,6 +21,11 @@ export interface FAQ {
   answer: string;
 }
 
+export interface BodySection {
+  heading: string;
+  content: string;
+}
+
 export interface ActivityListPage {
   slug: string;
   title: string;
@@ -31,6 +36,7 @@ export interface ActivityListPage {
   intro: string;
   filterTags: string[];
   attractionIds: string[];
+  bodySections?: BodySection[];
   proTips: string[];
   faqs: FAQ[];
   nearbyFood: string[];
@@ -73,6 +79,7 @@ export interface ComparisonPage {
   subjectB: { name: string; pros: string[]; cons: string[]; bestFor: string };
   verdict: string;
   featureTable: { feature: string; a: string; b: string }[];
+  bodySections?: BodySection[];
   faqs: FAQ[];
   relatedSlugs: string[];
 }
