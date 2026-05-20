@@ -768,5 +768,82 @@
     ],
     "lastUpdated": "2026-05-20",
     "relatedSlugs": []
+  },
+  {
+    "slug": "average-cost-meal-pigeon-forge",
+    "title": "Average Cost Meal Pigeon Forge",
+    "metaTitle": "Average Cost Meal Pigeon Forge | Best of Pigeon Forge",
+    "metaDescription": "Current ticket prices and costs for Meal Pigeon Forge in Pigeon Forge. Updated pricing, deals, and money-saving tips.",
+    "h1": "Average Cost Meal Pigeon Forge",
+    "pageType": "cost",
+    "attraction": "Meal Pigeon Forge",
+    "intro": "Planning your budget for Meal Pigeon Forge? Here's exactly what you can expect to pay, plus tips to save money.",
+    "pricingTiers": [
+      {
+        "tier": "Adult",
+        "price": "$XX",
+        "notes": "Standard adult admission"
+      },
+      {
+        "tier": "Child",
+        "price": "$XX",
+        "notes": "Ages 4-11 (varies by attraction)"
+      },
+      {
+        "tier": "Senior",
+        "price": "$XX",
+        "notes": "Ages 60+"
+      },
+      {
+        "tier": "Group",
+        "price": "$XX",
+        "notes": "10+ people"
+      }
+    ],
+    "moneySavingTips": [
+      "Buy tickets online in advance for discounts",
+      "Look for combo passes if visiting multiple attractions",
+      "Visit during off-peak weekdays for lower rates",
+      "Check local coupon books and visitor guides",
+      "Follow the attraction's social media for flash sales"
+    ],
+    "bodySections": [
+      {
+        "heading": "What's Included",
+        "content": "Content placeholder..."
+      },
+      {
+        "heading": "Add-Ons & Upgrades",
+        "content": "Content placeholder..."
+      },
+      {
+        "heading": "Free Parking & Extras",
+        "content": "Content placeholder..."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How much does Meal Pigeon Forge cost?",
+        "answer": "Current pricing details placeholder..."
+      },
+      {
+        "question": "Are there discounts available?",
+        "answer": "Discount info placeholder..."
+      },
+      {
+        "question": "Is parking free?",
+        "answer": "Parking info placeholder..."
+      },
+      {
+        "question": "Can I buy tickets at the door?",
+        "answer": "Ticket purchase info placeholder..."
+      },
+      {
+        "question": "What's the best way to save money?",
+        "answer": "Money-saving tips placeholder..."
+      }
+    ],
+    "lastUpdated": "2026-05-20",
+    "relatedSlugs": []
   }
 ]
