@@ -669,5 +669,127 @@
       }
     ],
     "relatedSlugs": []
+  },
+  {
+    "slug": "pigeon-forge-fall-festival",
+    "title": "Pigeon Forge Fall Festival",
+    "metaTitle": "Pigeon Forge Fall Festival | Best of Pigeon Forge",
+    "metaDescription": "Celebrate Fall Festival in Pigeon Forge! Events, activities, and tips for your holiday visit.",
+    "h1": "Pigeon Forge Fall Festival",
+    "pageType": "holiday",
+    "eventName": "Fall Festival",
+    "intro": "Fall Festival in Pigeon Forge is something special. Here's everything happening and how to plan your visit.",
+    "eventHighlights": [
+      "Highlight 1",
+      "Highlight 2",
+      "Highlight 3"
+    ],
+    "specialActivities": [
+      "Activity 1",
+      "Activity 2",
+      "Activity 3"
+    ],
+    "diningOptions": [
+      "Restaurant 1",
+      "Restaurant 2"
+    ],
+    "bodySections": [
+      {
+        "heading": "Fall Festival Events & Celebrations",
+        "content": "Content placeholder..."
+      },
+      {
+        "heading": "Special Attractions & Hours",
+        "content": "Content placeholder..."
+      },
+      {
+        "heading": "Where to Eat",
+        "content": "Content placeholder..."
+      },
+      {
+        "heading": "Tips for Visiting During {event}",
+        "content": "Content placeholder..."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What's open on Fall Festival in Pigeon Forge?",
+        "answer": "Hours placeholder..."
+      },
+      {
+        "question": "Are there special events?",
+        "answer": "Events placeholder..."
+      },
+      {
+        "question": "Should I book in advance?",
+        "answer": "Booking advice placeholder..."
+      },
+      {
+        "question": "How crowded is it?",
+        "answer": "Crowd info placeholder..."
+      }
+    ],
+    "relatedSlugs": []
+  },
+  {
+    "slug": "pigeon-forge-winterfest",
+    "title": "Pigeon Forge Winterfest",
+    "metaTitle": "Pigeon Forge Winterfest | Best of Pigeon Forge",
+    "metaDescription": "Celebrate Winterfest in Pigeon Forge! Events, activities, and tips for your holiday visit.",
+    "h1": "Pigeon Forge Winterfest",
+    "pageType": "holiday",
+    "eventName": "Winterfest",
+    "intro": "Winterfest in Pigeon Forge is something special. Here's everything happening and how to plan your visit.",
+    "eventHighlights": [
+      "Highlight 1",
+      "Highlight 2",
+      "Highlight 3"
+    ],
+    "specialActivities": [
+      "Activity 1",
+      "Activity 2",
+      "Activity 3"
+    ],
+    "diningOptions": [
+      "Restaurant 1",
+      "Restaurant 2"
+    ],
+    "bodySections": [
+      {
+        "heading": "Winterfest Events & Celebrations",
+        "content": "Content placeholder..."
+      },
+      {
+        "heading": "Special Attractions & Hours",
+        "content": "Content placeholder..."
+      },
+      {
+        "heading": "Where to Eat",
+        "content": "Content placeholder..."
+      },
+      {
+        "heading": "Tips for Visiting During {event}",
+        "content": "Content placeholder..."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What's open on Winterfest in Pigeon Forge?",
+        "answer": "Hours placeholder..."
+      },
+      {
+        "question": "Are there special events?",
+        "answer": "Events placeholder..."
+      },
+      {
+        "question": "Should I book in advance?",
+        "answer": "Booking advice placeholder..."
+      },
+      {
+        "question": "How crowded is it?",
+        "answer": "Crowd info placeholder..."
+      }
+    ],
+    "relatedSlugs": []
   }
 ]
