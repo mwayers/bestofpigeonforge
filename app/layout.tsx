@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { Inter } from 'next/font/google';
 import Link from 'next/link';
 import Script from 'next/script';
@@ -13,8 +13,12 @@ export const metadata: Metadata = {
   },
   description: 'Discover the best things to do in Pigeon Forge, TN. Attractions, itineraries, and insider tips for families, couples, and first-time visitors.',
   metadataBase: new URL('https://www.bestofpigeonforge.com'),
+};
+
+export const viewport: Viewport = {
   themeColor: '#1B4332',
-  viewport: 'width=device-width, initial-scale=1',
+  width: 'device-width',
+  initialScale: 1,
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
