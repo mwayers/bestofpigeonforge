@@ -978,5 +978,75 @@
       }
     ],
     "relatedSlugs": []
+  },
+  {
+    "slug": "pigeon-forge-school-trip",
+    "title": "Pigeon Forge School Trip",
+    "metaTitle": "Pigeon Forge School Trip | Best of Pigeon Forge",
+    "metaDescription": "Pigeon Forge for school trip: the best attractions, tips, and itinerary ideas tailored just for you.",
+    "h1": "Pigeon Forge School Trip",
+    "pageType": "persona",
+    "audience": "School Trip",
+    "intro": "Visiting Pigeon Forge with school trip? Here's everything you need to know for the perfect trip.",
+    "topPicks": [
+      {
+        "name": "Must-Do #1",
+        "why": "Why it's perfect for this audience"
+      },
+      {
+        "name": "Must-Do #2",
+        "why": "Why it's perfect for this audience"
+      },
+      {
+        "name": "Must-Do #3",
+        "why": "Why it's perfect for this audience"
+      }
+    ],
+    "practicalTips": [
+      "Tip tailored to this audience",
+      "Another relevant tip",
+      "One more practical suggestion"
+    ],
+    "whatToAvoid": [
+      "Avoid 1",
+      "Avoid 2"
+    ],
+    "bodySections": [
+      {
+        "heading": "Best Attractions for School Trip",
+        "content": "Content placeholder..."
+      },
+      {
+        "heading": "Where to Stay",
+        "content": "Content placeholder..."
+      },
+      {
+        "heading": "Dining Recommendations",
+        "content": "Content placeholder..."
+      },
+      {
+        "heading": "Tips & Tricks",
+        "content": "Content placeholder..."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is Pigeon Forge good for school trip?",
+        "answer": "Assessment placeholder..."
+      },
+      {
+        "question": "What should we do first?",
+        "answer": "Priority placeholder..."
+      },
+      {
+        "question": "Where should we stay?",
+        "answer": "Lodging placeholder..."
+      },
+      {
+        "question": "Any tips for first-timers?",
+        "answer": "Tips placeholder..."
+      }
+    ],
+    "relatedSlugs": []
   }
 ]
