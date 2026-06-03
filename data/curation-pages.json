@@ -3032,5 +3032,87 @@
       }
     ],
     "relatedSlugs": []
+  },
+  {
+    "slug": "best-things-to-do-gatlinburg",
+    "title": "Best Things To Do Gatlinburg",
+    "metaTitle": "Best Things To Do Gatlinburg | Best of Pigeon Forge",
+    "metaDescription": "The best things to do gatlinburg in Pigeon Forge, ranked and reviewed. Local picks, honest reviews, and where to go.",
+    "h1": "Best Things To Do Gatlinburg",
+    "pageType": "curation",
+    "category": "Things To Do Gatlinburg",
+    "intro": "Looking for the best things to do gatlinburg in Pigeon Forge? We've done the research so you don't have to.",
+    "rankedList": [
+      {
+        "rank": 1,
+        "name": "Top Pick",
+        "why": "Why this is #1",
+        "address": "Address placeholder"
+      },
+      {
+        "rank": 2,
+        "name": "Runner-Up",
+        "why": "Why this is #2",
+        "address": "Address placeholder"
+      },
+      {
+        "rank": 3,
+        "name": "Third Place",
+        "why": "Why this is #3",
+        "address": "Address placeholder"
+      },
+      {
+        "rank": 4,
+        "name": "Honorable Mention",
+        "why": "Notable for...",
+        "address": "Address placeholder"
+      },
+      {
+        "rank": 5,
+        "name": "Budget Pick",
+        "why": "Best value",
+        "address": "Address placeholder"
+      }
+    ],
+    "criteria": [
+      "Taste/quality",
+      "Value",
+      "Atmosphere",
+      "Service",
+      "Family-friendliness"
+    ],
+    "bodySections": [
+      {
+        "heading": "How We Ranked the Best Things To Do Gatlinburg",
+        "content": "Content placeholder..."
+      },
+      {
+        "heading": "Honorable Mentions",
+        "content": "Content placeholder..."
+      },
+      {
+        "heading": "What to Avoid",
+        "content": "Content placeholder..."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What's the best things to do gatlinburg in Pigeon Forge?",
+        "answer": "Top pick placeholder..."
+      },
+      {
+        "question": "Are these kid-friendly?",
+        "answer": "Family info placeholder..."
+      },
+      {
+        "question": "Do I need reservations?",
+        "answer": "Booking info placeholder..."
+      },
+      {
+        "question": "What's the best value option?",
+        "answer": "Value pick placeholder..."
+      }
+    ],
+    "relatedSlugs": []
   }
 ]
