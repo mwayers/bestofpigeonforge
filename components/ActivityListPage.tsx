@@ -4,6 +4,7 @@ import ActivityCard from './ActivityCard';
 import FeaturedCTA from './FeaturedCTA';
 import FAQAccordion from './FAQAccordion';
 import Breadcrumb from './Breadcrumb';
+import TripCostCalculatorCTA from './TripCostCalculatorCTA';
 import itineraryPagesData from '@/data/itinerary-pages.json';
 
 const allItineraries = itineraryPagesData as ItineraryPage[];
@@ -32,6 +33,8 @@ function getRelatedItineraries(page: ActivityListPageType): ItineraryPage[] {
 export default function ActivityListPage({ page, attractions, hasPFS, pfsAttraction }: ActivityListPageProps) {
   const nonPFSAttractions = attractions.filter((a) => !a.isFeaturedPFS);
   const relatedItineraries = getRelatedItineraries(page);
+  const costRelevantText = `${page.slug} ${page.title} ${page.h1} ${page.audience} ${page.filterTags.join(' ')}`.toLowerCase();
+  const showTripCostCalculator = /budget|cost|cheap|free|family|kids|toddler|dollywood|snow|attraction|weekend|group|rainy|winter/.test(costRelevantText);
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
@@ -77,6 +80,8 @@ export default function ActivityListPage({ page, attractions, hasPFS, pfsAttract
           ))}
         </section>
       )}
+
+      {showTripCostCalculator && <TripCostCalculatorCTA />}
 
       {/* Pro Tips */}
       {page.proTips.length > 0 && (

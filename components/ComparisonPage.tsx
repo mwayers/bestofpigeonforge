@@ -2,6 +2,7 @@ import Link from 'next/link';
 import type { ComparisonPage as ComparisonPageType, BodySection } from '@/lib/types';
 import FAQAccordion from './FAQAccordion';
 import Breadcrumb from './Breadcrumb';
+import TripCostCalculatorCTA from './TripCostCalculatorCTA';
 
 interface ComparisonPageProps {
   page: ComparisonPageType;
@@ -123,6 +124,8 @@ export default function ComparisonPage({ page }: ComparisonPageProps) {
           </div>
         </section>
       )}
+
+      <TripCostCalculatorCTA />
 
       {/* Verdict */}
       <section className="mb-10 bg-amber-50 border border-amber-200 rounded-2xl p-6" aria-labelledby="verdict-heading">

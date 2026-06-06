@@ -10,6 +10,7 @@ import tipsPagesData from '@/data/tips-pages.json';
 import reviewPagesData from '@/data/review-pages.json';
 import glossaryPagesData from '@/data/glossary-pages.json';
 import eventPagesData from '@/data/event-pages.json';
+import TripCostCalculatorCTA from '@/components/TripCostCalculatorCTA';
 import { buildMetadata, faqSchema, breadcrumbSchema, speakableSchema, articleSchema } from '@/lib/seo';
 
 type FAQ = { question: string; answer: string };
@@ -163,6 +164,9 @@ export default function GenericSlugPage({ params }: { params: { slug: string } }
   const page = getPage(params.slug);
   if (!page) notFound();
 
+  const costRelevantText = `${page.slug} ${page.title} ${page.h1} ${page.pageType || ''} ${page.intro}`.toLowerCase();
+  const showTripCostCalculator = /budget|cost|cheap|free|price|pricing|ticket|family|kids|toddler|itinerary|plan|review|dollywood|snow|attraction|weekend|group|rainy|winter/.test(costRelevantText);
+
   const jsonLd = [
     ...(page.faqs?.length ? [faqSchema(page.faqs)] : []),
     breadcrumbSchema([
@@ -214,6 +218,7 @@ export default function GenericSlugPage({ params }: { params: { slug: string } }
         )}
 
         <Cards title="Top Picks" items={page.rankedList || page.topPicks} />
+        {showTripCostCalculator && <TripCostCalculatorCTA />}
         <Cards title="Pricing" items={page.pricingTiers} />
         <Cards title="Route Options" items={page.routeOptions} />
         <KeyValueGrid title="Trip Details" values={page.driveStats || page.eventDetails} />
