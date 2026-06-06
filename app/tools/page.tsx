@@ -3,7 +3,7 @@ import { buildMetadata, breadcrumbSchema, articleSchema } from '@/lib/seo';
 
 export const metadata = buildMetadata({
   title: 'Pigeon Forge Trip Planning Tools',
-  description: 'Free tools to help you plan your Pigeon Forge vacation , budget calculator, attraction finder, weather guide, and packing lists.',
+  description: 'Free tools to help you plan your Pigeon Forge vacation: trip cost calculator, attraction finder, weather guide, and packing lists.',
   path: '/tools',
 });
 
@@ -14,12 +14,19 @@ const jsonLd = [
   ]),
   articleSchema({
     title: 'Pigeon Forge Trip Planning Tools',
-    description: 'Free tools to help you plan your Pigeon Forge vacation , budget calculator, attraction finder, weather guide, and packing lists.',
+    description: 'Free tools to help you plan your Pigeon Forge vacation: trip cost calculator, attraction finder, weather guide, and packing lists.',
     url: '/tools',
   }),
 ];
 
 const tools = [
+  {
+    title: 'Trip Cost Calculator',
+    description: 'Estimate lodging, food, attractions, parking, souvenirs, and your total Pigeon Forge vacation budget.',
+    emoji: '💸',
+    href: '/tools/pigeon-forge-trip-cost-calculator',
+    cta: 'Calculate Trip Cost',
+  },
   {
     title: 'Rainy Day Backup Plan',
     description: 'Generate an instant indoor itinerary if your outdoor plans get rained out.',
@@ -93,7 +100,7 @@ export default function ToolsPage() {
       <div className="mt-10 bg-[#1B4332] text-white rounded-2xl p-6 text-center">
         <div className="text-4xl mb-3">❄️</div>
         <h2 className="text-xl font-bold mb-2">Already in Pigeon Forge?</h2>
-        <p className="text-white/80 text-sm mb-4">Don&apos;t miss the #1 unique experience , indoor snow year-round at Pigeon Forge Snow.</p>
+        <p className="text-white/80 text-sm mb-4">Don&apos;t miss the #1 unique experience: indoor snow year-round at Pigeon Forge Snow.</p>
         <a
           href="https://pigeonforgesnow.com"
           target="_blank"

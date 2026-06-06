@@ -37,6 +37,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/itineraries`, lastModified: new Date(), changeFrequency: 'weekly' as const, priority: 0.9 },
     { url: `${BASE}/compare`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.8 },
     { url: `${BASE}/tools`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${BASE}/tools/pigeon-forge-trip-cost-calculator`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.85 },
   ];
 
   const activityRoutes = activityPages.map((page) => ({
