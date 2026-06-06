@@ -1,10 +1,23 @@
 import Link from 'next/link';
-import type { Metadata } from 'next';
+import { buildMetadata, breadcrumbSchema, articleSchema } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata = buildMetadata({
   title: 'Pigeon Forge Trip Planning Tools',
-  description: 'Free tools to help you plan your Pigeon Forge vacation — budget calculator, attraction finder, weather guide, and packing lists.',
-};
+  description: 'Free tools to help you plan your Pigeon Forge vacation , budget calculator, attraction finder, weather guide, and packing lists.',
+  path: '/tools',
+});
+
+const jsonLd = [
+  breadcrumbSchema([
+    { name: 'Home', url: '/' },
+    { name: 'Tools', url: '/tools' },
+  ]),
+  articleSchema({
+    title: 'Pigeon Forge Trip Planning Tools',
+    description: 'Free tools to help you plan your Pigeon Forge vacation , budget calculator, attraction finder, weather guide, and packing lists.',
+    url: '/tools',
+  }),
+];
 
 const tools = [
   {
@@ -53,6 +66,10 @@ const tools = [
 
 export default function ToolsPage() {
   return (
+    <>
+      {jsonLd.map((schema, i) => (
+        <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+      ))}
     <div className="max-w-4xl mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold text-gray-900 mb-2">Free Trip Planning Tools</h1>
       <p className="text-gray-600 mb-8">Quick guides and resources to help you plan the perfect Pigeon Forge trip.</p>
@@ -76,7 +93,7 @@ export default function ToolsPage() {
       <div className="mt-10 bg-[#1B4332] text-white rounded-2xl p-6 text-center">
         <div className="text-4xl mb-3">❄️</div>
         <h2 className="text-xl font-bold mb-2">Already in Pigeon Forge?</h2>
-        <p className="text-white/80 text-sm mb-4">Don&apos;t miss the #1 unique experience — indoor snow year-round at Pigeon Forge Snow.</p>
+        <p className="text-white/80 text-sm mb-4">Don&apos;t miss the #1 unique experience , indoor snow year-round at Pigeon Forge Snow.</p>
         <a
           href="https://pigeonforgesnow.com"
           target="_blank"
@@ -87,5 +104,6 @@ export default function ToolsPage() {
         </a>
       </div>
     </div>
+    </>
   );
 }

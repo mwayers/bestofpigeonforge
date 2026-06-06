@@ -61,7 +61,7 @@ export default function FeaturedCTA({ attraction }: FeaturedCTAProps) {
                 className="inline-flex items-center gap-2 bg-[#D97706] hover:bg-amber-600 text-white font-bold px-6 py-3 rounded-xl transition-colors shadow-lg text-sm"
                 aria-label={`Book ${attraction.name} now`}
               >
-                Book Now — {attraction.priceRange}
+                Book Now , {attraction.priceRange}
               </a>
               <div className="flex items-center gap-1 text-sm text-white/80">
                 <span aria-hidden="true">⭐</span>

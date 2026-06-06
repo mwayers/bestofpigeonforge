@@ -66,7 +66,7 @@ export default function ActivityListPage({ page, attractions, hasPFS, pfsAttract
         </div>
       </section>
 
-      {/* Body Sections — rich expanded content */}
+      {/* Body Sections , rich expanded content */}
       {page.bodySections && page.bodySections.length > 0 && (
         <section className="mb-10 space-y-8">
           {page.bodySections.map((section: BodySection, i: number) => (

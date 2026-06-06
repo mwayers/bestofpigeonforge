@@ -1,3 +1,89 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  color-scheme: light;
+  background: oklch(0.985 0.025 84);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: oklch(0.985 0.025 84);
+  color: oklch(0.24 0.075 155);
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: oklch(0.78 0.16 78);
+  color: oklch(0.22 0.08 80);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.text-pretty {
+  text-wrap: pretty;
+}
+
+.smoky-grid {
+  background:
+    radial-gradient(circle at 18% 18%, oklch(0.86 0.11 80 / 0.38), transparent 28%),
+    radial-gradient(circle at 80% 8%, oklch(0.82 0.08 190 / 0.26), transparent 30%),
+    linear-gradient(135deg, oklch(0.93 0.045 82) 0%, oklch(0.985 0.025 84) 44%, oklch(0.91 0.055 145) 100%);
+}
+
+.mountain-poster {
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 78% 18%, oklch(0.82 0.16 78), transparent 9%),
+    linear-gradient(180deg, oklch(0.57 0.12 206) 0%, oklch(0.68 0.09 190) 34%, oklch(0.46 0.13 153) 35%, oklch(0.28 0.11 155) 100%);
+}
+
+.mountain-poster::before,
+.mountain-poster::after {
+  content: '';
+  position: absolute;
+  left: -10%;
+  width: 120%;
+  pointer-events: none;
+}
+
+.mountain-poster::before {
+  bottom: 32%;
+  height: 34%;
+  background:
+    linear-gradient(135deg, transparent 0 35%, oklch(0.36 0.12 154) 35% 54%, transparent 54%),
+    linear-gradient(45deg, transparent 0 43%, oklch(0.42 0.13 155) 43% 64%, transparent 64%),
+    linear-gradient(145deg, transparent 0 24%, oklch(0.29 0.1 155) 24% 48%, transparent 48%);
+  opacity: 0.92;
+}
+
+.mountain-poster::after {
+  bottom: -12%;
+  height: 46%;
+  border-radius: 50% 50% 0 0;
+  background:
+    radial-gradient(ellipse at 34% 40%, oklch(0.65 0.1 78 / 0.9), transparent 18%),
+    linear-gradient(180deg, oklch(0.22 0.08 155), oklch(0.16 0.065 155));
+}
+
+.mountain-poster > * {
+  position: relative;
+  z-index: 2;
+}
+
+.snow-badge {
+  background:
+    radial-gradient(circle at 50% 35%, oklch(0.94 0.03 205 / 0.65), transparent 26%),
+    linear-gradient(145deg, oklch(0.52 0.13 198), oklch(0.28 0.1 155));
+}

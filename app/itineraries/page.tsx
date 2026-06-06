@@ -1,14 +1,27 @@
 import Link from 'next/link';
-import type { Metadata } from 'next';
 import itineraryPagesData from '@/data/itinerary-pages.json';
 import type { ItineraryPage } from '@/lib/types';
+import { buildMetadata, breadcrumbSchema, articleSchema } from '@/lib/seo';
 
 const itineraryPages = itineraryPagesData as ItineraryPage[];
 
-export const metadata: Metadata = {
-  title: 'Pigeon Forge Itineraries — Day-by-Day Trip Plans',
+export const metadata = buildMetadata({
+  title: 'Pigeon Forge Itineraries , Day-by-Day Trip Plans',
   description: 'Curated Pigeon Forge itineraries for families, couples, and first-timers. 2-day, 3-day, weekend, and week-long trip plans with budgets.',
-};
+  path: '/itineraries',
+});
+
+const jsonLd = [
+  breadcrumbSchema([
+    { name: 'Home', url: '/' },
+    { name: 'Itineraries', url: '/itineraries' },
+  ]),
+  articleSchema({
+    title: 'Pigeon Forge Itineraries , Day-by-Day Trip Plans',
+    description: 'Curated Pigeon Forge itineraries for families, couples, and first-timers. 2-day, 3-day, weekend, and week-long trip plans with budgets.',
+    url: '/itineraries',
+  }),
+];
 
 const seasonEmoji: Record<string, string> = {
   any: '📅',
@@ -20,6 +33,10 @@ const seasonEmoji: Record<string, string> = {
 
 export default function ItinerariesIndexPage() {
   return (
+    <>
+      {jsonLd.map((schema, i) => (
+        <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+      ))}
     <div className="max-w-5xl mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold text-gray-900 mb-2">Pigeon Forge Itineraries</h1>
       <p className="text-gray-600 mb-8">Day-by-day trip plans with budgets for every type of traveler.</p>
@@ -48,5 +65,6 @@ export default function ItinerariesIndexPage() {
         ))}
       </div>
     </div>
+    </>
   );
 }

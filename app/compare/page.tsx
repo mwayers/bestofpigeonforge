@@ -1,17 +1,34 @@
 import Link from 'next/link';
-import type { Metadata } from 'next';
 import comparisonPagesData from '@/data/comparison-pages.json';
 import type { ComparisonPage } from '@/lib/types';
+import { buildMetadata, breadcrumbSchema, articleSchema } from '@/lib/seo';
 
 const comparisonPages = comparisonPagesData as ComparisonPage[];
 
-export const metadata: Metadata = {
-  title: 'Pigeon Forge Comparisons — Which Should You Choose?',
+export const metadata = buildMetadata({
+  title: 'Pigeon Forge Comparisons , Which Should You Choose?',
   description: "Side-by-side comparisons of Pigeon Forge attractions and destinations to help you decide what's right for your trip.",
-};
+  path: '/compare',
+});
+
+const jsonLd = [
+  breadcrumbSchema([
+    { name: 'Home', url: '/' },
+    { name: 'Compare', url: '/compare' },
+  ]),
+  articleSchema({
+    title: 'Pigeon Forge Comparisons , Which Should You Choose?',
+    description: "Side-by-side comparisons of Pigeon Forge attractions and destinations to help you decide what's right for your trip.",
+    url: '/compare',
+  }),
+];
 
 export default function CompareIndexPage() {
   return (
+    <>
+      {jsonLd.map((schema, i) => (
+        <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+      ))}
     <div className="max-w-5xl mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold text-gray-900 mb-2">Compare Attractions & Destinations</h1>
       <p className="text-gray-600 mb-8">Side-by-side breakdowns to help you choose what&apos;s right for your trip.</p>
@@ -35,5 +52,6 @@ export default function CompareIndexPage() {
         ))}
       </div>
     </div>
+    </>
   );
 }

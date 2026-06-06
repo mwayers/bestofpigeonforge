@@ -132,7 +132,7 @@ export default function ComparisonPage({ page }: ComparisonPageProps) {
         <p className="text-gray-700 leading-relaxed">{page.verdict}</p>
       </section>
 
-      {/* Body Sections — rich expanded content */}
+      {/* Body Sections , rich expanded content */}
       {page.bodySections && page.bodySections.length > 0 && (
         <section className="mb-10 space-y-8">
           {page.bodySections.map((section: BodySection, i: number) => (
