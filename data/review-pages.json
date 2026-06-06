@@ -1798,5 +1798,77 @@
       }
     ],
     "relatedSlugs": []
+  },
+  {
+    "slug": "dollywood-dreammore-resort-review",
+    "title": "Dollywood Dreammore Resort Review",
+    "metaTitle": "Dollywood Dreammore Resort Review | Best of Pigeon Forge",
+    "metaDescription": "Honest review of Dollywood Dreammore Resort in Pigeon Forge. What to expect, pros, cons, and whether it's worth your time and money.",
+    "h1": "Dollywood Dreammore Resort Review",
+    "pageType": "review",
+    "attraction": "Dollywood Dreammore Resort",
+    "intro": "We visited Dollywood Dreammore Resort to give you the honest, no-fluff review. Here's what you need to know before you go.",
+    "rating": {
+      "overall": "4.5",
+      "value": "4.0",
+      "fun": "4.8",
+      "crowds": "3.5"
+    },
+    "pros": [
+      "Pro 1",
+      "Pro 2",
+      "Pro 3"
+    ],
+    "cons": [
+      "Con 1",
+      "Con 2"
+    ],
+    "bestFor": [
+      "Families",
+      "Thrill seekers",
+      "First-time visitors"
+    ],
+    "visitTips": [
+      "Arrive early to beat crowds",
+      "Buy tickets online",
+      "Allow X hours for full experience"
+    ],
+    "bodySections": [
+      {
+        "heading": "Our Experience",
+        "content": "Content placeholder..."
+      },
+      {
+        "heading": "What to Expect",
+        "content": "Content placeholder..."
+      },
+      {
+        "heading": "Is It Worth It?",
+        "content": "Content placeholder..."
+      },
+      {
+        "heading": "Tips for Your Visit",
+        "content": "Content placeholder..."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is Dollywood Dreammore Resort worth it?",
+        "answer": "Verdict placeholder..."
+      },
+      {
+        "question": "How long should I plan to stay?",
+        "answer": "Duration placeholder..."
+      },
+      {
+        "question": "What's the best time to visit?",
+        "answer": "Timing placeholder..."
+      },
+      {
+        "question": "Are there discounts available?",
+        "answer": "Discount info placeholder..."
+      }
+    ],
+    "relatedSlugs": []
   }
 ]
