@@ -38,6 +38,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/compare`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.8 },
     { url: `${BASE}/tools`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${BASE}/tools/pigeon-forge-trip-cost-calculator`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.85 },
+    { url: `${BASE}/tools/rainy-day-indoor-planner`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.85 },
   ];
 
   const activityRoutes = activityPages.map((page) => ({

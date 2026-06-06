@@ -5,6 +5,7 @@ import FeaturedCTA from './FeaturedCTA';
 import FAQAccordion from './FAQAccordion';
 import Breadcrumb from './Breadcrumb';
 import TripCostCalculatorCTA from './TripCostCalculatorCTA';
+import RainyDayPlannerCTA from './RainyDayPlannerCTA';
 import itineraryPagesData from '@/data/itinerary-pages.json';
 
 const allItineraries = itineraryPagesData as ItineraryPage[];
@@ -35,6 +36,7 @@ export default function ActivityListPage({ page, attractions, hasPFS, pfsAttract
   const relatedItineraries = getRelatedItineraries(page);
   const costRelevantText = `${page.slug} ${page.title} ${page.h1} ${page.audience} ${page.filterTags.join(' ')}`.toLowerCase();
   const showTripCostCalculator = /budget|cost|cheap|free|family|kids|toddler|dollywood|snow|attraction|weekend|group|rainy|winter/.test(costRelevantText);
+  const showRainyDayPlanner = /rainy|indoor|weather|winter|snow|toddler|kids|family/.test(costRelevantText);
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
@@ -82,6 +84,7 @@ export default function ActivityListPage({ page, attractions, hasPFS, pfsAttract
       )}
 
       {showTripCostCalculator && <TripCostCalculatorCTA />}
+      {showRainyDayPlanner && <RainyDayPlannerCTA />}
 
       {/* Pro Tips */}
       {page.proTips.length > 0 && (

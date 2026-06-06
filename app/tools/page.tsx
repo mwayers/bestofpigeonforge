@@ -3,7 +3,7 @@ import { buildMetadata, breadcrumbSchema, articleSchema } from '@/lib/seo';
 
 export const metadata = buildMetadata({
   title: 'Pigeon Forge Trip Planning Tools',
-  description: 'Free tools to help you plan your Pigeon Forge vacation: trip cost calculator, attraction finder, weather guide, and packing lists.',
+  description: 'Free tools to help you plan your Pigeon Forge vacation: trip cost calculator, rainy-day indoor planner, attraction finder, weather guide, and packing lists.',
   path: '/tools',
 });
 
@@ -14,7 +14,7 @@ const jsonLd = [
   ]),
   articleSchema({
     title: 'Pigeon Forge Trip Planning Tools',
-    description: 'Free tools to help you plan your Pigeon Forge vacation: trip cost calculator, attraction finder, weather guide, and packing lists.',
+    description: 'Free tools to help you plan your Pigeon Forge vacation: trip cost calculator, rainy-day indoor planner, attraction finder, weather guide, and packing lists.',
     url: '/tools',
   }),
 ];
@@ -28,11 +28,11 @@ const tools = [
     cta: 'Calculate Trip Cost',
   },
   {
-    title: 'Rainy Day Backup Plan',
-    description: 'Generate an instant indoor itinerary if your outdoor plans get rained out.',
+    title: 'Rainy Day Indoor Planner',
+    description: 'Build a custom indoor backup plan by group, time, budget, energy level, and location.',
     emoji: '🌧️',
-    href: '/activities/things-to-do-pigeon-forge-rainy-day',
-    cta: 'See Indoor Options',
+    href: '/tools/rainy-day-indoor-planner',
+    cta: 'Build Rainy-Day Plan',
   },
   {
     title: 'Budget Trip Planner',
