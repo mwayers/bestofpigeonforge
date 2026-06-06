@@ -72,7 +72,7 @@ export default function PigeonForgeTripCostCalculatorPage() {
                 Pigeon Forge trip cost calculator
               </h1>
               <p className="mt-5 max-w-3xl text-pretty text-lg leading-8 text-[oklch(0.39_0.045_135)] md:text-xl">
-                Estimate your vacation budget before you book. Adjust travelers, nights, lodging style, meals, attractions, parking, and extras to see a realistic Pigeon Forge trip total.
+                Estimate your vacation budget before you book. Adjust travelers, dates, lodging rate, taxes, fees, meals, individual attractions, transportation, souvenirs, and cushion to see a realistic Pigeon Forge trip total.
               </p>
             </div>
           </div>
@@ -88,7 +88,7 @@ export default function PigeonForgeTripCostCalculatorPage() {
             </div>
             <div className="space-y-4 text-base leading-8 text-[oklch(0.43_0.045_125)]">
               <p>
-                Pigeon Forge budgets swing most on lodging dates, paid attractions, and how often you eat sit-down meals. Use this calculator to compare trip styles quickly, then check current lodging and attraction pricing before final booking.
+                Pigeon Forge budgets swing most on lodging dates, cabin or hotel fees, paid attractions, and how often you eat sit-down meals. Use this calculator to compare specific trip plans quickly, then check current lodging and attraction pricing before final booking.
               </p>
               <p>
                 If you are visiting during summer, holidays, spring break, or fall foliage, raise the lodging estimate. If you are planning a rainy-day or winter trip, keep at least one indoor attraction in the budget so weather does not derail the day.
