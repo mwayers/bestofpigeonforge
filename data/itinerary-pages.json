@@ -4464,5 +4464,266 @@
       }
     ],
     "relatedSlugs": []
+  },
+  {
+    "slug": "pigeon-forge-fall-itinerary",
+    "title": "Pigeon Forge Fall Itinerary",
+    "metaTitle": "Pigeon Forge Fall Itinerary | Best of Pigeon Forge",
+    "metaDescription": "Your complete pigeon forge fall itinerary itinerary. Day-by-day guide with tips and recommendations.",
+    "h1": "Pigeon Forge Fall Itinerary",
+    "audience": "families",
+    "duration": "3 days",
+    "season": "year-round",
+    "intro": "Planning a trip to Pigeon Forge? This pigeon forge fall itinerary itinerary has you covered...",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrival & Main Attractions",
+        "morning": {
+          "activity": "Check-in and explore",
+          "tip": "Arrive early"
+        },
+        "afternoon": {
+          "activity": "Dollywood or The Island",
+          "tip": "Buy tickets online"
+        },
+        "evening": {
+          "activity": "Dinner and shows",
+          "tip": "Make reservations"
+        }
+      },
+      {
+        "day": 2,
+        "title": "Adventure Day",
+        "morning": {
+          "activity": "Outdoor activities",
+          "tip": "Wear comfortable shoes"
+        },
+        "afternoon": {
+          "activity": "More attractions",
+          "tip": "Check showtimes"
+        },
+        "evening": {
+          "activity": "Relaxation",
+          "tip": "Explore local dining"
+        }
+      },
+      {
+        "day": 3,
+        "title": "Last Day & Departure",
+        "morning": {
+          "activity": "Final activities",
+          "tip": "Pack efficiently"
+        },
+        "afternoon": {
+          "activity": "Souvenir shopping",
+          "tip": "Shop local"
+        },
+        "evening": {
+          "activity": "Departure",
+          "tip": "Safe travels!"
+        }
+      }
+    ],
+    "budgetEstimate": {
+      "low": 500,
+      "high": 1500
+    },
+    "proTips": [
+      "Tip 1",
+      "Tip 2",
+      "Tip 3",
+      "Tip 4",
+      "Tip 5"
+    ],
+    "faqs": [
+      {
+        "question": "FAQ 1?",
+        "answer": "Answer 1"
+      },
+      {
+        "question": "FAQ 2?",
+        "answer": "Answer 2"
+      },
+      {
+        "question": "FAQ 3?",
+        "answer": "Answer 3"
+      }
+    ],
+    "relatedSlugs": []
+  },
+  {
+    "slug": "pigeon-forge-winter-itinerary",
+    "title": "Pigeon Forge Winter Itinerary",
+    "metaTitle": "Pigeon Forge Winter Itinerary | Best of Pigeon Forge",
+    "metaDescription": "Your complete pigeon forge winter itinerary itinerary. Day-by-day guide with tips and recommendations.",
+    "h1": "Pigeon Forge Winter Itinerary",
+    "audience": "families",
+    "duration": "3 days",
+    "season": "year-round",
+    "intro": "Planning a trip to Pigeon Forge? This pigeon forge winter itinerary itinerary has you covered...",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrival & Main Attractions",
+        "morning": {
+          "activity": "Check-in and explore",
+          "tip": "Arrive early"
+        },
+        "afternoon": {
+          "activity": "Dollywood or The Island",
+          "tip": "Buy tickets online"
+        },
+        "evening": {
+          "activity": "Dinner and shows",
+          "tip": "Make reservations"
+        }
+      },
+      {
+        "day": 2,
+        "title": "Adventure Day",
+        "morning": {
+          "activity": "Outdoor activities",
+          "tip": "Wear comfortable shoes"
+        },
+        "afternoon": {
+          "activity": "More attractions",
+          "tip": "Check showtimes"
+        },
+        "evening": {
+          "activity": "Relaxation",
+          "tip": "Explore local dining"
+        }
+      },
+      {
+        "day": 3,
+        "title": "Last Day & Departure",
+        "morning": {
+          "activity": "Final activities",
+          "tip": "Pack efficiently"
+        },
+        "afternoon": {
+          "activity": "Souvenir shopping",
+          "tip": "Shop local"
+        },
+        "evening": {
+          "activity": "Departure",
+          "tip": "Safe travels!"
+        }
+      }
+    ],
+    "budgetEstimate": {
+      "low": 500,
+      "high": 1500
+    },
+    "proTips": [
+      "Tip 1",
+      "Tip 2",
+      "Tip 3",
+      "Tip 4",
+      "Tip 5"
+    ],
+    "faqs": [
+      {
+        "question": "FAQ 1?",
+        "answer": "Answer 1"
+      },
+      {
+        "question": "FAQ 2?",
+        "answer": "Answer 2"
+      },
+      {
+        "question": "FAQ 3?",
+        "answer": "Answer 3"
+      }
+    ],
+    "relatedSlugs": []
+  },
+  {
+    "slug": "pigeon-forge-spring-itinerary",
+    "title": "Pigeon Forge Spring Itinerary",
+    "metaTitle": "Pigeon Forge Spring Itinerary | Best of Pigeon Forge",
+    "metaDescription": "Your complete pigeon forge spring itinerary itinerary. Day-by-day guide with tips and recommendations.",
+    "h1": "Pigeon Forge Spring Itinerary",
+    "audience": "families",
+    "duration": "3 days",
+    "season": "year-round",
+    "intro": "Planning a trip to Pigeon Forge? This pigeon forge spring itinerary itinerary has you covered...",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrival & Main Attractions",
+        "morning": {
+          "activity": "Check-in and explore",
+          "tip": "Arrive early"
+        },
+        "afternoon": {
+          "activity": "Dollywood or The Island",
+          "tip": "Buy tickets online"
+        },
+        "evening": {
+          "activity": "Dinner and shows",
+          "tip": "Make reservations"
+        }
+      },
+      {
+        "day": 2,
+        "title": "Adventure Day",
+        "morning": {
+          "activity": "Outdoor activities",
+          "tip": "Wear comfortable shoes"
+        },
+        "afternoon": {
+          "activity": "More attractions",
+          "tip": "Check showtimes"
+        },
+        "evening": {
+          "activity": "Relaxation",
+          "tip": "Explore local dining"
+        }
+      },
+      {
+        "day": 3,
+        "title": "Last Day & Departure",
+        "morning": {
+          "activity": "Final activities",
+          "tip": "Pack efficiently"
+        },
+        "afternoon": {
+          "activity": "Souvenir shopping",
+          "tip": "Shop local"
+        },
+        "evening": {
+          "activity": "Departure",
+          "tip": "Safe travels!"
+        }
+      }
+    ],
+    "budgetEstimate": {
+      "low": 500,
+      "high": 1500
+    },
+    "proTips": [
+      "Tip 1",
+      "Tip 2",
+      "Tip 3",
+      "Tip 4",
+      "Tip 5"
+    ],
+    "faqs": [
+      {
+        "question": "FAQ 1?",
+        "answer": "Answer 1"
+      },
+      {
+        "question": "FAQ 2?",
+        "answer": "Answer 2"
+      },
+      {
+        "question": "FAQ 3?",
+        "answer": "Answer 3"
+      }
+    ],
+    "relatedSlugs": []
   }
 ]
