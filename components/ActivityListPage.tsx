@@ -4,6 +4,8 @@ import ActivityCard from './ActivityCard';
 import FeaturedCTA from './FeaturedCTA';
 import FAQAccordion from './FAQAccordion';
 import Breadcrumb from './Breadcrumb';
+import TripCostCalculatorCTA from './TripCostCalculatorCTA';
+import RainyDayPlannerCTA from './RainyDayPlannerCTA';
 import itineraryPagesData from '@/data/itinerary-pages.json';
 
 const allItineraries = itineraryPagesData as ItineraryPage[];
@@ -32,6 +34,9 @@ function getRelatedItineraries(page: ActivityListPageType): ItineraryPage[] {
 export default function ActivityListPage({ page, attractions, hasPFS, pfsAttraction }: ActivityListPageProps) {
   const nonPFSAttractions = attractions.filter((a) => !a.isFeaturedPFS);
   const relatedItineraries = getRelatedItineraries(page);
+  const costRelevantText = `${page.slug} ${page.title} ${page.h1} ${page.audience} ${page.filterTags.join(' ')}`.toLowerCase();
+  const showTripCostCalculator = /budget|cost|cheap|free|family|kids|toddler|dollywood|snow|attraction|weekend|group|rainy|winter/.test(costRelevantText);
+  const showRainyDayPlanner = /rainy|indoor|weather|winter|snow|toddler|kids|family/.test(costRelevantText);
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
@@ -66,7 +71,7 @@ export default function ActivityListPage({ page, attractions, hasPFS, pfsAttract
         </div>
       </section>
 
-      {/* Body Sections — rich expanded content */}
+      {/* Body Sections , rich expanded content */}
       {page.bodySections && page.bodySections.length > 0 && (
         <section className="mb-10 space-y-8">
           {page.bodySections.map((section: BodySection, i: number) => (
@@ -77,6 +82,9 @@ export default function ActivityListPage({ page, attractions, hasPFS, pfsAttract
           ))}
         </section>
       )}
+
+      {showTripCostCalculator && <TripCostCalculatorCTA />}
+      {showRainyDayPlanner && <RainyDayPlannerCTA />}
 
       {/* Pro Tips */}
       {page.proTips.length > 0 && (

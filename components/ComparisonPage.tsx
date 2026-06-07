@@ -2,6 +2,7 @@ import Link from 'next/link';
 import type { ComparisonPage as ComparisonPageType, BodySection } from '@/lib/types';
 import FAQAccordion from './FAQAccordion';
 import Breadcrumb from './Breadcrumb';
+import TripCostCalculatorCTA from './TripCostCalculatorCTA';
 
 interface ComparisonPageProps {
   page: ComparisonPageType;
@@ -124,6 +125,8 @@ export default function ComparisonPage({ page }: ComparisonPageProps) {
         </section>
       )}
 
+      <TripCostCalculatorCTA />
+
       {/* Verdict */}
       <section className="mb-10 bg-amber-50 border border-amber-200 rounded-2xl p-6" aria-labelledby="verdict-heading">
         <h2 id="verdict-heading" className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-2">
@@ -132,7 +135,7 @@ export default function ComparisonPage({ page }: ComparisonPageProps) {
         <p className="text-gray-700 leading-relaxed">{page.verdict}</p>
       </section>
 
-      {/* Body Sections — rich expanded content */}
+      {/* Body Sections , rich expanded content */}
       {page.bodySections && page.bodySections.length > 0 && (
         <section className="mb-10 space-y-8">
           {page.bodySections.map((section: BodySection, i: number) => (

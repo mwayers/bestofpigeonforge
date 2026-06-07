@@ -1,17 +1,34 @@
 import Link from 'next/link';
-import type { Metadata } from 'next';
 import activityPagesData from '@/data/activity-pages.json';
 import type { ActivityListPage } from '@/lib/types';
+import { buildMetadata, breadcrumbSchema, articleSchema } from '@/lib/seo';
 
 const activityPages = activityPagesData as ActivityListPage[];
 
-export const metadata: Metadata = {
-  title: 'Things to Do in Pigeon Forge — All Activity Guides',
+export const metadata = buildMetadata({
+  title: 'Things to Do in Pigeon Forge , All Activity Guides',
   description: 'Find the perfect Pigeon Forge activities for your trip. Browse guides for families, toddlers, teens, rainy days, budget trips, and more.',
-};
+  path: '/activities',
+});
+
+const jsonLd = [
+  breadcrumbSchema([
+    { name: 'Home', url: '/' },
+    { name: 'Activities', url: '/activities' },
+  ]),
+  articleSchema({
+    title: 'Things to Do in Pigeon Forge , All Activity Guides',
+    description: 'Find the perfect Pigeon Forge activities for your trip. Browse guides for families, toddlers, teens, rainy days, budget trips, and more.',
+    url: '/activities',
+  }),
+];
 
 export default function ActivitiesIndexPage() {
   return (
+    <>
+      {jsonLd.map((schema, i) => (
+        <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+      ))}
     <div className="max-w-5xl mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold text-gray-900 mb-2">Things to Do in Pigeon Forge</h1>
       <p className="text-gray-600 mb-8">Curated activity guides for every type of visitor and every type of day.</p>
@@ -37,5 +54,6 @@ export default function ActivitiesIndexPage() {
         ))}
       </div>
     </div>
+    </>
   );
 }

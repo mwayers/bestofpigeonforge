@@ -2,6 +2,7 @@ import Link from 'next/link';
 import type { ItineraryPage as ItineraryPageType, Attraction } from '@/lib/types';
 import FAQAccordion from './FAQAccordion';
 import Breadcrumb from './Breadcrumb';
+import TripCostCalculatorCTA from './TripCostCalculatorCTA';
 
 const seasonEmoji: Record<string, string> = {
   any: '📅',
@@ -66,6 +67,8 @@ export default function ItineraryPage({ page, attractionsMap }: ItineraryPagePro
           </div>
         </div>
       </div>
+
+      <TripCostCalculatorCTA />
 
       {/* Day-by-day itinerary */}
       <section className="mb-10 space-y-6" aria-labelledby="itinerary-heading">
