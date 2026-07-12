@@ -8880,5 +8880,875 @@
       }
     ],
     "relatedSlugs": []
+  },
+  {
+    "slug": "pigeon-forge-budget-weekend-itinerary",
+    "title": "Pigeon Forge Budget Weekend Itinerary",
+    "metaTitle": "Pigeon Forge Budget Weekend Itinerary | Best of Pigeon Forge",
+    "metaDescription": "Your complete pigeon forge budget weekend itinerary itinerary. Day-by-day guide with tips and recommendations.",
+    "h1": "Pigeon Forge Budget Weekend Itinerary",
+    "audience": "families",
+    "duration": "3 days",
+    "season": "year-round",
+    "intro": "Planning a trip to Pigeon Forge? This pigeon forge budget weekend itinerary itinerary has you covered...",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrival & Main Attractions",
+        "morning": {
+          "activity": "Check-in and explore",
+          "tip": "Arrive early"
+        },
+        "afternoon": {
+          "activity": "Dollywood or The Island",
+          "tip": "Buy tickets online"
+        },
+        "evening": {
+          "activity": "Dinner and shows",
+          "tip": "Make reservations"
+        }
+      },
+      {
+        "day": 2,
+        "title": "Adventure Day",
+        "morning": {
+          "activity": "Outdoor activities",
+          "tip": "Wear comfortable shoes"
+        },
+        "afternoon": {
+          "activity": "More attractions",
+          "tip": "Check showtimes"
+        },
+        "evening": {
+          "activity": "Relaxation",
+          "tip": "Explore local dining"
+        }
+      },
+      {
+        "day": 3,
+        "title": "Last Day & Departure",
+        "morning": {
+          "activity": "Final activities",
+          "tip": "Pack efficiently"
+        },
+        "afternoon": {
+          "activity": "Souvenir shopping",
+          "tip": "Shop local"
+        },
+        "evening": {
+          "activity": "Departure",
+          "tip": "Safe travels!"
+        }
+      }
+    ],
+    "budgetEstimate": {
+      "low": 500,
+      "high": 1500
+    },
+    "proTips": [
+      "Tip 1",
+      "Tip 2",
+      "Tip 3",
+      "Tip 4",
+      "Tip 5"
+    ],
+    "faqs": [
+      {
+        "question": "FAQ 1?",
+        "answer": "Answer 1"
+      },
+      {
+        "question": "FAQ 2?",
+        "answer": "Answer 2"
+      },
+      {
+        "question": "FAQ 3?",
+        "answer": "Answer 3"
+      }
+    ],
+    "relatedSlugs": []
+  },
+  {
+    "slug": "pigeon-forge-luxury-weekend-itinerary",
+    "title": "Pigeon Forge Luxury Weekend Itinerary",
+    "metaTitle": "Pigeon Forge Luxury Weekend Itinerary | Best of Pigeon Forge",
+    "metaDescription": "Your complete pigeon forge luxury weekend itinerary itinerary. Day-by-day guide with tips and recommendations.",
+    "h1": "Pigeon Forge Luxury Weekend Itinerary",
+    "audience": "families",
+    "duration": "3 days",
+    "season": "year-round",
+    "intro": "Planning a trip to Pigeon Forge? This pigeon forge luxury weekend itinerary itinerary has you covered...",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrival & Main Attractions",
+        "morning": {
+          "activity": "Check-in and explore",
+          "tip": "Arrive early"
+        },
+        "afternoon": {
+          "activity": "Dollywood or The Island",
+          "tip": "Buy tickets online"
+        },
+        "evening": {
+          "activity": "Dinner and shows",
+          "tip": "Make reservations"
+        }
+      },
+      {
+        "day": 2,
+        "title": "Adventure Day",
+        "morning": {
+          "activity": "Outdoor activities",
+          "tip": "Wear comfortable shoes"
+        },
+        "afternoon": {
+          "activity": "More attractions",
+          "tip": "Check showtimes"
+        },
+        "evening": {
+          "activity": "Relaxation",
+          "tip": "Explore local dining"
+        }
+      },
+      {
+        "day": 3,
+        "title": "Last Day & Departure",
+        "morning": {
+          "activity": "Final activities",
+          "tip": "Pack efficiently"
+        },
+        "afternoon": {
+          "activity": "Souvenir shopping",
+          "tip": "Shop local"
+        },
+        "evening": {
+          "activity": "Departure",
+          "tip": "Safe travels!"
+        }
+      }
+    ],
+    "budgetEstimate": {
+      "low": 500,
+      "high": 1500
+    },
+    "proTips": [
+      "Tip 1",
+      "Tip 2",
+      "Tip 3",
+      "Tip 4",
+      "Tip 5"
+    ],
+    "faqs": [
+      {
+        "question": "FAQ 1?",
+        "answer": "Answer 1"
+      },
+      {
+        "question": "FAQ 2?",
+        "answer": "Answer 2"
+      },
+      {
+        "question": "FAQ 3?",
+        "answer": "Answer 3"
+      }
+    ],
+    "relatedSlugs": []
+  },
+  {
+    "slug": "pigeon-forge-toddler-weekend-itinerary",
+    "title": "Pigeon Forge Toddler Weekend Itinerary",
+    "metaTitle": "Pigeon Forge Toddler Weekend Itinerary | Best of Pigeon Forge",
+    "metaDescription": "Your complete pigeon forge toddler weekend itinerary itinerary. Day-by-day guide with tips and recommendations.",
+    "h1": "Pigeon Forge Toddler Weekend Itinerary",
+    "audience": "families",
+    "duration": "3 days",
+    "season": "year-round",
+    "intro": "Planning a trip to Pigeon Forge? This pigeon forge toddler weekend itinerary itinerary has you covered...",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrival & Main Attractions",
+        "morning": {
+          "activity": "Check-in and explore",
+          "tip": "Arrive early"
+        },
+        "afternoon": {
+          "activity": "Dollywood or The Island",
+          "tip": "Buy tickets online"
+        },
+        "evening": {
+          "activity": "Dinner and shows",
+          "tip": "Make reservations"
+        }
+      },
+      {
+        "day": 2,
+        "title": "Adventure Day",
+        "morning": {
+          "activity": "Outdoor activities",
+          "tip": "Wear comfortable shoes"
+        },
+        "afternoon": {
+          "activity": "More attractions",
+          "tip": "Check showtimes"
+        },
+        "evening": {
+          "activity": "Relaxation",
+          "tip": "Explore local dining"
+        }
+      },
+      {
+        "day": 3,
+        "title": "Last Day & Departure",
+        "morning": {
+          "activity": "Final activities",
+          "tip": "Pack efficiently"
+        },
+        "afternoon": {
+          "activity": "Souvenir shopping",
+          "tip": "Shop local"
+        },
+        "evening": {
+          "activity": "Departure",
+          "tip": "Safe travels!"
+        }
+      }
+    ],
+    "budgetEstimate": {
+      "low": 500,
+      "high": 1500
+    },
+    "proTips": [
+      "Tip 1",
+      "Tip 2",
+      "Tip 3",
+      "Tip 4",
+      "Tip 5"
+    ],
+    "faqs": [
+      {
+        "question": "FAQ 1?",
+        "answer": "Answer 1"
+      },
+      {
+        "question": "FAQ 2?",
+        "answer": "Answer 2"
+      },
+      {
+        "question": "FAQ 3?",
+        "answer": "Answer 3"
+      }
+    ],
+    "relatedSlugs": []
+  },
+  {
+    "slug": "pigeon-forge-teen-weekend-itinerary",
+    "title": "Pigeon Forge Teen Weekend Itinerary",
+    "metaTitle": "Pigeon Forge Teen Weekend Itinerary | Best of Pigeon Forge",
+    "metaDescription": "Your complete pigeon forge teen weekend itinerary itinerary. Day-by-day guide with tips and recommendations.",
+    "h1": "Pigeon Forge Teen Weekend Itinerary",
+    "audience": "families",
+    "duration": "3 days",
+    "season": "year-round",
+    "intro": "Planning a trip to Pigeon Forge? This pigeon forge teen weekend itinerary itinerary has you covered...",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrival & Main Attractions",
+        "morning": {
+          "activity": "Check-in and explore",
+          "tip": "Arrive early"
+        },
+        "afternoon": {
+          "activity": "Dollywood or The Island",
+          "tip": "Buy tickets online"
+        },
+        "evening": {
+          "activity": "Dinner and shows",
+          "tip": "Make reservations"
+        }
+      },
+      {
+        "day": 2,
+        "title": "Adventure Day",
+        "morning": {
+          "activity": "Outdoor activities",
+          "tip": "Wear comfortable shoes"
+        },
+        "afternoon": {
+          "activity": "More attractions",
+          "tip": "Check showtimes"
+        },
+        "evening": {
+          "activity": "Relaxation",
+          "tip": "Explore local dining"
+        }
+      },
+      {
+        "day": 3,
+        "title": "Last Day & Departure",
+        "morning": {
+          "activity": "Final activities",
+          "tip": "Pack efficiently"
+        },
+        "afternoon": {
+          "activity": "Souvenir shopping",
+          "tip": "Shop local"
+        },
+        "evening": {
+          "activity": "Departure",
+          "tip": "Safe travels!"
+        }
+      }
+    ],
+    "budgetEstimate": {
+      "low": 500,
+      "high": 1500
+    },
+    "proTips": [
+      "Tip 1",
+      "Tip 2",
+      "Tip 3",
+      "Tip 4",
+      "Tip 5"
+    ],
+    "faqs": [
+      {
+        "question": "FAQ 1?",
+        "answer": "Answer 1"
+      },
+      {
+        "question": "FAQ 2?",
+        "answer": "Answer 2"
+      },
+      {
+        "question": "FAQ 3?",
+        "answer": "Answer 3"
+      }
+    ],
+    "relatedSlugs": []
+  },
+  {
+    "slug": "pigeon-forge-grandparents-weekend-itinerary",
+    "title": "Pigeon Forge Grandparents Weekend Itinerary",
+    "metaTitle": "Pigeon Forge Grandparents Weekend Itinerary | Best of Pigeon Forge",
+    "metaDescription": "Your complete pigeon forge grandparents weekend itinerary itinerary. Day-by-day guide with tips and recommendations.",
+    "h1": "Pigeon Forge Grandparents Weekend Itinerary",
+    "audience": "families",
+    "duration": "3 days",
+    "season": "year-round",
+    "intro": "Planning a trip to Pigeon Forge? This pigeon forge grandparents weekend itinerary itinerary has you covered...",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrival & Main Attractions",
+        "morning": {
+          "activity": "Check-in and explore",
+          "tip": "Arrive early"
+        },
+        "afternoon": {
+          "activity": "Dollywood or The Island",
+          "tip": "Buy tickets online"
+        },
+        "evening": {
+          "activity": "Dinner and shows",
+          "tip": "Make reservations"
+        }
+      },
+      {
+        "day": 2,
+        "title": "Adventure Day",
+        "morning": {
+          "activity": "Outdoor activities",
+          "tip": "Wear comfortable shoes"
+        },
+        "afternoon": {
+          "activity": "More attractions",
+          "tip": "Check showtimes"
+        },
+        "evening": {
+          "activity": "Relaxation",
+          "tip": "Explore local dining"
+        }
+      },
+      {
+        "day": 3,
+        "title": "Last Day & Departure",
+        "morning": {
+          "activity": "Final activities",
+          "tip": "Pack efficiently"
+        },
+        "afternoon": {
+          "activity": "Souvenir shopping",
+          "tip": "Shop local"
+        },
+        "evening": {
+          "activity": "Departure",
+          "tip": "Safe travels!"
+        }
+      }
+    ],
+    "budgetEstimate": {
+      "low": 500,
+      "high": 1500
+    },
+    "proTips": [
+      "Tip 1",
+      "Tip 2",
+      "Tip 3",
+      "Tip 4",
+      "Tip 5"
+    ],
+    "faqs": [
+      {
+        "question": "FAQ 1?",
+        "answer": "Answer 1"
+      },
+      {
+        "question": "FAQ 2?",
+        "answer": "Answer 2"
+      },
+      {
+        "question": "FAQ 3?",
+        "answer": "Answer 3"
+      }
+    ],
+    "relatedSlugs": []
+  },
+  {
+    "slug": "pigeon-forge-dog-friendly-weekend-itinerary",
+    "title": "Pigeon Forge Dog Friendly Weekend Itinerary",
+    "metaTitle": "Pigeon Forge Dog Friendly Weekend Itinerary | Best of Pigeon Forge",
+    "metaDescription": "Your complete pigeon forge dog friendly weekend itinerary itinerary. Day-by-day guide with tips and recommendations.",
+    "h1": "Pigeon Forge Dog Friendly Weekend Itinerary",
+    "audience": "families",
+    "duration": "3 days",
+    "season": "year-round",
+    "intro": "Planning a trip to Pigeon Forge? This pigeon forge dog friendly weekend itinerary itinerary has you covered...",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrival & Main Attractions",
+        "morning": {
+          "activity": "Check-in and explore",
+          "tip": "Arrive early"
+        },
+        "afternoon": {
+          "activity": "Dollywood or The Island",
+          "tip": "Buy tickets online"
+        },
+        "evening": {
+          "activity": "Dinner and shows",
+          "tip": "Make reservations"
+        }
+      },
+      {
+        "day": 2,
+        "title": "Adventure Day",
+        "morning": {
+          "activity": "Outdoor activities",
+          "tip": "Wear comfortable shoes"
+        },
+        "afternoon": {
+          "activity": "More attractions",
+          "tip": "Check showtimes"
+        },
+        "evening": {
+          "activity": "Relaxation",
+          "tip": "Explore local dining"
+        }
+      },
+      {
+        "day": 3,
+        "title": "Last Day & Departure",
+        "morning": {
+          "activity": "Final activities",
+          "tip": "Pack efficiently"
+        },
+        "afternoon": {
+          "activity": "Souvenir shopping",
+          "tip": "Shop local"
+        },
+        "evening": {
+          "activity": "Departure",
+          "tip": "Safe travels!"
+        }
+      }
+    ],
+    "budgetEstimate": {
+      "low": 500,
+      "high": 1500
+    },
+    "proTips": [
+      "Tip 1",
+      "Tip 2",
+      "Tip 3",
+      "Tip 4",
+      "Tip 5"
+    ],
+    "faqs": [
+      {
+        "question": "FAQ 1?",
+        "answer": "Answer 1"
+      },
+      {
+        "question": "FAQ 2?",
+        "answer": "Answer 2"
+      },
+      {
+        "question": "FAQ 3?",
+        "answer": "Answer 3"
+      }
+    ],
+    "relatedSlugs": []
+  },
+  {
+    "slug": "pigeon-forge-car-show-weekend-itinerary",
+    "title": "Pigeon Forge Car Show Weekend Itinerary",
+    "metaTitle": "Pigeon Forge Car Show Weekend Itinerary | Best of Pigeon Forge",
+    "metaDescription": "Your complete pigeon forge car show weekend itinerary itinerary. Day-by-day guide with tips and recommendations.",
+    "h1": "Pigeon Forge Car Show Weekend Itinerary",
+    "audience": "families",
+    "duration": "3 days",
+    "season": "year-round",
+    "intro": "Planning a trip to Pigeon Forge? This pigeon forge car show weekend itinerary itinerary has you covered...",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrival & Main Attractions",
+        "morning": {
+          "activity": "Check-in and explore",
+          "tip": "Arrive early"
+        },
+        "afternoon": {
+          "activity": "Dollywood or The Island",
+          "tip": "Buy tickets online"
+        },
+        "evening": {
+          "activity": "Dinner and shows",
+          "tip": "Make reservations"
+        }
+      },
+      {
+        "day": 2,
+        "title": "Adventure Day",
+        "morning": {
+          "activity": "Outdoor activities",
+          "tip": "Wear comfortable shoes"
+        },
+        "afternoon": {
+          "activity": "More attractions",
+          "tip": "Check showtimes"
+        },
+        "evening": {
+          "activity": "Relaxation",
+          "tip": "Explore local dining"
+        }
+      },
+      {
+        "day": 3,
+        "title": "Last Day & Departure",
+        "morning": {
+          "activity": "Final activities",
+          "tip": "Pack efficiently"
+        },
+        "afternoon": {
+          "activity": "Souvenir shopping",
+          "tip": "Shop local"
+        },
+        "evening": {
+          "activity": "Departure",
+          "tip": "Safe travels!"
+        }
+      }
+    ],
+    "budgetEstimate": {
+      "low": 500,
+      "high": 1500
+    },
+    "proTips": [
+      "Tip 1",
+      "Tip 2",
+      "Tip 3",
+      "Tip 4",
+      "Tip 5"
+    ],
+    "faqs": [
+      {
+        "question": "FAQ 1?",
+        "answer": "Answer 1"
+      },
+      {
+        "question": "FAQ 2?",
+        "answer": "Answer 2"
+      },
+      {
+        "question": "FAQ 3?",
+        "answer": "Answer 3"
+      }
+    ],
+    "relatedSlugs": []
+  },
+  {
+    "slug": "pigeon-forge-rod-run-weekend-itinerary",
+    "title": "Pigeon Forge Rod Run Weekend Itinerary",
+    "metaTitle": "Pigeon Forge Rod Run Weekend Itinerary | Best of Pigeon Forge",
+    "metaDescription": "Your complete pigeon forge rod run weekend itinerary itinerary. Day-by-day guide with tips and recommendations.",
+    "h1": "Pigeon Forge Rod Run Weekend Itinerary",
+    "audience": "families",
+    "duration": "3 days",
+    "season": "year-round",
+    "intro": "Planning a trip to Pigeon Forge? This pigeon forge rod run weekend itinerary itinerary has you covered...",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrival & Main Attractions",
+        "morning": {
+          "activity": "Check-in and explore",
+          "tip": "Arrive early"
+        },
+        "afternoon": {
+          "activity": "Dollywood or The Island",
+          "tip": "Buy tickets online"
+        },
+        "evening": {
+          "activity": "Dinner and shows",
+          "tip": "Make reservations"
+        }
+      },
+      {
+        "day": 2,
+        "title": "Adventure Day",
+        "morning": {
+          "activity": "Outdoor activities",
+          "tip": "Wear comfortable shoes"
+        },
+        "afternoon": {
+          "activity": "More attractions",
+          "tip": "Check showtimes"
+        },
+        "evening": {
+          "activity": "Relaxation",
+          "tip": "Explore local dining"
+        }
+      },
+      {
+        "day": 3,
+        "title": "Last Day & Departure",
+        "morning": {
+          "activity": "Final activities",
+          "tip": "Pack efficiently"
+        },
+        "afternoon": {
+          "activity": "Souvenir shopping",
+          "tip": "Shop local"
+        },
+        "evening": {
+          "activity": "Departure",
+          "tip": "Safe travels!"
+        }
+      }
+    ],
+    "budgetEstimate": {
+      "low": 500,
+      "high": 1500
+    },
+    "proTips": [
+      "Tip 1",
+      "Tip 2",
+      "Tip 3",
+      "Tip 4",
+      "Tip 5"
+    ],
+    "faqs": [
+      {
+        "question": "FAQ 1?",
+        "answer": "Answer 1"
+      },
+      {
+        "question": "FAQ 2?",
+        "answer": "Answer 2"
+      },
+      {
+        "question": "FAQ 3?",
+        "answer": "Answer 3"
+      }
+    ],
+    "relatedSlugs": []
+  },
+  {
+    "slug": "pigeon-forge-food-tour-itinerary",
+    "title": "Pigeon Forge Food Tour Itinerary",
+    "metaTitle": "Pigeon Forge Food Tour Itinerary | Best of Pigeon Forge",
+    "metaDescription": "Your complete pigeon forge food tour itinerary itinerary. Day-by-day guide with tips and recommendations.",
+    "h1": "Pigeon Forge Food Tour Itinerary",
+    "audience": "families",
+    "duration": "3 days",
+    "season": "year-round",
+    "intro": "Planning a trip to Pigeon Forge? This pigeon forge food tour itinerary itinerary has you covered...",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrival & Main Attractions",
+        "morning": {
+          "activity": "Check-in and explore",
+          "tip": "Arrive early"
+        },
+        "afternoon": {
+          "activity": "Dollywood or The Island",
+          "tip": "Buy tickets online"
+        },
+        "evening": {
+          "activity": "Dinner and shows",
+          "tip": "Make reservations"
+        }
+      },
+      {
+        "day": 2,
+        "title": "Adventure Day",
+        "morning": {
+          "activity": "Outdoor activities",
+          "tip": "Wear comfortable shoes"
+        },
+        "afternoon": {
+          "activity": "More attractions",
+          "tip": "Check showtimes"
+        },
+        "evening": {
+          "activity": "Relaxation",
+          "tip": "Explore local dining"
+        }
+      },
+      {
+        "day": 3,
+        "title": "Last Day & Departure",
+        "morning": {
+          "activity": "Final activities",
+          "tip": "Pack efficiently"
+        },
+        "afternoon": {
+          "activity": "Souvenir shopping",
+          "tip": "Shop local"
+        },
+        "evening": {
+          "activity": "Departure",
+          "tip": "Safe travels!"
+        }
+      }
+    ],
+    "budgetEstimate": {
+      "low": 500,
+      "high": 1500
+    },
+    "proTips": [
+      "Tip 1",
+      "Tip 2",
+      "Tip 3",
+      "Tip 4",
+      "Tip 5"
+    ],
+    "faqs": [
+      {
+        "question": "FAQ 1?",
+        "answer": "Answer 1"
+      },
+      {
+        "question": "FAQ 2?",
+        "answer": "Answer 2"
+      },
+      {
+        "question": "FAQ 3?",
+        "answer": "Answer 3"
+      }
+    ],
+    "relatedSlugs": []
+  },
+  {
+    "slug": "pigeon-forge-smokies-itinerary",
+    "title": "Pigeon Forge Smokies Itinerary",
+    "metaTitle": "Pigeon Forge Smokies Itinerary | Best of Pigeon Forge",
+    "metaDescription": "Your complete pigeon forge smokies itinerary itinerary. Day-by-day guide with tips and recommendations.",
+    "h1": "Pigeon Forge Smokies Itinerary",
+    "audience": "families",
+    "duration": "3 days",
+    "season": "year-round",
+    "intro": "Planning a trip to Pigeon Forge? This pigeon forge smokies itinerary itinerary has you covered...",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrival & Main Attractions",
+        "morning": {
+          "activity": "Check-in and explore",
+          "tip": "Arrive early"
+        },
+        "afternoon": {
+          "activity": "Dollywood or The Island",
+          "tip": "Buy tickets online"
+        },
+        "evening": {
+          "activity": "Dinner and shows",
+          "tip": "Make reservations"
+        }
+      },
+      {
+        "day": 2,
+        "title": "Adventure Day",
+        "morning": {
+          "activity": "Outdoor activities",
+          "tip": "Wear comfortable shoes"
+        },
+        "afternoon": {
+          "activity": "More attractions",
+          "tip": "Check showtimes"
+        },
+        "evening": {
+          "activity": "Relaxation",
+          "tip": "Explore local dining"
+        }
+      },
+      {
+        "day": 3,
+        "title": "Last Day & Departure",
+        "morning": {
+          "activity": "Final activities",
+          "tip": "Pack efficiently"
+        },
+        "afternoon": {
+          "activity": "Souvenir shopping",
+          "tip": "Shop local"
+        },
+        "evening": {
+          "activity": "Departure",
+          "tip": "Safe travels!"
+        }
+      }
+    ],
+    "budgetEstimate": {
+      "low": 500,
+      "high": 1500
+    },
+    "proTips": [
+      "Tip 1",
+      "Tip 2",
+      "Tip 3",
+      "Tip 4",
+      "Tip 5"
+    ],
+    "faqs": [
+      {
+        "question": "FAQ 1?",
+        "answer": "Answer 1"
+      },
+      {
+        "question": "FAQ 2?",
+        "answer": "Answer 2"
+      },
+      {
+        "question": "FAQ 3?",
+        "answer": "Answer 3"
+      }
+    ],
+    "relatedSlugs": []
   }
 ]
