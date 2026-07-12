@@ -34,7 +34,7 @@ if (!API_KEY) {
   console.error("   Run: export GEMINI_API_KEY=your_key_here");
   process.exit(1);
 }
-const MODEL = "gemini-2.0-flash";
+const MODEL = process.env.GEMINI_MODEL || "gemini-2.5-flash";
 const RATE_LIMIT_MS = 500;
 const RETRY_DELAY_MS = 3000;
 
