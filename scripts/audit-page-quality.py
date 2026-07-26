@@ -43,8 +43,10 @@ for page_type,r in rows:
       'duplicate_slug':str(duplicate).lower(),'broken_related_count':len(broken),
       'broken_related_slugs':'|'.join(broken),'recommendation':recommendation
     })
-with out.open('w',newline='') as f:
-    w=csv.DictWriter(f,fieldnames=result[0].keys()); w.writeheader(); w.writerows(result)
+with out.open('w', newline='') as f:
+    w = csv.DictWriter(f, fieldnames=result[0].keys(), lineterminator='\n')
+    w.writeheader()
+    w.writerows(result)
 print(out)
 print('rows',len(result))
 print('recommendations',dict(Counter(r['recommendation'] for r in result)))

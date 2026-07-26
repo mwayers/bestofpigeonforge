@@ -1,8 +1,8 @@
 page_type,slug,estimated_words,body_sections,placeholder_or_dummy,duplicate_slug,broken_related_count,broken_related_slugs,recommendation
-activity-pages,indoor-activities-pigeon-forge,640,0,false,false,0,,REVIEW_FOR_PRIORITY_INDEXING
+activity-pages,indoor-activities-pigeon-forge,1267,3,false,false,0,,REVIEW_FOR_PRIORITY_INDEXING
 activity-pages,things-to-do-pigeon-forge-with-toddlers,599,0,false,false,0,,REVIEW_FOR_PRIORITY_INDEXING
-activity-pages,things-to-do-pigeon-forge-with-kids,574,0,false,false,0,,REVIEW_FOR_PRIORITY_INDEXING
-activity-pages,things-to-do-pigeon-forge-rainy-day,710,0,false,false,0,,REVIEW_FOR_PRIORITY_INDEXING
+activity-pages,things-to-do-pigeon-forge-with-kids,1447,3,false,false,0,,REVIEW_FOR_PRIORITY_INDEXING
+activity-pages,things-to-do-pigeon-forge-rainy-day,1474,3,false,false,0,,REVIEW_FOR_PRIORITY_INDEXING
 activity-pages,free-things-to-do-pigeon-forge,598,0,false,false,0,,REVIEW_FOR_PRIORITY_INDEXING
 activity-pages,things-to-do-pigeon-forge-at-night,625,0,false,false,0,,REVIEW_FOR_PRIORITY_INDEXING
 activity-pages,things-to-do-pigeon-forge-winter,669,0,false,false,0,,REVIEW_FOR_PRIORITY_INDEXING
@@ -1200,7 +1200,7 @@ glossary-pages,what-is-crave-golf-club,142,4,true,false,0,,QUARANTINE_PLACEHOLDE
 glossary-pages,what-is-magiquest-pigeon-forge,142,4,true,false,0,,QUARANTINE_PLACEHOLDER
 glossary-pages,what-is-the-pigeon-forge-parkway,152,4,true,false,0,,QUARANTINE_PLACEHOLDER
 glossary-pages,what-is-the-pigeon-forge-trolley,152,4,true,false,0,,QUARANTINE_PLACEHOLDER
-comparison-pages,pigeon-forge-vs-gatlinburg,1093,0,false,false,0,,REVIEW_FOR_PRIORITY_INDEXING
+comparison-pages,pigeon-forge-vs-gatlinburg,1165,3,false,false,0,,REVIEW_FOR_PRIORITY_INDEXING
 comparison-pages,dollywood-vs-the-island,1086,0,false,false,0,,REVIEW_FOR_PRIORITY_INDEXING
 comparison-pages,pigeon-forge-snow-vs-ober-mountain,1205,0,false,false,0,,REVIEW_FOR_PRIORITY_INDEXING
 comparison-pages,anakeesta-vs-skybridge-gatlinburg,1093,0,false,false,0,,REVIEW_FOR_PRIORITY_INDEXING

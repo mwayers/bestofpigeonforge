@@ -2,8 +2,8 @@ import Link from 'next/link';
 import type { ComparisonPage as ComparisonPageType, BodySection } from '@/lib/types';
 import FAQAccordion from './FAQAccordion';
 import Breadcrumb from './Breadcrumb';
-import TripCostCalculatorCTA from './TripCostCalculatorCTA';
-import { relatedRouteForSlug } from '@/lib/contentRoutes';
+import { approvedRelatedRouteForSlug } from '@/lib/contentRoutes';
+import { isEditoriallyApproved } from '@/lib/editorialApprovals';
 
 interface ComparisonPageProps {
   page: ComparisonPageType;
@@ -99,6 +99,17 @@ export default function ComparisonPage({ page }: ComparisonPageProps) {
         </div>
       </section>
 
+      {page.locationOrientation && page.locationOrientation.length > 0 && (
+        <section className="mb-10" aria-labelledby="location-orientation-heading">
+          <h2 id="location-orientation-heading" className="text-xl font-bold text-gray-900 mb-2">Location and transport orientation</h2>
+          <p className="text-sm text-gray-600 mb-4">This orientation uses official destination, municipal transit, and National Park Service descriptions. It intentionally does not publish map distances or travel-time estimates.</p>
+          <div className="overflow-x-auto rounded-xl border border-gray-200"><table className="w-full min-w-[700px] text-sm">
+            <thead className="bg-gray-50"><tr><th className="p-3 text-left">Planning question</th><th className="p-3 text-left">Pigeon Forge</th><th className="p-3 text-left">Gatlinburg</th></tr></thead>
+            <tbody className="divide-y">{page.locationOrientation.map(row => <tr key={row.topic} className="align-top"><th className="p-3 text-left">{row.topic}</th><td className="p-3">{row.pigeonForge}</td><td className="p-3">{row.gatlinburg}</td></tr>)}</tbody>
+          </table></div>
+        </section>
+      )}
+
       {/* Feature table */}
       {page.featureTable.length > 0 && (
         <section className="mb-10" aria-labelledby="feature-table-heading">
@@ -125,8 +136,6 @@ export default function ComparisonPage({ page }: ComparisonPageProps) {
           </div>
         </section>
       )}
-
-      <TripCostCalculatorCTA />
 
       {/* Verdict */}
       <section className="mb-10 bg-amber-50 border border-amber-200 rounded-2xl p-6" aria-labelledby="verdict-heading">
@@ -156,13 +165,41 @@ export default function ComparisonPage({ page }: ComparisonPageProps) {
         </section>
       )}
 
+      {page.verifiedDate && page.sources && page.sources.length > 0 && (
+        <aside className="mb-10 rounded-2xl border border-sky-200 bg-sky-50 p-6" aria-labelledby="verification-heading">
+          <h2 id="verification-heading" className="text-xl font-bold text-gray-900">How this comparison was checked</h2>
+          <p className="mt-2 text-sm leading-6 text-gray-700">
+            <strong>Last verified:</strong> {page.verifiedDate}. This date records our source review, not a guarantee that routes or operations have not changed.
+          </p>
+          {page.methodology && <p className="mt-2 text-sm leading-6 text-gray-700"><strong>Method:</strong> {page.methodology}</p>}
+          <ul className="mt-4 space-y-2 text-sm">
+            {page.sources.map((source) => (
+              <li key={source.url}>
+                <a className="font-semibold text-[#1B4332] underline underline-offset-2" href={source.url} target="_blank" rel="noopener noreferrer">
+                  {source.name}
+                </a>
+              </li>
+            ))}
+          </ul>
+          <p className="mt-4 text-sm text-gray-700">
+            See our <Link className="font-semibold underline" href="/editorial-standards">editorial standards</Link> and <Link className="font-semibold underline" href="/corrections-policy">corrections policy</Link>.
+          </p>
+        </aside>
+      )}
+
       {/* Related comparisons */}
-      {page.relatedSlugs.length > 0 && (
+      {!!page.contextualLinks?.filter((link) => link.route === '/activities' || link.route === '/tools/rainy-day-indoor-planner' || isEditoriallyApproved(link.route)).length && (
+        <nav className="border-t border-gray-200 pt-8 mb-8" aria-label="Approved contextual links">
+          <h2 className="text-lg font-bold text-gray-900 mb-3">Approved next steps</h2>
+          <div className="flex flex-wrap gap-2">{page.contextualLinks.filter((link) => link.route === '/activities' || link.route === '/tools/rainy-day-indoor-planner' || isEditoriallyApproved(link.route)).map((link) => <Link key={link.route} href={link.route} className="bg-[#1B4332]/5 text-[#1B4332] text-sm px-3 py-1.5 rounded-lg">{link.label}</Link>)}</div>
+        </nav>
+      )}
+      {page.relatedSlugs.some((slug) => approvedRelatedRouteForSlug(slug)) && (
         <section className="border-t border-gray-200 pt-8" aria-labelledby="related-comparisons-heading">
           <h2 id="related-comparisons-heading" className="text-lg font-bold text-gray-900 mb-3">Related Comparisons</h2>
           <div className="flex flex-wrap gap-2">
             {page.relatedSlugs.map((slug) => {
-              const href = relatedRouteForSlug(slug);
+              const href = approvedRelatedRouteForSlug(slug);
               if (!href) return null;
               return (
                 <Link

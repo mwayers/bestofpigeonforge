@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { relatedRouteForSlug } from '../lib/contentRoutes';
+import { approvedRelatedRouteForSlug, relatedRouteForSlug } from '../lib/contentRoutes';
 
 assert.equal(
   relatedRouteForSlug('dollywood-vs-the-island'),
@@ -17,6 +17,16 @@ assert.equal(
   'activity links should use the activities route',
 );
 assert.equal(relatedRouteForSlug('not-a-real-page'), undefined, 'unknown slugs should not create links');
+assert.equal(
+  approvedRelatedRouteForSlug('pigeon-forge-vs-gatlinburg'),
+  undefined,
+  'unapproved related routes should not create links',
+);
+assert.equal(
+  approvedRelatedRouteForSlug('pigeon-forge-vs-gatlinburg', new Set(['/compare/pigeon-forge-vs-gatlinburg'])),
+  '/compare/pigeon-forge-vs-gatlinburg',
+  'approved related routes should resolve',
+);
 assert.equal(
   relatedRouteForSlug('pigeon-forge-vs-myrtle-beach'),
   undefined,

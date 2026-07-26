@@ -10,6 +10,7 @@ import tipsPagesData from '../data/tips-pages.json';
 import reviewPagesData from '../data/review-pages.json';
 import glossaryPagesData from '../data/glossary-pages.json';
 import eventPagesData from '../data/event-pages.json';
+import { approvedRoutes } from './editorialApprovals';
 
 const routeCandidates = new Map<string, Set<string>>();
 
@@ -43,4 +44,12 @@ export function relatedRouteForSlug(slug: string): string | undefined {
   const routes = routeCandidates.get(slug);
   if (!routes || routes.size !== 1) return undefined;
   return Array.from(routes)[0];
+}
+
+export function approvedRelatedRouteForSlug(
+  slug: string,
+  approvals: ReadonlySet<string> = approvedRoutes,
+): string | undefined {
+  const route = relatedRouteForSlug(slug);
+  return route && approvals.has(route) ? route : undefined;
 }
