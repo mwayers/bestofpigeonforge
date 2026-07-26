@@ -35,6 +35,7 @@ export default function ActivitiesIndexPage() {
         <Link href="/" className="text-sm font-bold text-[#1B4332]">← Home</Link>
         <h1 className="mt-5 text-4xl font-black text-gray-900 md:text-5xl">Things to Do in Pigeon Forge</h1>
         <p className="mt-4 max-w-3xl text-lg leading-8 text-gray-700">Choose by the problem you need to solve. This hub intentionally links to a short reviewed cohort rather than exposing the full draft inventory.</p>
+        <p className="mt-3 text-sm text-gray-600"><strong>Author:</strong> Best of Pigeon Forge Editorial Team · <strong>Reviewed by:</strong> Alex Woods</p>
 
         <section className="mt-10" aria-labelledby="start-heading">
           <h2 id="start-heading" className="text-2xl font-black text-gray-900">Start here</h2>

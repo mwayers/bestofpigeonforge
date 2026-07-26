@@ -21,6 +21,7 @@ export default function ComparisonPage({ page }: ComparisonPageProps) {
       <header className="mb-8">
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">{page.h1}</h1>
         <p className="text-lg text-gray-600 leading-relaxed">{page.intro}</p>
+        <p className="mt-4 text-sm text-gray-600"><strong>Author:</strong> Best of Pigeon Forge Editorial Team · <strong>Reviewed by:</strong> Alex Woods</p>
       </header>
 
       {/* Side-by-side pros/cons */}

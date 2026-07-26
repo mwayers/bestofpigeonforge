@@ -35,6 +35,7 @@ export default function HomePage() {
           <p className="font-black text-[oklch(0.52_0.12_74)]">Locally operated Pigeon Forge planning guide</p>
           <h1 className="mt-3 max-w-4xl text-5xl font-black leading-tight tracking-[-0.045em] md:text-7xl">Plan around the trip you actually have.</h1>
           <p className="mt-6 max-w-3xl text-lg leading-8 text-[oklch(0.39_0.045_135)]">Start with your weather, group, and transportation needs. We publish a limited set of reviewed decision guides instead of presenting every draft page as a recommendation.</p>
+          <p className="mt-4 text-sm text-[oklch(0.39_0.045_135)]"><strong>Author:</strong> Best of Pigeon Forge Editorial Team · <strong>Reviewed by:</strong> Alex Woods</p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link href="/activities" className="rounded-2xl bg-[oklch(0.43_0.13_154)] px-6 py-3 font-black text-white">Choose an activity guide</Link>
             <Link href="/compare/pigeon-forge-vs-gatlinburg" className="rounded-2xl border border-[oklch(0.55_0.11_154)] bg-white px-6 py-3 font-black">Compare the two towns</Link>

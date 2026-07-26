@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "path": "/activities/indoor-activities-pigeon-forge",
+    "approvedBy": "Alex Woods",
+    "approvedAt": "2026-07-26"
+  },
+  {
+    "path": "/activities/things-to-do-pigeon-forge-with-kids",
+    "approvedBy": "Alex Woods",
+    "approvedAt": "2026-07-26"
+  },
+  {
+    "path": "/activities/things-to-do-pigeon-forge-rainy-day",
+    "approvedBy": "Alex Woods",
+    "approvedAt": "2026-07-26"
+  },
+  {
+    "path": "/compare/pigeon-forge-vs-gatlinburg",
+    "approvedBy": "Alex Woods",
+    "approvedAt": "2026-07-26"
+  }
+]

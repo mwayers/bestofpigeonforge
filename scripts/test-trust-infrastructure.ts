@@ -42,7 +42,14 @@ assert.match(editorial, /verified|checked/i);
 assert.match(editorial, /source/i);
 
 const contact = readFileSync(join(root, 'app', 'contact', 'page.tsx'), 'utf8');
-assert.match(contact, /configured/i);
-assert.doesNotMatch(contact, /mailto:|@(?:[a-z0-9-]+\.)+[a-z]{2,}/i);
+assert.match(contact, /mailto:hello@bestofpigeonforge\.com/);
+assert.match(contact, /hello@bestofpigeonforge\.com/);
+
+const activityRenderer = readFileSync(join(root, 'components', 'ActivityListPage.tsx'), 'utf8');
+const comparisonRenderer = readFileSync(join(root, 'components', 'ComparisonPage.tsx'), 'utf8');
+for (const renderer of [activityRenderer, comparisonRenderer]) {
+  assert.match(renderer, /Best of Pigeon Forge Editorial Team/);
+  assert.match(renderer, /Alex Woods/);
+}
 
 console.log('trust infrastructure tests passed');

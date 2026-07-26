@@ -18,7 +18,7 @@ assert.equal(
 );
 assert.equal(relatedRouteForSlug('not-a-real-page'), undefined, 'unknown slugs should not create links');
 assert.equal(
-  approvedRelatedRouteForSlug('pigeon-forge-vs-gatlinburg'),
+  approvedRelatedRouteForSlug('pigeon-forge-vs-gatlinburg', new Set()),
   undefined,
   'unapproved related routes should not create links',
 );

@@ -23,6 +23,7 @@ export default function ActivityListPage({ page }: Props) {
         <div className="inline-block bg-[#1B4332]/10 text-[#1B4332] text-xs font-semibold px-3 py-1 rounded-full mb-3">{page.audience}</div>
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">{page.h1}</h1>
         <p className="text-lg text-gray-600 leading-relaxed">{page.intro}</p>
+        <p className="mt-4 text-sm text-gray-600"><strong>Author:</strong> Best of Pigeon Forge Editorial Team · <strong>Reviewed by:</strong> Alex Woods</p>
       </header>
 
       {JSON.stringify(page).includes('Pigeon Forge Snow') && <aside className="mb-8 rounded-xl border border-amber-300 bg-amber-50 p-4 text-sm text-amber-950"><strong>Connected ownership disclosure:</strong> Pigeon Forge Snow is under common ownership with this site. Its inclusion is based on the same official-source criteria and limitations shown for every option, not on legacy ratings, prices or promotional placement.</aside>}
