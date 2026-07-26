@@ -3,6 +3,7 @@ import type { ItineraryPage as ItineraryPageType, Attraction } from '@/lib/types
 import FAQAccordion from './FAQAccordion';
 import Breadcrumb from './Breadcrumb';
 import TripCostCalculatorCTA from './TripCostCalculatorCTA';
+import { relatedRouteForSlug } from '@/lib/contentRoutes';
 
 const seasonEmoji: Record<string, string> = {
   any: '📅',
@@ -149,15 +150,19 @@ export default function ItineraryPage({ page, attractionsMap }: ItineraryPagePro
         <section className="border-t border-gray-200 pt-8" aria-labelledby="related-itineraries-heading">
           <h2 id="related-itineraries-heading" className="text-lg font-bold text-gray-900 mb-3">Related Itineraries</h2>
           <div className="flex flex-wrap gap-2">
-            {page.relatedSlugs.map((slug) => (
-              <Link
-                key={slug}
-                href={`/itineraries/${slug}`}
-                className="bg-[#1B4332]/5 hover:bg-[#1B4332]/10 text-[#1B4332] text-sm px-3 py-1.5 rounded-lg transition-colors"
-              >
-                {slug.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase())}
-              </Link>
-            ))}
+            {page.relatedSlugs.map((slug) => {
+              const href = relatedRouteForSlug(slug);
+              if (!href) return null;
+              return (
+                <Link
+                  key={slug}
+                  href={href}
+                  className="bg-[#1B4332]/5 hover:bg-[#1B4332]/10 text-[#1B4332] text-sm px-3 py-1.5 rounded-lg transition-colors"
+                >
+                  {slug.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase())}
+                </Link>
+              );
+            })}
           </div>
         </section>
       )}

@@ -12,6 +12,9 @@ import glossaryPagesData from '@/data/glossary-pages.json';
 import eventPagesData from '@/data/event-pages.json';
 import TripCostCalculatorCTA from '@/components/TripCostCalculatorCTA';
 import { buildMetadata, faqSchema, breadcrumbSchema, speakableSchema, articleSchema } from '@/lib/seo';
+import { robotsForContentRecord } from '@/lib/contentQuality';
+import { relatedRouteForSlug } from '@/lib/contentRoutes';
+import { isEditoriallyApproved } from '@/lib/editorialApprovals';
 
 type FAQ = { question: string; answer: string };
 type BodySection = { heading: string; content: string };
@@ -153,11 +156,18 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const page = getPage(params.slug);
   if (!page) return {};
-  return buildMetadata({
-    title: page.metaTitle,
-    description: page.metaDescription,
-    path: `/${page.slug}`,
-  });
+  return {
+    ...buildMetadata({
+      title: page.metaTitle,
+      description: page.metaDescription,
+      path: `/${page.slug}`,
+    }),
+    robots: robotsForContentRecord(
+      page,
+      pages.filter((item) => item.slug === page.slug).length > 1,
+      isEditoriallyApproved(`/${page.slug}`),
+    ),
+  };
 }
 
 export default function GenericSlugPage({ params }: { params: { slug: string } }) {
@@ -279,11 +289,15 @@ export default function GenericSlugPage({ params }: { params: { slug: string } }
           <section className="border-t border-gray-200 pt-8">
             <h2 className="text-lg font-bold text-gray-900 mb-3">Related Guides</h2>
             <div className="flex flex-wrap gap-2">
-              {page.relatedSlugs.map((slug) => (
-                <Link key={slug} href={`/${slug}`} className="bg-[#1B4332]/5 hover:bg-[#1B4332]/10 text-[#1B4332] text-sm px-3 py-1.5 rounded-lg transition-colors">
-                  {titleCase(slug)}
-                </Link>
-              ))}
+              {page.relatedSlugs.map((slug) => {
+                const href = relatedRouteForSlug(slug);
+                if (!href) return null;
+                return (
+                  <Link key={slug} href={href} className="bg-[#1B4332]/5 hover:bg-[#1B4332]/10 text-[#1B4332] text-sm px-3 py-1.5 rounded-lg transition-colors">
+                    {titleCase(slug)}
+                  </Link>
+                );
+              })}
             </div>
           </section>
         ) : null}

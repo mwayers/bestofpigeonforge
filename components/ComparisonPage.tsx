@@ -3,6 +3,7 @@ import type { ComparisonPage as ComparisonPageType, BodySection } from '@/lib/ty
 import FAQAccordion from './FAQAccordion';
 import Breadcrumb from './Breadcrumb';
 import TripCostCalculatorCTA from './TripCostCalculatorCTA';
+import { relatedRouteForSlug } from '@/lib/contentRoutes';
 
 interface ComparisonPageProps {
   page: ComparisonPageType;
@@ -160,15 +161,19 @@ export default function ComparisonPage({ page }: ComparisonPageProps) {
         <section className="border-t border-gray-200 pt-8" aria-labelledby="related-comparisons-heading">
           <h2 id="related-comparisons-heading" className="text-lg font-bold text-gray-900 mb-3">Related Comparisons</h2>
           <div className="flex flex-wrap gap-2">
-            {page.relatedSlugs.map((slug) => (
-              <Link
-                key={slug}
-                href={`/compare/${slug}`}
-                className="bg-[#1B4332]/5 hover:bg-[#1B4332]/10 text-[#1B4332] text-sm px-3 py-1.5 rounded-lg transition-colors"
-              >
-                {slug.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase())}
-              </Link>
-            ))}
+            {page.relatedSlugs.map((slug) => {
+              const href = relatedRouteForSlug(slug);
+              if (!href) return null;
+              return (
+                <Link
+                  key={slug}
+                  href={href}
+                  className="bg-[#1B4332]/5 hover:bg-[#1B4332]/10 text-[#1B4332] text-sm px-3 py-1.5 rounded-lg transition-colors"
+                >
+                  {slug.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase())}
+                </Link>
+              );
+            })}
           </div>
         </section>
       )}

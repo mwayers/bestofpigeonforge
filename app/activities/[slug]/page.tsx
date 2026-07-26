@@ -5,6 +5,8 @@ import attractionsData from '@/data/attractions.json';
 import type { ActivityListPage, Attraction } from '@/lib/types';
 import ActivityListPageComponent from '@/components/ActivityListPage';
 import { buildMetadata, faqSchema, breadcrumbSchema, speakableSchema, articleSchema } from '@/lib/seo';
+import { robotsForContentRecord } from '@/lib/contentQuality';
+import { isEditoriallyApproved } from '@/lib/editorialApprovals';
 
 const activityPages = activityPagesData as ActivityListPage[];
 const attractions = attractionsData as Attraction[];
@@ -16,11 +18,18 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const page = activityPages.find((p) => p.slug === params.slug);
   if (!page) return {};
-  return buildMetadata({
-    title: page.metaTitle,
-    description: page.metaDescription,
-    path: `/activities/${page.slug}`,
-  });
+  return {
+    ...buildMetadata({
+      title: page.metaTitle,
+      description: page.metaDescription,
+      path: `/activities/${page.slug}`,
+    }),
+    robots: robotsForContentRecord(
+      page,
+      activityPages.filter((item) => item.slug === page.slug).length > 1,
+      isEditoriallyApproved(`/activities/${page.slug}`),
+    ),
+  };
 }
 
 export default function ActivityPage({ params }: { params: { slug: string } }) {

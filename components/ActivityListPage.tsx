@@ -7,6 +7,7 @@ import Breadcrumb from './Breadcrumb';
 import TripCostCalculatorCTA from './TripCostCalculatorCTA';
 import RainyDayPlannerCTA from './RainyDayPlannerCTA';
 import itineraryPagesData from '@/data/itinerary-pages.json';
+import { relatedRouteForSlug } from '@/lib/contentRoutes';
 
 const allItineraries = itineraryPagesData as ItineraryPage[];
 
@@ -132,15 +133,19 @@ export default function ActivityListPage({ page, attractions, hasPFS, pfsAttract
         <section className="border-t border-gray-200 pt-8" aria-labelledby="related-guides-heading">
           <h2 id="related-guides-heading" className="text-lg font-bold text-gray-900 mb-3">Related Guides</h2>
           <div className="flex flex-wrap gap-2">
-            {page.relatedSlugs.map((slug) => (
-              <Link
-                key={slug}
-                href={`/activities/${slug}`}
-                className="bg-[#1B4332]/5 hover:bg-[#1B4332]/10 text-[#1B4332] text-sm px-3 py-1.5 rounded-lg transition-colors"
-              >
-                {slug.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase())}
-              </Link>
-            ))}
+            {page.relatedSlugs.map((slug) => {
+              const href = relatedRouteForSlug(slug);
+              if (!href) return null;
+              return (
+                <Link
+                  key={slug}
+                  href={href}
+                  className="bg-[#1B4332]/5 hover:bg-[#1B4332]/10 text-[#1B4332] text-sm px-3 py-1.5 rounded-lg transition-colors"
+                >
+                  {slug.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase())}
+                </Link>
+              );
+            })}
           </div>
         </section>
       )}
