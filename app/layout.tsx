@@ -2,6 +2,8 @@ import type { Metadata, Viewport } from 'next';
 import { Bricolage_Grotesque } from 'next/font/google';
 import Link from 'next/link';
 import Script from 'next/script';
+import { Analytics } from '@vercel/analytics/next';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import './globals.css';
 
 const display = Bricolage_Grotesque({ subsets: ['latin'], variable: '--font-display' });
@@ -64,6 +66,21 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         <main>{children}</main>
 
+        <Script id="pfs-referral-tracking" strategy="afterInteractive">
+          {`
+            document.addEventListener('click', function (event) {
+              const link = event.target.closest('a[href*="pigeonforgesnow.com"]');
+              if (!link || typeof window.gtag !== 'function') return;
+
+              window.gtag('event', 'pfs_booking_click', {
+                link_text: (link.textContent || '').trim().slice(0, 100),
+                link_url: link.href,
+                page_path: window.location.pathname,
+              });
+            });
+          `}
+        </Script>
+
         <footer className="border-t border-[oklch(0.33_0.08_155)] bg-[oklch(0.20_0.075_155)] text-[oklch(0.965_0.025_84)]">
           <div className="mx-auto max-w-7xl px-4 py-12 md:px-6">
             <div className="grid gap-10 md:grid-cols-[1.2fr_2fr]">
@@ -113,6 +130,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </div>
           </div>
         </footer>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
