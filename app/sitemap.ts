@@ -13,6 +13,8 @@ import glossaryPagesData from '@/data/glossary-pages.json';
 import eventPagesData from '@/data/event-pages.json';
 import type { ActivityListPage, ItineraryPage, ComparisonPage } from '@/lib/types';
 
+import { isIndexablePath } from '@/lib/indexKeep';
+
 const BASE = 'https://www.bestofpigeonforge.com';
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -69,5 +71,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.75,
   }));
 
-  return [...staticPages, ...activityRoutes, ...itineraryRoutes, ...comparisonRoutes, ...genericRoutes];
+  const all = [...staticPages, ...activityRoutes, ...itineraryRoutes, ...comparisonRoutes, ...genericRoutes];
+  return all.filter((entry) => isIndexablePath(entry.url.replace(BASE, '') || '/'));
 }

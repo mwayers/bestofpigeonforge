@@ -1,3 +1,4 @@
+import { isIndexablePath } from './indexKeep';
 import type { Metadata } from 'next';
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.bestofpigeonforge.com';
@@ -17,6 +18,7 @@ export function buildMetadata({
   return {
     title,
     description,
+    ...(isIndexablePath(path) ? {} : { robots: { index: false, follow: true } }),
     metadataBase: new URL(BASE_URL),
     alternates: { canonical: url },
     openGraph: {
