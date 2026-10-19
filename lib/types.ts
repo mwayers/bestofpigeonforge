@@ -26,6 +26,36 @@ export interface BodySection {
   content: string;
 }
 
+export interface EditorialSource {
+  label: string;
+  url: string;
+}
+
+export interface SourceSafeOption {
+  id: string;
+  name: string;
+  type: string;
+  location: string;
+  evidence: string;
+  restrictions: string;
+  bestUse: string;
+  limitation: string;
+  ageBandFit?: Record<string, string>;
+  connectedOwnership?: boolean;
+}
+
+export interface SourceSafePlan {
+  title: string;
+  duration: string;
+  steps: string[];
+  fallback: string;
+}
+
+export interface ContextualLink {
+  route: string;
+  label: string;
+}
+
 export interface ActivityListPage {
   slug: string;
   title: string;
@@ -41,6 +71,14 @@ export interface ActivityListPage {
   faqs: FAQ[];
   nearbyFood: string[];
   relatedSlugs: string[];
+  verifiedDate?: string;
+  sources?: EditorialSource[];
+  methodology?: string;
+  options?: SourceSafeOption[];
+  ageBands?: string[];
+  plans?: SourceSafePlan[];
+  decisionTree?: string[];
+  contextualLinks?: ContextualLink[];
 }
 
 export interface ItineraryDay {
@@ -80,6 +118,11 @@ export interface ComparisonPage {
   verdict: string;
   featureTable: { feature: string; a: string; b: string }[];
   bodySections?: BodySection[];
+  verifiedDate?: string;
+  methodology?: string;
+  sources?: { name: string; url: string }[];
   faqs: FAQ[];
   relatedSlugs: string[];
+  locationOrientation?: { topic: string; pigeonForge: string; gatlinburg: string }[];
+  contextualLinks?: ContextualLink[];
 }

@@ -1,9 +1,12 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
+import { scrubPlaceholders } from '@/lib/placeholders';
 import comparisonPagesData from '@/data/comparison-pages.json';
 import type { ComparisonPage } from '@/lib/types';
 import ComparisonPageComponent from '@/components/ComparisonPage';
-import { buildMetadata, faqSchema, breadcrumbSchema, speakableSchema, articleSchema } from '@/lib/seo';
+import { buildMetadata, faqSchema, breadcrumbSchema } from '@/lib/seo';
+import { robotsForContentRecord } from '@/lib/contentQuality';
+import { isEditoriallyApproved } from '@/lib/editorialApprovals';
 
 const comparisonPages = comparisonPagesData as ComparisonPage[];
 
@@ -14,15 +17,23 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const page = comparisonPages.find((p) => p.slug === params.slug);
   if (!page) return {};
-  return buildMetadata({
-    title: page.metaTitle,
-    description: page.metaDescription,
-    path: `/compare/${page.slug}`,
-  });
+  return {
+    ...buildMetadata({
+      title: page.metaTitle,
+      description: page.metaDescription,
+      path: `/compare/${page.slug}`,
+    }),
+    robots: robotsForContentRecord(
+      page,
+      comparisonPages.filter((item) => item.slug === page.slug).length > 1,
+      isEditoriallyApproved(`/compare/${page.slug}`),
+    ),
+  };
 }
 
 export default function CompareSlugPage({ params }: { params: { slug: string } }) {
-  const page = comparisonPages.find((p) => p.slug === params.slug);
+  const rawPage = comparisonPages.find((p) => p.slug === params.slug);
+  const page = rawPage ? scrubPlaceholders(rawPage) : undefined;
   if (!page) notFound();
 
   const jsonLd = [
@@ -32,12 +43,6 @@ export default function CompareSlugPage({ params }: { params: { slug: string } }
       { name: 'Compare', url: '/compare' },
       { name: page.title, url: `/compare/${page.slug}` },
     ]),
-    speakableSchema(`/compare/${page.slug}`),
-    articleSchema({
-      title: page.title,
-      description: page.metaDescription,
-      url: `/compare/${page.slug}`,
-    }),
   ];
 
   return (

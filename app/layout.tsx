@@ -52,8 +52,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/itineraries" className="hover:text-[oklch(0.58_0.12_74)]">Itineraries</Link>
               <Link href="/compare" className="hover:text-[oklch(0.58_0.12_74)]">Compare</Link>
               <Link href="/tools" className="hover:text-[oklch(0.58_0.12_74)]">Tools</Link>
+              <Link href="/about" className="hover:text-[oklch(0.58_0.12_74)]">About</Link>
               <a href="https://pigeonforgesnow.com" target="_blank" rel="noopener noreferrer" className="rounded-2xl bg-[oklch(0.78_0.16_78)] px-4 py-2 text-xs font-black text-[oklch(0.22_0.08_80)] shadow-sm transition hover:-translate-y-0.5 hover:bg-[oklch(0.84_0.14_82)]">
-                Book Snow ❄️
+                Snow (commercial) ❄️
               </a>
             </nav>
             <nav className="flex items-center gap-3 text-xs font-black text-[oklch(0.35_0.065_150)] md:hidden">
@@ -88,7 +89,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <div className="text-3xl font-black tracking-tight">Best of Pigeon Forge</div>
                 <p className="mt-3 max-w-sm text-sm leading-6 text-[oklch(0.82_0.03_86)]">Independent trip planning guide for families, couples, groups, rainy days, budgets, and Smoky Mountain first-timers.</p>
               </div>
-              <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
+              <div className="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-6">
                 <div>
                   <h3 className="mb-3 text-sm font-black text-[oklch(0.82_0.15_82)]">Activities</h3>
                   <ul className="space-y-2 text-sm text-[oklch(0.82_0.03_86)]">
@@ -118,15 +119,32 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <div>
                   <h3 className="mb-3 text-sm font-black text-[oklch(0.82_0.15_82)]">Featured</h3>
                   <ul className="space-y-2 text-sm text-[oklch(0.82_0.03_86)]">
-                    <li><a href="https://pigeonforgesnow.com" target="_blank" rel="noopener noreferrer" className="font-black text-[oklch(0.84_0.14_82)] hover:text-white">Pigeon Forge Snow</a></li>
+                    <li><a href="https://pigeonforgesnow.com" target="_blank" rel="noopener noreferrer" className="font-black text-[oklch(0.84_0.14_82)] hover:text-white">Pigeon Forge Snow (commercial)</a></li>
                     <li><Link href="/tools" className="hover:text-white">Planning Tools</Link></li>
                     <li><Link href="/best-time-to-visit-pigeon-forge" className="hover:text-white">Best Time to Visit</Link></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="mb-3 text-sm font-black text-[oklch(0.82_0.15_82)]">About</h3>
+                  <ul className="space-y-2 text-sm text-[oklch(0.82_0.03_86)]">
+                    <li><Link href="/about" className="hover:text-white">About Us</Link></li>
+                    <li><Link href="/editorial-standards" className="hover:text-white">Editorial Standards</Link></li>
+                    <li><Link href="/corrections-policy" className="hover:text-white">Corrections Policy</Link></li>
+                    <li><Link href="/contact" className="hover:text-white">Contact</Link></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="mb-3 text-sm font-black text-[oklch(0.82_0.15_82)]">Policies</h3>
+                  <ul className="space-y-2 text-sm text-[oklch(0.82_0.03_86)]">
+                    <li><Link href="/commercial-disclosure" className="hover:text-white">Commercial Disclosure</Link></li>
+                    <li><Link href="/privacy-policy" className="hover:text-white">Privacy Policy</Link></li>
+                    <li><Link href="/terms" className="hover:text-white">Terms of Use</Link></li>
                   </ul>
                 </div>
               </div>
             </div>
             <div className="mt-10 border-t border-[oklch(0.95_0.02_84_/_0.18)] pt-5 text-xs text-[oklch(0.72_0.03_86)]">
-              © {new Date().getFullYear()} Best of Pigeon Forge. Independent travel guide. Not affiliated with any attraction.
+              © {new Date().getFullYear()} Best of Pigeon Forge. Independent planning guide. See our <Link href="/commercial-disclosure" className="underline hover:text-white">commercial disclosure</Link> for connected ownership interests.
             </div>
           </div>
         </footer>

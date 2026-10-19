@@ -1,14 +1,14 @@
-import keepList from '../data/index-keep-list.json';
+import staticPageApprovals from '../data/static-page-approvals.json';
+import { approvedRoutes } from './editorialApprovals';
+import { HUB_PATHS } from './hubs';
 
-// Prune 2026-10-19: only these dynamic paths are indexable and listed in the sitemap.
-// Everything else stays live (200) but gets noindex,follow. Revert = set PRUNE_ENABLED false or delete this list check.
+// Prune 2026-10-19: indexable = approved static pages + 3 guide hubs + approved (clean) keep-list pages.
+// Everything else stays live (200) with noindex,follow. Revert = set PRUNE_ENABLED false.
 export const PRUNE_ENABLED = true;
-const KEEP = new Set<string>(keepList as string[]);
-const STATIC_PATHS = new Set(['/', '/activities', '/itineraries', '/compare', '/tools', '/about', '/contact', '/privacy-policy', '/terms']);
+const STATIC_PATHS = new Set<string>(staticPageApprovals as string[]);
 
 export function isIndexablePath(path: string): boolean {
   if (!PRUNE_ENABLED) return true;
-  if (STATIC_PATHS.has(path) || path.startsWith('/tools')) return true;
-  return KEEP.has(path);
+  if (STATIC_PATHS.has(path) || HUB_PATHS.has(path)) return true;
+  return approvedRoutes.has(path);
 }
-

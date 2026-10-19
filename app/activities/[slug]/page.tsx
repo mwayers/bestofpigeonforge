@@ -1,10 +1,13 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
+import { scrubPlaceholders } from '@/lib/placeholders';
 import activityPagesData from '@/data/activity-pages.json';
 import attractionsData from '@/data/attractions.json';
 import type { ActivityListPage, Attraction } from '@/lib/types';
 import ActivityListPageComponent from '@/components/ActivityListPage';
-import { buildMetadata, faqSchema, breadcrumbSchema, speakableSchema, articleSchema } from '@/lib/seo';
+import { buildMetadata, faqSchema, breadcrumbSchema } from '@/lib/seo';
+import { robotsForContentRecord } from '@/lib/contentQuality';
+import { isEditoriallyApproved } from '@/lib/editorialApprovals';
 
 const activityPages = activityPagesData as ActivityListPage[];
 const attractions = attractionsData as Attraction[];
@@ -16,15 +19,23 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const page = activityPages.find((p) => p.slug === params.slug);
   if (!page) return {};
-  return buildMetadata({
-    title: page.metaTitle,
-    description: page.metaDescription,
-    path: `/activities/${page.slug}`,
-  });
+  return {
+    ...buildMetadata({
+      title: page.metaTitle,
+      description: page.metaDescription,
+      path: `/activities/${page.slug}`,
+    }),
+    robots: robotsForContentRecord(
+      page,
+      activityPages.filter((item) => item.slug === page.slug).length > 1,
+      isEditoriallyApproved(`/activities/${page.slug}`),
+    ),
+  };
 }
 
 export default function ActivityPage({ params }: { params: { slug: string } }) {
-  const page = activityPages.find((p) => p.slug === params.slug);
+  const rawPage = activityPages.find((p) => p.slug === params.slug);
+  const page = rawPage ? scrubPlaceholders(rawPage) : undefined;
   if (!page) notFound();
 
   const attractionsMap = Object.fromEntries(attractions.map((a) => [a.id, a]));
@@ -42,12 +53,6 @@ export default function ActivityPage({ params }: { params: { slug: string } }) {
       { name: 'Activities', url: '/activities' },
       { name: page.title, url: `/activities/${page.slug}` },
     ]),
-    speakableSchema(`/activities/${page.slug}`),
-    articleSchema({
-      title: page.title,
-      description: page.metaDescription,
-      url: `/activities/${page.slug}`,
-    }),
   ];
 
   return (

@@ -1,9 +1,10 @@
 import Link from 'next/link';
 import comparisonPagesData from '@/data/comparison-pages.json';
 import type { ComparisonPage } from '@/lib/types';
+import { isIndexablePath } from '@/lib/indexKeep';
 import { buildMetadata, breadcrumbSchema, articleSchema } from '@/lib/seo';
 
-const comparisonPages = comparisonPagesData as ComparisonPage[];
+const comparisonPages = (comparisonPagesData as ComparisonPage[]).filter((p) => isIndexablePath(`/compare/${p.slug}`));
 
 export const metadata = buildMetadata({
   title: 'Pigeon Forge Comparisons , Which Should You Choose?',

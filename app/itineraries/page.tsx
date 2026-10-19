@@ -1,9 +1,10 @@
 import Link from 'next/link';
 import itineraryPagesData from '@/data/itinerary-pages.json';
 import type { ItineraryPage } from '@/lib/types';
+import { isIndexablePath } from '@/lib/indexKeep';
 import { buildMetadata, breadcrumbSchema, articleSchema } from '@/lib/seo';
 
-const itineraryPages = itineraryPagesData as ItineraryPage[];
+const itineraryPages = (itineraryPagesData as ItineraryPage[]).filter((p) => isIndexablePath(`/itineraries/${p.slug}`));
 
 export const metadata = buildMetadata({
   title: 'Pigeon Forge Itineraries , Day-by-Day Trip Plans',
