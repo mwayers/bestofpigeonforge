@@ -27,13 +27,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={display.variable}>
       <head>
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-JB96J39NZ5" strategy="afterInteractive" />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-55KTVV0RL6" strategy="afterInteractive" />
         <Script id="ga4-init" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-JB96J39NZ5');
+            gtag('config', 'G-55KTVV0RL6');
           `}
         </Script>
       </head>
