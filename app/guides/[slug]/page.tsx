@@ -35,7 +35,7 @@ const GUIDES: GuideCopy[] = [
     slug: 'gatlinburg-and-the-smokies',
     hubKey: 'Gatlinburg & the Smokies',
     title: 'Gatlinburg & the Smoky Mountains Guide',
-    metaTitle: 'Gatlinburg & the Great Smoky Mountains: Pigeon Forge Visitor Guide',
+    metaTitle: 'Gatlinburg & Great Smoky Mountains Guide from Pigeon Forge',
     metaDescription: 'Pigeon Forge or Gatlinburg? Plan Gatlinburg days, free activities, honeymoons and Smoky Mountains National Park visits from one hub.',
     intro: [
       'Pigeon Forge, Gatlinburg and Sevierville sit along the same corridor into Great Smoky Mountains National Park, and many visitors split their time between them. Gatlinburg is the walkable mountain town at the park entrance; Pigeon Forge is the attraction strip along the Parkway; Sevierville sits further out toward the interstate.',
@@ -51,7 +51,7 @@ const GUIDES: GuideCopy[] = [
     slug: 'couples-and-groups',
     hubKey: 'Couples & Groups',
     title: 'Pigeon Forge for Couples & Groups',
-    metaTitle: 'Pigeon Forge for Couples & Groups: Romantic Trips to Big Crews',
+    metaTitle: 'Pigeon Forge for Couples & Groups: Romance to Big Crews',
     metaDescription: 'Romantic things to do, honeymoon plans, couples weekends, bachelorette trips, church groups and large-group activities in Pigeon Forge.',
     intro: [
       'A couples getaway and a 20-person church trip need different plans, even in the same town. Pacing, booking lead time, transportation and budget all change with group size.',

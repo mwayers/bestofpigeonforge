@@ -7,7 +7,7 @@ import { buildMetadata, breadcrumbSchema, articleSchema } from '@/lib/seo';
 const itineraryPages = (itineraryPagesData as ItineraryPage[]).filter((p) => isIndexablePath(`/itineraries/${p.slug}`));
 
 export const metadata = buildMetadata({
-  title: 'Pigeon Forge Itineraries , Day-by-Day Trip Plans',
+  title: 'Pigeon Forge Itineraries: Day-by-Day Trip Plans',
   description: 'Curated Pigeon Forge itineraries for families, couples, and first-timers. 2-day, 3-day, weekend, and week-long trip plans with budgets.',
   path: '/itineraries',
 });
@@ -18,7 +18,7 @@ const jsonLd = [
     { name: 'Itineraries', url: '/itineraries' },
   ]),
   articleSchema({
-    title: 'Pigeon Forge Itineraries , Day-by-Day Trip Plans',
+    title: 'Pigeon Forge Itineraries: Day-by-Day Trip Plans',
     description: 'Curated Pigeon Forge itineraries for families, couples, and first-timers. 2-day, 3-day, weekend, and week-long trip plans with budgets.',
     url: '/itineraries',
   }),

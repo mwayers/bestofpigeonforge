@@ -7,7 +7,7 @@ import { buildMetadata, breadcrumbSchema, articleSchema } from '@/lib/seo';
 const comparisonPages = (comparisonPagesData as ComparisonPage[]).filter((p) => isIndexablePath(`/compare/${p.slug}`));
 
 export const metadata = buildMetadata({
-  title: 'Pigeon Forge Comparisons , Which Should You Choose?',
+  title: 'Pigeon Forge Comparisons: Which Should You Choose?',
   description: "Side-by-side comparisons of Pigeon Forge attractions and destinations to help you decide what's right for your trip.",
   path: '/compare',
 });
@@ -18,7 +18,7 @@ const jsonLd = [
     { name: 'Compare', url: '/compare' },
   ]),
   articleSchema({
-    title: 'Pigeon Forge Comparisons , Which Should You Choose?',
+    title: 'Pigeon Forge Comparisons: Which Should You Choose?',
     description: "Side-by-side comparisons of Pigeon Forge attractions and destinations to help you decide what's right for your trip.",
     url: '/compare',
   }),

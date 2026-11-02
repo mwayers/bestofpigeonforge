@@ -10,7 +10,7 @@ const display = Bricolage_Grotesque({ subsets: ['latin'], variable: '--font-disp
 
 export const metadata: Metadata = {
   title: {
-    default: 'Best of Pigeon Forge , Your Complete Travel Guide',
+    default: 'Best of Pigeon Forge: Your Complete Travel Guide',
     template: '%s | Best of Pigeon Forge',
   },
   description: 'Discover the best things to do in Pigeon Forge, TN. Attractions, itineraries, comparisons, costs, and insider tips for families, couples, and first-time visitors.',

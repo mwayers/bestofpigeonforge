@@ -5,7 +5,7 @@ import { articleSchema, breadcrumbSchema, buildMetadata, faqSchema } from '@/lib
 const path = '/tools/pigeon-forge-trip-cost-calculator';
 
 export const metadata = buildMetadata({
-  title: 'Pigeon Forge Trip Cost Calculator, Estimate Your Vacation Budget',
+  title: 'Pigeon Forge Trip Cost Calculator: Estimate Your Budget',
   description: 'Use this free Pigeon Forge trip cost calculator to estimate lodging, food, attractions, parking, souvenirs, and a realistic vacation budget.',
   path,
 });

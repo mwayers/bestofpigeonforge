@@ -3,6 +3,15 @@ import type { Metadata } from 'next';
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.bestofpigeonforge.com';
 
+export const SITE_SUFFIX = ' | Best of Pigeon Forge';
+export const MAX_TITLE = 60;
+
+/** Append the site suffix only when the full title stays within MAX_TITLE chars. */
+export function pageTitle(title: string): { absolute: string } {
+  const clean = title.replace(/\s+,\s+/g, ': ').trim();
+  return { absolute: clean.length + SITE_SUFFIX.length <= MAX_TITLE ? clean + SITE_SUFFIX : clean };
+}
+
 export function buildMetadata({
   title,
   description,
@@ -16,7 +25,7 @@ export function buildMetadata({
 }): Metadata {
   const url = `${BASE_URL}${path}`;
   return {
-    title,
+    title: pageTitle(title),
     description,
     ...(isIndexablePath(path) ? {} : { robots: { index: false, follow: true } }),
     metadataBase: new URL(BASE_URL),

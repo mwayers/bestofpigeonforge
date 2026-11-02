@@ -4,7 +4,7 @@ import TrustPage from '@/components/TrustPage';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',
-  description: 'Privacy information for visitors to Best of Pigeon Forge.',
+  description: 'How Best of Pigeon Forge handles visitor data, analytics, cookies, and contact information, and the choices you have about your privacy.',
   alternates: { canonical: '/privacy-policy' },
 };
 
